@@ -1,0 +1,234 @@
+G:\Visual Studio 2010\Mastercraft\Mastercraft\bin\Mastercraft.dll
+G:\Visual Studio 2010\Mastercraft\Mastercraft\bin\Mastercraft.pdb
+G:\Visual Studio 2010\Mastercraft\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+G:\Visual Studio 2010\Mastercraft\Mastercraft\obj\Debug\Mastercraft.dll
+G:\Visual Studio 2010\Mastercraft\Mastercraft\obj\Debug\Mastercraft.pdb
+C:\Users\abhinav\Desktop\Mastercraft\Mastercraft\bin\Mastercraft.dll
+C:\Users\abhinav\Desktop\Mastercraft\Mastercraft\bin\Mastercraft.pdb
+C:\Users\abhinav\Desktop\Mastercraft\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\abhinav\Desktop\Mastercraft\Mastercraft\obj\Debug\Mastercraft.dll
+C:\Users\abhinav\Desktop\Mastercraft\Mastercraft\obj\Debug\Mastercraft.pdb
+C:\Users\abhinav\Desktop\Helix\Mastercraft\Mastercraft\bin\Mastercraft.dll
+C:\Users\abhinav\Desktop\Helix\Mastercraft\Mastercraft\bin\Mastercraft.pdb
+C:\Users\abhinav\Desktop\Helix\Mastercraft\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\abhinav\Desktop\Helix\Mastercraft\Mastercraft\obj\Debug\Mastercraft.dll
+C:\Users\abhinav\Desktop\Helix\Mastercraft\Mastercraft\obj\Debug\Mastercraft.pdb
+J:\projects by abhi\Mastercraft\Mastercraft\bin\Mastercraft.dll
+J:\projects by abhi\Mastercraft\Mastercraft\bin\Mastercraft.pdb
+J:\projects by abhi\Mastercraft\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+J:\projects by abhi\Mastercraft\Mastercraft\obj\Debug\Mastercraft.dll
+J:\projects by abhi\Mastercraft\Mastercraft\obj\Debug\Mastercraft.pdb
+C:\Users\RIZWAN\Desktop\Mastercraft\Mastercraft\bin\Mastercraft.dll
+C:\Users\RIZWAN\Desktop\Mastercraft\Mastercraft\bin\Mastercraft.pdb
+C:\Users\RIZWAN\Desktop\Mastercraft\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RIZWAN\Desktop\Mastercraft\Mastercraft\obj\Debug\Mastercraft.dll
+C:\Users\RIZWAN\Desktop\Mastercraft\Mastercraft\obj\Debug\Mastercraft.pdb
+C:\Users\RIZWAN\Desktop\master\Mastercraft\Mastercraft\bin\Mastercraft.dll
+C:\Users\RIZWAN\Desktop\master\Mastercraft\Mastercraft\bin\Mastercraft.pdb
+C:\Users\RIZWAN\Desktop\master\Mastercraft\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RIZWAN\Desktop\master\Mastercraft\Mastercraft\obj\Debug\Mastercraft.dll
+C:\Users\RIZWAN\Desktop\master\Mastercraft\Mastercraft\obj\Debug\Mastercraft.pdb
+H:\Mastercraft\Mastercraft\bin\Mastercraft.dll
+H:\Mastercraft\Mastercraft\bin\Mastercraft.pdb
+H:\Mastercraft\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+H:\Mastercraft\Mastercraft\obj\Debug\Mastercraft.dll
+H:\Mastercraft\Mastercraft\obj\Debug\Mastercraft.pdb
+C:\Users\vikash\Desktop\AISM\Mastercraft\Mastercraft\Mastercraft\bin\Mastercraft.dll
+C:\Users\vikash\Desktop\AISM\Mastercraft\Mastercraft\Mastercraft\bin\Mastercraft.pdb
+C:\Users\vikash\Desktop\AISM\Mastercraft\Mastercraft\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\vikash\Desktop\AISM\Mastercraft\Mastercraft\Mastercraft\obj\Debug\Mastercraft.dll
+C:\Users\vikash\Desktop\AISM\Mastercraft\Mastercraft\Mastercraft\obj\Debug\Mastercraft.pdb
+G:\AISM log\Mastercraft_Nov_21_2015\Mastercraft\bin\Mastercraft.dll
+G:\AISM log\Mastercraft_Nov_21_2015\Mastercraft\bin\Mastercraft.pdb
+G:\AISM log\Mastercraft_Nov_21_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+G:\AISM log\Mastercraft_Nov_21_2015\Mastercraft\obj\Debug\Mastercraft.dll
+G:\AISM log\Mastercraft_Nov_21_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+G:\Dexterous Current By Me\AISM log\Mastercraft_Nov_22_2015\Mastercraft\bin\Mastercraft.dll
+G:\Dexterous Current By Me\AISM log\Mastercraft_Nov_22_2015\Mastercraft\bin\Mastercraft.pdb
+G:\Dexterous Current By Me\AISM log\Mastercraft_Nov_22_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+G:\Dexterous Current By Me\AISM log\Mastercraft_Nov_22_2015\Mastercraft\obj\Debug\Mastercraft.dll
+G:\Dexterous Current By Me\AISM log\Mastercraft_Nov_22_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+G:\Dexterous Current By Me\AISM log\Mastercraft_Nov_23_2015\Mastercraft\bin\Mastercraft.dll
+G:\Dexterous Current By Me\AISM log\Mastercraft_Nov_23_2015\Mastercraft\bin\Mastercraft.pdb
+G:\Dexterous Current By Me\AISM log\Mastercraft_Nov_23_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+G:\Dexterous Current By Me\AISM log\Mastercraft_Nov_23_2015\Mastercraft\obj\Debug\Mastercraft.dll
+G:\Dexterous Current By Me\AISM log\Mastercraft_Nov_23_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+G:\Dexterous Current By Me\AISM log\Mastercraft_Nov_25_2015\Mastercraft\bin\Mastercraft.dll
+G:\Dexterous Current By Me\AISM log\Mastercraft_Nov_25_2015\Mastercraft\bin\Mastercraft.pdb
+G:\Dexterous Current By Me\AISM log\Mastercraft_Nov_25_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+G:\Dexterous Current By Me\AISM log\Mastercraft_Nov_25_2015\Mastercraft\obj\Debug\Mastercraft.dll
+G:\Dexterous Current By Me\AISM log\Mastercraft_Nov_25_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+C:\Users\abhinav\Downloads\Mastercraft_Nov_25_2015\Mastercraft_Nov_25_2015\Mastercraft\bin\Mastercraft.dll
+C:\Users\abhinav\Downloads\Mastercraft_Nov_25_2015\Mastercraft_Nov_25_2015\Mastercraft\bin\Mastercraft.pdb
+C:\Users\abhinav\Downloads\Mastercraft_Nov_25_2015\Mastercraft_Nov_25_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\abhinav\Downloads\Mastercraft_Nov_25_2015\Mastercraft_Nov_25_2015\Mastercraft\obj\Debug\Mastercraft.dll
+C:\Users\abhinav\Downloads\Mastercraft_Nov_25_2015\Mastercraft_Nov_25_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+G:\Dexterous Current By Me\AISM log\Mastercraft_Nov_30_2015_2\Mastercraft_Nov_25_2015\Mastercraft\bin\Mastercraft.dll
+G:\Dexterous Current By Me\AISM log\Mastercraft_Nov_30_2015_2\Mastercraft_Nov_25_2015\Mastercraft\bin\Mastercraft.pdb
+G:\Dexterous Current By Me\AISM log\Mastercraft_Nov_30_2015_2\Mastercraft_Nov_25_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+G:\Dexterous Current By Me\AISM log\Mastercraft_Nov_30_2015_2\Mastercraft_Nov_25_2015\Mastercraft\obj\Debug\Mastercraft.dll
+G:\Dexterous Current By Me\AISM log\Mastercraft_Nov_30_2015_2\Mastercraft_Nov_25_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_01_2015\Mastercraft_Nov_25_2015\Mastercraft\bin\Mastercraft.dll
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_01_2015\Mastercraft_Nov_25_2015\Mastercraft\bin\Mastercraft.pdb
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_01_2015\Mastercraft_Nov_25_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_01_2015\Mastercraft_Nov_25_2015\Mastercraft\obj\Debug\Mastercraft.dll
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_01_2015\Mastercraft_Nov_25_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+C:\Users\abhinav\Desktop\Mastercraft_Dec_01_2015\Mastercraft_Dec_01_2015\Mastercraft_Nov_25_2015\Mastercraft\bin\Mastercraft.dll
+C:\Users\abhinav\Desktop\Mastercraft_Dec_01_2015\Mastercraft_Dec_01_2015\Mastercraft_Nov_25_2015\Mastercraft\bin\Mastercraft.pdb
+C:\Users\abhinav\Desktop\Mastercraft_Dec_01_2015\Mastercraft_Dec_01_2015\Mastercraft_Nov_25_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\abhinav\Desktop\Mastercraft_Dec_01_2015\Mastercraft_Dec_01_2015\Mastercraft_Nov_25_2015\Mastercraft\obj\Debug\Mastercraft.dll
+C:\Users\abhinav\Desktop\Mastercraft_Dec_01_2015\Mastercraft_Dec_01_2015\Mastercraft_Nov_25_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_03_2015_2\Mastercraft_Dec_01_2015\Mastercraft_Dec_01_2015\Mastercraft_Nov_25_2015\Mastercraft\bin\Mastercraft.dll
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_03_2015_2\Mastercraft_Dec_01_2015\Mastercraft_Dec_01_2015\Mastercraft_Nov_25_2015\Mastercraft\bin\Mastercraft.pdb
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_03_2015_2\Mastercraft_Dec_01_2015\Mastercraft_Dec_01_2015\Mastercraft_Nov_25_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_03_2015_2\Mastercraft_Dec_01_2015\Mastercraft_Dec_01_2015\Mastercraft_Nov_25_2015\Mastercraft\obj\Debug\Mastercraft.dll
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_03_2015_2\Mastercraft_Dec_01_2015\Mastercraft_Dec_01_2015\Mastercraft_Nov_25_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_07_2015\Mastercraft\bin\Mastercraft.dll
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_07_2015\Mastercraft\bin\Mastercraft.pdb
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_07_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_07_2015\Mastercraft\obj\Debug\Mastercraft.dll
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_07_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_10_2015\Mastercraft\bin\Mastercraft.dll
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_10_2015\Mastercraft\bin\Mastercraft.pdb
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_10_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_10_2015\Mastercraft\obj\Debug\Mastercraft.dll
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_10_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.dll
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.pdb
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.dll
+G:\Dexterous Current By Me\AISM log\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+C:\Users\Dexterous\Desktop\Mastercraft_Dec_15_2015\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.dll
+C:\Users\Dexterous\Desktop\Mastercraft_Dec_15_2015\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.pdb
+C:\Users\Dexterous\Desktop\Mastercraft_Dec_15_2015\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.dll
+C:\Users\Dexterous\Desktop\Mastercraft_Dec_15_2015\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+C:\Users\RIZWAN\Desktop\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.dll
+C:\Users\RIZWAN\Desktop\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.pdb
+C:\Users\RIZWAN\Desktop\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RIZWAN\Desktop\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.dll
+C:\Users\RIZWAN\Desktop\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+C:\Users\abhinav\Desktop\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.dll
+C:\Users\abhinav\Desktop\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.pdb
+C:\Users\abhinav\Desktop\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.dll
+C:\Users\abhinav\Desktop\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.pdb
+C:\Users\abhinav\Desktop\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\abhinav\Desktop\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.dll
+C:\Users\abhinav\Desktop\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_28dec\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.dll
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_28dec\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.pdb
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_28dec\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.dll
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_28dec\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.pdb
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_28dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_28dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.dll
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_28dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+C:\Users\RIZWAN\Desktop\Aismtc_28dec\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.dll
+C:\Users\RIZWAN\Desktop\Aismtc_28dec\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.pdb
+C:\Users\RIZWAN\Desktop\Aismtc_28dec\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.dll
+C:\Users\RIZWAN\Desktop\Aismtc_28dec\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.pdb
+C:\Users\RIZWAN\Desktop\Aismtc_28dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RIZWAN\Desktop\Aismtc_28dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.dll
+C:\Users\RIZWAN\Desktop\Aismtc_28dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_29dec\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.dll
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_29dec\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.pdb
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_29dec\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.dll
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_29dec\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.pdb
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_29dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_29dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.dll
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_29dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.dll
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.pdb
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.dll
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.pdb
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.dll
+C:\Users\abhinav\Desktop\projects by abhi\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+G:\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.dll
+G:\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.pdb
+G:\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.dll
+G:\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.pdb
+G:\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.csprojResolveAssemblyReference.cache
+G:\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.dll
+G:\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+C:\Users\abhinav\Desktop\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.dll
+C:\Users\abhinav\Desktop\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.pdb
+C:\Users\abhinav\Desktop\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\bin\CKEditor.NET.dll
+C:\Users\abhinav\Desktop\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.dll
+C:\Users\abhinav\Desktop\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\bin\CKEditor.NET.pdb
+C:\Users\abhinav\Desktop\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.pdb
+C:\Users\abhinav\Desktop\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\abhinav\Desktop\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.dll
+C:\Users\abhinav\Desktop\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+C:\Users\RIZWAN\Desktop\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RIZWAN\Desktop\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.dll
+C:\Users\RIZWAN\Desktop\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+C:\Users\RIZWAN\Desktop\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.dll
+C:\Users\RIZWAN\Desktop\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.pdb
+C:\Users\RIZWAN\Desktop\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\bin\CKEditor.NET.dll
+C:\Users\RIZWAN\Desktop\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.dll
+C:\Users\RIZWAN\Desktop\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\bin\CKEditor.NET.pdb
+C:\Users\RIZWAN\Desktop\Aismtc_30dec\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.pdb
+I:\Aismtc_31dec_2\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.dll
+I:\Aismtc_31dec_2\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.pdb
+I:\Aismtc_31dec_2\Mastercraft_Dec_15_2015\Mastercraft\bin\CKEditor.NET.dll
+I:\Aismtc_31dec_2\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.dll
+I:\Aismtc_31dec_2\Mastercraft_Dec_15_2015\Mastercraft\bin\CKEditor.NET.pdb
+I:\Aismtc_31dec_2\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.pdb
+I:\Aismtc_31dec_2\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+I:\Aismtc_31dec_2\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.dll
+I:\Aismtc_31dec_2\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+C:\Users\abhinav\Desktop\Aismtc_31dec_2\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.dll
+C:\Users\abhinav\Desktop\Aismtc_31dec_2\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.pdb
+C:\Users\abhinav\Desktop\Aismtc_31dec_2\Mastercraft_Dec_15_2015\Mastercraft\bin\CKEditor.NET.dll
+C:\Users\abhinav\Desktop\Aismtc_31dec_2\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.dll
+C:\Users\abhinav\Desktop\Aismtc_31dec_2\Mastercraft_Dec_15_2015\Mastercraft\bin\CKEditor.NET.pdb
+C:\Users\abhinav\Desktop\Aismtc_31dec_2\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.pdb
+C:\Users\abhinav\Desktop\Aismtc_31dec_2\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\abhinav\Desktop\Aismtc_31dec_2\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.dll
+C:\Users\abhinav\Desktop\Aismtc_31dec_2\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+C:\Users\Dexterous\Desktop\Aismtc_1_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.dll
+C:\Users\Dexterous\Desktop\Aismtc_1_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.pdb
+C:\Users\Dexterous\Desktop\Aismtc_1_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\CKEditor.NET.dll
+C:\Users\Dexterous\Desktop\Aismtc_1_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.dll
+C:\Users\Dexterous\Desktop\Aismtc_1_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\CKEditor.NET.pdb
+C:\Users\Dexterous\Desktop\Aismtc_1_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.pdb
+C:\Users\Dexterous\Desktop\Aismtc_1_jan\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.csprojResolveAssemblyReference.cache
+C:\Users\Dexterous\Desktop\Aismtc_1_jan\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.dll
+C:\Users\Dexterous\Desktop\Aismtc_1_jan\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+H:\Aismtc_1_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.dll
+H:\Aismtc_1_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.pdb
+H:\Aismtc_1_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\CKEditor.NET.dll
+H:\Aismtc_1_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.dll
+H:\Aismtc_1_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\CKEditor.NET.pdb
+H:\Aismtc_1_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.pdb
+H:\Aismtc_1_jan\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+H:\Aismtc_1_jan\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.dll
+H:\Aismtc_1_jan\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+C:\Users\abhinav\Desktop\Aismtc_7_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.dll
+C:\Users\abhinav\Desktop\Aismtc_7_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.pdb
+C:\Users\abhinav\Desktop\Aismtc_7_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\CKEditor.NET.dll
+C:\Users\abhinav\Desktop\Aismtc_7_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.dll
+C:\Users\abhinav\Desktop\Aismtc_7_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\CKEditor.NET.pdb
+C:\Users\abhinav\Desktop\Aismtc_7_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.pdb
+C:\Users\abhinav\Desktop\Aismtc_7_jan\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\abhinav\Desktop\Aismtc_7_jan\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.dll
+C:\Users\abhinav\Desktop\Aismtc_7_jan\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+D:\projects\Aism\Aismtc_8_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.dll
+D:\projects\Aism\Aismtc_8_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.pdb
+D:\projects\Aism\Aismtc_8_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\CKEditor.NET.dll
+D:\projects\Aism\Aismtc_8_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.dll
+D:\projects\Aism\Aismtc_8_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\CKEditor.NET.pdb
+D:\projects\Aism\Aismtc_8_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.pdb
+D:\projects\Aism\Aismtc_8_jan\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.csprojResolveAssemblyReference.cache
+D:\projects\Aism\Aismtc_8_jan\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.dll
+D:\projects\Aism\Aismtc_8_jan\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.pdb
+D:\projects\Aism\Aismtc_8_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.dll.config
+D:\OnGoingProject\aism\Aismtc 8 jan 2016\Aismtc_8_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.dll.config
+D:\OnGoingProject\aism\Aismtc 8 jan 2016\Aismtc_8_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.dll
+D:\OnGoingProject\aism\Aismtc 8 jan 2016\Aismtc_8_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\Mastercraft.pdb
+D:\OnGoingProject\aism\Aismtc 8 jan 2016\Aismtc_8_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.dll
+D:\OnGoingProject\aism\Aismtc 8 jan 2016\Aismtc_8_jan\Mastercraft_Dec_15_2015\Mastercraft\bin\DAL.pdb
+D:\OnGoingProject\aism\Aismtc 8 jan 2016\Aismtc_8_jan\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.csproj.AssemblyReference.cache
+D:\OnGoingProject\aism\Aismtc 8 jan 2016\Aismtc_8_jan\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.csproj.CoreCompileInputs.cache
+D:\OnGoingProject\aism\Aismtc 8 jan 2016\Aismtc_8_jan\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.csproj.CopyComplete
+D:\OnGoingProject\aism\Aismtc 8 jan 2016\Aismtc_8_jan\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.dll
+D:\OnGoingProject\aism\Aismtc 8 jan 2016\Aismtc_8_jan\Mastercraft_Dec_15_2015\Mastercraft\obj\Debug\Mastercraft.pdb

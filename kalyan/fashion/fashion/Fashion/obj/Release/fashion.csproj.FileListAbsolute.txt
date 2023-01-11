@@ -1,0 +1,108 @@
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\fashion.dll.config
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\fashion.dll
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\fashion.pdb
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\csc.exe
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\csc.exe.config
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\csc.rsp
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\csi.exe
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\csi.rsp
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\System.AppContext.dll
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\vbc.exe
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\vbc.exe.config
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\vbc.rsp
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\VBCSCompiler.exe
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hp\Downloads\fashion\fashion\fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hp\Downloads\fashion\fashion\fashion\obj\Release\fashion.csproj.AssemblyReference.cache
+C:\Users\hp\Downloads\fashion\fashion\fashion\obj\Release\fashion.csproj.CoreCompileInputs.cache
+C:\Users\hp\Downloads\fashion\fashion\fashion\obj\Release\fashion.csproj.CopyComplete
+C:\Users\hp\Downloads\fashion\fashion\fashion\obj\Release\fashion.dll
+C:\Users\hp\Downloads\fashion\fashion\fashion\obj\Release\fashion.pdb
+D:\OnGoingProject\fashion\fashion\bin\fashion.dll.config
+D:\OnGoingProject\fashion\fashion\bin\fashion.dll
+D:\OnGoingProject\fashion\fashion\bin\fashion.pdb
+D:\OnGoingProject\fashion\fashion\bin\roslyn\csc.exe
+D:\OnGoingProject\fashion\fashion\bin\roslyn\csc.exe.config
+D:\OnGoingProject\fashion\fashion\bin\roslyn\csc.rsp
+D:\OnGoingProject\fashion\fashion\bin\roslyn\csi.exe
+D:\OnGoingProject\fashion\fashion\bin\roslyn\csi.rsp
+D:\OnGoingProject\fashion\fashion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\OnGoingProject\fashion\fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\OnGoingProject\fashion\fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\OnGoingProject\fashion\fashion\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\OnGoingProject\fashion\fashion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\OnGoingProject\fashion\fashion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\OnGoingProject\fashion\fashion\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\OnGoingProject\fashion\fashion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\OnGoingProject\fashion\fashion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\OnGoingProject\fashion\fashion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\OnGoingProject\fashion\fashion\bin\roslyn\System.AppContext.dll
+D:\OnGoingProject\fashion\fashion\bin\roslyn\System.Collections.Immutable.dll
+D:\OnGoingProject\fashion\fashion\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\OnGoingProject\fashion\fashion\bin\roslyn\System.IO.FileSystem.dll
+D:\OnGoingProject\fashion\fashion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\OnGoingProject\fashion\fashion\bin\roslyn\System.Reflection.Metadata.dll
+D:\OnGoingProject\fashion\fashion\bin\roslyn\vbc.exe
+D:\OnGoingProject\fashion\fashion\bin\roslyn\vbc.exe.config
+D:\OnGoingProject\fashion\fashion\bin\roslyn\vbc.rsp
+D:\OnGoingProject\fashion\fashion\bin\roslyn\VBCSCompiler.exe
+D:\OnGoingProject\fashion\fashion\bin\roslyn\VBCSCompiler.exe.config
+D:\OnGoingProject\fashion\fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\OnGoingProject\fashion\fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\OnGoingProject\fashion\fashion\obj\Release\fashion.csproj.AssemblyReference.cache
+D:\OnGoingProject\fashion\fashion\obj\Release\fashion.csproj.CoreCompileInputs.cache
+D:\OnGoingProject\fashion\fashion\obj\Release\fashion.csproj.CopyComplete
+D:\OnGoingProject\fashion\fashion\obj\Release\fashion.dll
+D:\OnGoingProject\fashion\fashion\obj\Release\fashion.pdb
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\fashion.dll.config
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\fashion.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\fashion.pdb
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\csc.exe
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\csc.exe.config
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\csc.rsp
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\csi.exe
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\csi.rsp
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\System.AppContext.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\System.Collections.Immutable.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\System.IO.FileSystem.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\System.Reflection.Metadata.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\vbc.exe
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\vbc.exe.config
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\vbc.rsp
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\VBCSCompiler.exe
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\roslyn\VBCSCompiler.exe.config
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\obj\Release\fashion.csproj.AssemblyReference.cache
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\obj\Release\fashion.csproj.CoreCompileInputs.cache
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\obj\Release\fashion.csproj.CopyComplete
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\obj\Release\fashion.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\fashion\fashion\fashion\obj\Release\fashion.pdb

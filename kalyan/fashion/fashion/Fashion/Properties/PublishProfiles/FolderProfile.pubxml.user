@@ -1,0 +1,672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\hp\Desktop\Deploy\fashion</_PublishTargetUrl>
+    <History>True|2021-08-24T07:17:18.0559142Z;True|2021-08-24T12:47:14.5245789+05:30;True|2021-08-20T13:58:19.9394196+05:30;True|2021-08-20T13:39:00.8067280+05:30;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="aboutus.aspx">
+      <publishTime>08/24/2021 12:46:17</publishTime>
+    </File>
+    <File Include="assets/css/style-starter.css">
+      <publishTime>08/21/2021 10:32:47</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.eot">
+      <publishTime>08/21/2021 10:32:49</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.svg">
+      <publishTime>08/21/2021 10:32:52</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.ttf">
+      <publishTime>08/21/2021 10:32:52</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.woff">
+      <publishTime>08/21/2021 10:32:52</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.woff2">
+      <publishTime>08/21/2021 10:32:52</publishTime>
+    </File>
+    <File Include="assets/fonts/FontAwesome.otf">
+      <publishTime>08/21/2021 10:32:52</publishTime>
+    </File>
+    <File Include="assets/images/1.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/11.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/2.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/3.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/33.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/banner1.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/banner2.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/banner3.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/banner4.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/bg1.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/bg2.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/bg4.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/c1.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/c2.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/c3.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/c4.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/cart1.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/cart2.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/cart3.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/cart4.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/grid1.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/grid2.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/grid3.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/grid4.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/grid5.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/grid6.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/led.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/left1.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/left2.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/left3.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/shop-1.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/shop-11.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/shop-2.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/shop-22.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/shop-3.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/shop-33.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/shop-4.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/shop-44.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/shop-5.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/shop-55.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/shop-6.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/shop-66.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/shop-7.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/shop-77.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/shop-8.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/shop-88.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/team1.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/team2.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/images/team3.jpg">
+      <publishTime>08/21/2021 10:32:54</publishTime>
+    </File>
+    <File Include="assets/js/all.js">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="assets/js/app.js">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="assets/js/bootstrap.min.js">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="assets/js/imagezoom.js">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="assets/js/jquery-2.1.4.min.js">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="assets/js/jquery-3.3.1.min.js">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="assets/js/jquery-ui.js">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="assets/js/jquery.flexslider.js">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="assets/js/jquery.magnific-popup.js">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="assets/js/jquery.prettyPhoto.js">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="assets/js/jquery.quicksand.js">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="assets/js/minicart.js">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="assets/js/popper.min.js">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="assets/js/script.js">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="assets/js/swiper.js">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="bin/fashion.dll">
+      <publishTime>08/24/2021 12:47:13</publishTime>
+    </File>
+    <File Include="bin/fashion.pdb">
+      <publishTime>08/24/2021 12:47:13</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/09/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="business.aspx">
+      <publishTime>08/24/2021 12:46:17</publishTime>
+    </File>
+    <File Include="contact.aspx">
+      <publishTime>08/24/2021 12:46:17</publishTime>
+    </File>
+    <File Include="default.aspx">
+      <publishTime>08/24/2021 12:46:17</publishTime>
+    </File>
+    <File Include="electronics.aspx">
+      <publishTime>08/20/2021 13:57:44</publishTime>
+    </File>
+    <File Include="ewastemanagement.aspx">
+      <publishTime>08/20/2021 13:55:18</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/20/2021 12:58:37</publishTime>
+    </File>
+    <File Include="imgs-css/css/style-starter.css">
+      <publishTime>08/18/2021 18:17:27</publishTime>
+    </File>
+    <File Include="imgs-css/fonts/fontawesome-webfont.eot">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/fonts/fontawesome-webfont.svg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/fonts/fontawesome-webfont.ttf">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/fonts/fontawesome-webfont.woff">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/fonts/fontawesome-webfont.woff2">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/fonts/FontAwesome.otf">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/ab1.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/ab2.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/ab3.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/banner.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/banner1.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/p1.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/p2.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/p3.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/p4.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/p5.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/p6.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/p7.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/p8.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/p9.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/s1.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/s2.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/s3.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/s4.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/s5.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/s6.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/sprite.png">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/team1.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/team2.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/team3.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/team4.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/team5.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/images/team6.jpg">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/js/bootstrap.min.js">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/js/jquery-1.7.2.js">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/js/jquery-3.3.1.min.js">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/js/jquery.countup.js">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/js/jquery.prettyPhoto.js">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/js/jquery.quicksand.js">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/js/jquery.waypoints.min.js">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/js/owl.carousel.js">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/js/script.js">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs-css/js/theme-change.js">
+      <publishTime>08/18/2021 18:07:14</publishTime>
+    </File>
+    <File Include="imgs/jeans/1.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/jeans/2.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/jeans/3.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/jeans/4.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/jeans/5.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/jeans/6.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/joggers/1.jpeg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/joggers/2.jpeg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/joggers/3.jpeg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/joggers/4.jpeg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/joggers/5.jpeg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/joggers/6.jpeg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/leds/banner12.png">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/leds/banner6.png">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/leds/icons/1.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/leds/icons/2.png">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/leds/icons/3.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/leds/icons/4.jpeg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/leds/LED-4k.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/leds/led4kHead.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/leds/LEDTV!.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/leds/Nik-cat-6.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/ledtv/1.png">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/ledtv/2.png">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/ledtv/3.png">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/ledtv/4.png">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/ledtv/5.png">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/ledtv/6.png">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/ledtv/7.jfif">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/ledtv/8.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/ledtv/9.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/shirts/1.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/shirts/2.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/shirts/3.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/shirts/4.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/shirts/5.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/shirts/6.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/shopwithus/1.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/shopwithus/2.jfif">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/shopwithus/3.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/shopwithus/4.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/shopwithus/5.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/shopwithus/6.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/shorts/1.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/shorts/2.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/shorts/3.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/shorts/4.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/shorts/5.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/shorts/6.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/trousers/1.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/trousers/2.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/trousers/3.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/trousers/4.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/trousers/5.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/trousers/6.jpg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/tshirts/1.jpeg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/tshirts/2.jpeg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/tshirts/3.jpeg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/tshirts/4.jpeg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/tshirts/5.jpeg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="imgs/tshirts/6.jpeg">
+      <publishTime>08/21/2021 10:32:58</publishTime>
+    </File>
+    <File Include="jeans.aspx">
+      <publishTime>08/20/2021 13:57:44</publishTime>
+    </File>
+    <File Include="joggers.aspx">
+      <publishTime>08/20/2021 13:56:23</publishTime>
+    </File>
+    <File Include="shirts.aspx">
+      <publishTime>08/20/2021 13:56:32</publishTime>
+    </File>
+    <File Include="shorts.aspx">
+      <publishTime>08/20/2021 13:56:39</publishTime>
+    </File>
+    <File Include="Site1.Master">
+      <publishTime>08/24/2021 12:46:17</publishTime>
+    </File>
+    <File Include="trousers.aspx">
+      <publishTime>08/20/2021 13:57:01</publishTime>
+    </File>
+    <File Include="tshirts.aspx">
+      <publishTime>08/20/2021 13:57:42</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/20/2021 13:38:59</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

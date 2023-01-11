@@ -1,0 +1,2094 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C395AA38-1495-45F3-8F8F-2E843A211302}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyDeal</RootNamespace>
+    <AssemblyName>MyDeal</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44318</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\..\..\Desktop-Old\LocalPandit-JULY-21-2018\LocalPandit\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Add-Category-Kayword.aspx" />
+    <Content Include="Admin\add-category.aspx" />
+    <Content Include="Admin\Add-City.aspx" />
+    <Content Include="Admin\add-listing.aspx" />
+    <Content Include="Admin\Add-tag.aspx" />
+    <Content Include="Admin\assets\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Admin\assets\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Admin\assets\code-prettify\code-prettify.js" />
+    <Content Include="Admin\assets\flot\jquery.flot.crosshair.js" />
+    <Content Include="Admin\assets\flot\jquery.flot.js" />
+    <Content Include="Admin\assets\flot\jquery.flot.pie.js" />
+    <Content Include="Admin\assets\flot\jquery.flot.resize.js" />
+    <Content Include="Admin\assets\flot\jquery.flot.stack.js" />
+    <Content Include="Admin\assets\flot\jquery.flot.tooltip.min.js" />
+    <Content Include="Admin\assets\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Admin\assets\gritter\js\jquery.gritter.js" />
+    <Content Include="Admin\assets\jquery-cookie\jquery.cookie.js" />
+    <Content Include="Admin\assets\jquery-knob\jquery.knob.js" />
+    <Content Include="Admin\assets\jquery-slimscroll\jquery.slimscroll.min.js" />
+    <Content Include="Admin\assets\jquery-ui\jquery-ui.min.js" />
+    <Content Include="Admin\assets\jquery\jquery-2.1.1.min.js" />
+    <Content Include="Admin\assets\sparkline\jquery.sparkline.min.js" />
+    <Content Include="Admin\Change-image-master-tag.aspx" />
+    <Content Include="Admin\Change-image-master.aspx" />
+    <Content Include="Admin\City.asmx" />
+    <Content Include="Admin\Company-enquiry-list.aspx" />
+    <Content Include="Admin\css\flaty-responsive.css" />
+    <Content Include="Admin\css\flaty.css" />
+    <Content Include="Admin\css\font-awesome.css" />
+    <Content Include="Admin\css\style.css" />
+    <Content Include="Admin\Dashboard.aspx" />
+    <Content Include="Admin\Default.aspx" />
+    <Content Include="Admin\DLogin.aspx" />
+    <Content Include="Admin\Enable-Disable-listing.aspx" />
+    <Content Include="Admin\img\aff-logo.png" />
+    <Content Include="Admin\img\banner.jpg" />
+    <Content Include="Admin\img\demo\avatar\avatar1.jpg" />
+    <Content Include="Admin\img\demo\avatar\avatar2.jpg" />
+    <Content Include="Admin\img\demo\avatar\avatar3.jpg" />
+    <Content Include="Admin\img\demo\avatar\avatar4.jpg" />
+    <Content Include="Admin\img\demo\avatar\avatar5.jpg" />
+    <Content Include="Admin\img\demo\gallery\5.jpg" />
+    <Content Include="Admin\img\demo\gallery\6.jpg" />
+    <Content Include="Admin\img\demo\wp-logo.png" />
+    <Content Include="Admin\img\favicon.html" />
+    <Content Include="Admin\img\logo.png" />
+    <Content Include="Admin\img\mydeal12.png" />
+    <Content Include="Admin\js\flaty-demo-codes.js" />
+    <Content Include="Admin\js\flaty.js" />
+    <Content Include="Admin\manage-listing-master.aspx" />
+    <Content Include="Admin\manage-listing.aspx" />
+    <Content Include="Admin\New-Manage-Listing.aspx" />
+    <Content Include="Admin\Set-priority.aspx" />
+    <Content Include="Admin\User-requirement.aspx" />
+    <Content Include="assets\css\animate.min.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\Default.css" />
+    <Content Include="assets\css\font-awesome.min.css" />
+    <Content Include="assets\css\FreeListingRegs.css" />
+    <Content Include="assets\css\magnific-popup.css" />
+    <Content Include="assets\css\meanmenu.min.css" />
+    <Content Include="assets\css\owl.video.play.html" />
+    <Content Include="assets\css\select2.min.css" />
+    <Content Include="assets\css\style-freedom.css" />
+    <Content Include="assets\css\Style.css" />
+    <Content Include="assets\fonts\fontawesome-webfont3e6e.svg" />
+    <Content Include="assets\images\36.jpg" />
+    <Content Include="assets\images\about.jpg" />
+    <Content Include="assets\images\advertise.jpg" />
+    <Content Include="assets\images\b1.jpg" />
+    <Content Include="assets\images\b2.jpg" />
+    <Content Include="assets\images\b3.jpg" />
+    <Content Include="assets\images\b4.jpg" />
+    <Content Include="assets\images\ba1.html" />
+    <Content Include="assets\images\bg.jpg" />
+    <Content Include="assets\images\blog-single.jpg" />
+    <Content Include="assets\images\blog1.jpg" />
+    <Content Include="assets\images\blog2.jpg" />
+    <Content Include="assets\images\blog3.jpg" />
+    <Content Include="assets\images\c1.jpg" />
+    <Content Include="assets\images\c2.jpg" />
+    <Content Include="assets\images\c3.jpg" />
+    <Content Include="assets\images\c4.jpg" />
+    <Content Include="assets\images\c5.jpg" />
+    <Content Include="assets\images\c6.jpg" />
+    <Content Include="assets\images\down.png" />
+    <Content Include="assets\images\error.jpg" />
+    <Content Include="assets\images\finaldeal.png" />
+    <Content Include="assets\images\finaldeal1.png" />
+    <Content Include="assets\images\l1.jpg" />
+    <Content Include="assets\images\l2.jpg" />
+    <Content Include="assets\images\l3.jpg" />
+    <Content Include="assets\images\l4.jpg" />
+    <Content Include="assets\images\l5.jpg" />
+    <Content Include="assets\images\lap.jpg" />
+    <Content Include="assets\images\lap2.jpg" />
+    <Content Include="assets\images\lap3.jpg" />
+    <Content Include="assets\images\lap4.jpg" />
+    <Content Include="assets\images\logo2.png" />
+    <Content Include="assets\images\payment1.jpg" />
+    <Content Include="assets\images\payment2.jpg" />
+    <Content Include="assets\images\payment3.jpg" />
+    <Content Include="assets\images\payment4.jpg" />
+    <Content Include="assets\images\pb1.jpg" />
+    <Content Include="assets\images\pb2.jpg" />
+    <Content Include="assets\images\pb3.jpg" />
+    <Content Include="assets\images\pb4.jpg" />
+    <Content Include="assets\images\pb5.jpg" />
+    <Content Include="assets\images\pe1.jpg" />
+    <Content Include="assets\images\pe2.jpg" />
+    <Content Include="assets\images\pes1.jpg" />
+    <Content Include="assets\images\pf1.jpg" />
+    <Content Include="assets\images\pf2.jpg" />
+    <Content Include="assets\images\pf3.jpg" />
+    <Content Include="assets\images\pf4.jpg" />
+    <Content Include="assets\images\pf5.jpg" />
+    <Content Include="assets\images\pj1.jpg" />
+    <Content Include="assets\images\pj2.jpg" />
+    <Content Include="assets\images\pj3.jpg" />
+    <Content Include="assets\images\pj4.jpg" />
+    <Content Include="assets\images\pj5.jpg" />
+    <Content Include="assets\images\pr1.jpg" />
+    <Content Include="assets\images\pr2.jpg" />
+    <Content Include="assets\images\pr3.jpg" />
+    <Content Include="assets\images\pr4.jpg" />
+    <Content Include="assets\images\pr5.jpg" />
+    <Content Include="assets\images\pr6.jpg" />
+    <Content Include="assets\images\ps1.jpg" />
+    <Content Include="assets\images\ps2.jpg" />
+    <Content Include="assets\images\ps3.jpg" />
+    <Content Include="assets\images\ps4.jpg" />
+    <Content Include="assets\images\ps5.jpg" />
+    <Content Include="assets\images\ps6.jpg" />
+    <Content Include="assets\images\screen.jpg" />
+    <Content Include="assets\images\service1.jpg" />
+    <Content Include="assets\images\service2.jpg" />
+    <Content Include="assets\images\service3.jpg" />
+    <Content Include="assets\images\service4.jpg" />
+    <Content Include="assets\images\team-single.jpg" />
+    <Content Include="assets\images\team1.jpg" />
+    <Content Include="assets\images\team2.jpg" />
+    <Content Include="assets\images\team3.jpg" />
+    <Content Include="assets\images\team4.jpg" />
+    <Content Include="assets\images\team5.jpg" />
+    <Content Include="assets\images\team6.jpg" />
+    <Content Include="assets\images\team7.jpg" />
+    <Content Include="assets\images\team8.jpg" />
+    <Content Include="assets\images\team9.jpg" />
+    <Content Include="assets\images\testi.jpg" />
+    <Content Include="assets\images\testi1.jpg" />
+    <Content Include="assets\images\testi2.jpg" />
+    <Content Include="assets\js\jquery-3.3.1.min.js" />
+    <Content Include="assets\js\owl.carousel.js" />
+    <Content Include="Category.aspx" />
+    <Content Include="CategoryOld.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="FreeListingLogin.aspx" />
+    <Content Include="FreeListingRegs.aspx" />
+    <Content Include="geocomplete\css\style.css" />
+    <Content Include="geocomplete\demo.html" />
+    <Content Include="geocomplete\js\jquery.geocomplete.min.js" />
+    <Content Include="geocomplete\js\jquery.min.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Home.aspx" />
+    <Content Include="ListingDetails.aspx" />
+    <Content Include="ListingPage.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="new1.aspx" />
+    <Content Include="NewDefault.aspx" />
+    <Content Include="NewFreeListingRegs.aspx" />
+    <Content Include="RecoverPassword.aspx" />
+    <Content Include="Search.aspx" />
+    <Content Include="Tag.aspx" />
+    <Content Include="uploads\1050.jpg" />
+    <Content Include="uploads\1150.jpg" />
+    <Content Include="uploads\1200.jpg" />
+    <Content Include="uploads\1210.jpg" />
+    <Content Include="uploads\1330.jpg" />
+    <Content Include="uploads\1890.jpg" />
+    <Content Include="uploads\1910.jpg" />
+    <Content Include="uploads\2060786.jpg" />
+    <Content Include="uploads\2060967.jpg" />
+    <Content Include="uploads\2260.jpg" />
+    <Content Include="uploads\23000.jpg" />
+    <Content Include="uploads\comp-img\1000022.jpg" />
+    <Content Include="uploads\comp-img\1000056.jpg" />
+    <Content Include="uploads\comp-img\1000063.jpg" />
+    <Content Include="uploads\comp-img\1000111.jpg" />
+    <Content Include="uploads\comp-img\1000112.jpg" />
+    <Content Include="uploads\comp-img\1000328.jpg" />
+    <Content Include="uploads\comp-img\1000363.jpg" />
+    <Content Include="uploads\comp-img\1000376.jpg" />
+    <Content Include="uploads\comp-img\1050.jpg" />
+    <Content Include="uploads\comp-img\1150.jpg" />
+    <Content Include="uploads\comp-img\1200.jpg" />
+    <Content Include="uploads\comp-img\1210.jpg" />
+    <Content Include="uploads\comp-img\1330.jpg" />
+    <Content Include="uploads\comp-img\1890.jpg" />
+    <Content Include="uploads\comp-img\1910.jpg" />
+    <Content Include="uploads\comp-img\2060786.jpg" />
+    <Content Include="uploads\comp-img\2060967.jpg" />
+    <Content Include="uploads\comp-img\2260.jpg" />
+    <Content Include="uploads\comp-img\23000.jpg" />
+    <Content Include="uploads\comp-img\23002.jpg" />
+    <Content Include="uploads\comp-img\23003.jpg" />
+    <Content Include="uploads\comp-img\23004.jpg" />
+    <Content Include="uploads\comp-img\23005.jpg" />
+    <Content Include="uploads\comp-img\23010.jpg" />
+    <Content Include="uploads\comp-img\no-image.jpg" />
+    <Content Include="uploads\comp-img\NoImage.jpg" />
+    <Content Include="upload_category\10.jpg" />
+    <Content Include="upload_category\10010.jpg" />
+    <Content Include="upload_category\10010_1.jpg" />
+    <Content Include="upload_category\1010.jpg" />
+    <Content Include="upload_category\1010_1.jpg" />
+    <Content Include="upload_category\11010.jpg" />
+    <Content Include="upload_category\11010_1.jpg" />
+    <Content Include="upload_category\12010.jpg" />
+    <Content Include="upload_category\12010_1.jpg" />
+    <Content Include="upload_category\13010.jpg" />
+    <Content Include="upload_category\13010_1.jpg" />
+    <Content Include="upload_category\14010.jpg" />
+    <Content Include="upload_category\14010_1.jpg" />
+    <Content Include="upload_category\15010.jpg" />
+    <Content Include="upload_category\15010_1.jpg" />
+    <Content Include="upload_category\16010.jpg" />
+    <Content Include="upload_category\16010_1.jpg" />
+    <Content Include="upload_category\17010.jpg" />
+    <Content Include="upload_category\17010_1.jpg" />
+    <Content Include="upload_category\18010.jpg" />
+    <Content Include="upload_category\18010_1.jpg" />
+    <Content Include="upload_category\19010.jpg" />
+    <Content Include="upload_category\19010_1.jpg" />
+    <Content Include="upload_category\200020.jpg" />
+    <Content Include="upload_category\200020_1.jpg" />
+    <Content Include="upload_category\200021.jpg" />
+    <Content Include="upload_category\200021_1.jpg" />
+    <Content Include="upload_category\200022.jpg" />
+    <Content Include="upload_category\200022_1.jpg" />
+    <Content Include="upload_category\200023.jpg" />
+    <Content Include="upload_category\200023_1.jpg" />
+    <Content Include="upload_category\200024.jpg" />
+    <Content Include="upload_category\200024_1.jpg" />
+    <Content Include="upload_category\200026.jpg" />
+    <Content Include="upload_category\200026_1.jpg" />
+    <Content Include="upload_category\200027.jpg" />
+    <Content Include="upload_category\200027_1.jpg" />
+    <Content Include="upload_category\200028.jpg" />
+    <Content Include="upload_category\200028_1.jpg" />
+    <Content Include="upload_category\200029.jpg" />
+    <Content Include="upload_category\200029_1.jpg" />
+    <Content Include="upload_category\200030.jpg" />
+    <Content Include="upload_category\200030_1.jpg" />
+    <Content Include="upload_category\200031.jpg" />
+    <Content Include="upload_category\200031_1.jpg" />
+    <Content Include="upload_category\200032.jpg" />
+    <Content Include="upload_category\200032_1.jpg" />
+    <Content Include="upload_category\20010.jpg" />
+    <Content Include="upload_category\20010_1.jpg" />
+    <Content Include="upload_category\2010.jpg" />
+    <Content Include="upload_category\2010_1.jpg" />
+    <Content Include="upload_category\3010.jpg" />
+    <Content Include="upload_category\3010_1.jpg" />
+    <Content Include="upload_category\4010.jpg" />
+    <Content Include="upload_category\4010_1.jpg" />
+    <Content Include="upload_category\5010.jpg" />
+    <Content Include="upload_category\5010_1.jpg" />
+    <Content Include="upload_category\6010.jpg" />
+    <Content Include="upload_category\6010_1.jpg" />
+    <Content Include="upload_category\7010.jpg" />
+    <Content Include="upload_category\7010_1.jpg" />
+    <Content Include="upload_category\8010.jpg" />
+    <Content Include="upload_category\8010_1.jpg" />
+    <Content Include="upload_category\9010.jpg" />
+    <Content Include="upload_category\9010_1.jpg" />
+    <Content Include="upload_category\cate_banner\1000000.jpg" />
+    <Content Include="upload_category\cate_banner\1000002.jpg" />
+    <Content Include="upload_category\cate_banner\1000004.jpg" />
+    <Content Include="upload_category\cate_banner\1000006.jpg" />
+    <Content Include="upload_category\cate_banner\1000008.jpg" />
+    <Content Include="upload_category\cate_banner\1000010.jpg" />
+    <Content Include="upload_category\cate_banner\1000012.jpg" />
+    <Content Include="upload_category\cate_banner\1000014.jpg" />
+    <Content Include="upload_category\cate_banner\1000016.jpg" />
+    <Content Include="upload_category\cate_banner\1000018.jpg" />
+    <Content Include="upload_category\cate_banner\1000020.jpg" />
+    <Content Include="upload_category\cate_banner\1000109.jpg" />
+    <Content Include="upload_category\cate_banner\1000326.jpg" />
+    <Content Include="upload_category\cate_banner\1000361.jpg" />
+    <Content Include="upload_category\cate_banner\10010_1.jpg" />
+    <Content Include="upload_category\cate_banner\1010_1.jpg" />
+    <Content Include="upload_category\cate_banner\11010_1.jpg" />
+    <Content Include="upload_category\cate_banner\12010_1.jpg" />
+    <Content Include="upload_category\cate_banner\13010_1.jpg" />
+    <Content Include="upload_category\cate_banner\14010_1.jpg" />
+    <Content Include="upload_category\cate_banner\15010_1.jpg" />
+    <Content Include="upload_category\cate_banner\16010_1.jpg" />
+    <Content Include="upload_category\cate_banner\17010_1.jpg" />
+    <Content Include="upload_category\cate_banner\18010_1.jpg" />
+    <Content Include="upload_category\cate_banner\19010_1.jpg" />
+    <Content Include="upload_category\cate_banner\200020_1.jpg" />
+    <Content Include="upload_category\cate_banner\200021_1.jpg" />
+    <Content Include="upload_category\cate_banner\200022_1.jpg" />
+    <Content Include="upload_category\cate_banner\200023_1.jpg" />
+    <Content Include="upload_category\cate_banner\200024_1.jpg" />
+    <Content Include="upload_category\cate_banner\200026_1.jpg" />
+    <Content Include="upload_category\cate_banner\200027_1.jpg" />
+    <Content Include="upload_category\cate_banner\200028_1.jpg" />
+    <Content Include="upload_category\cate_banner\200030_1.jpg" />
+    <Content Include="upload_category\cate_banner\200031_1.jpg" />
+    <Content Include="upload_category\cate_banner\200032_1.jpg" />
+    <Content Include="upload_category\cate_banner\20010_1.jpg" />
+    <Content Include="upload_category\cate_banner\2010_1.jpg" />
+    <Content Include="upload_category\cate_banner\29010_1.jpg" />
+    <Content Include="upload_category\cate_banner\3010_1.jpg" />
+    <Content Include="upload_category\cate_banner\33010_1.jpg" />
+    <Content Include="upload_category\cate_banner\4010_1.jpg" />
+    <Content Include="upload_category\cate_banner\41010_1.jpg" />
+    <Content Include="upload_category\cate_banner\43010_1.jpg" />
+    <Content Include="upload_category\cate_banner\49010_1.jpg" />
+    <Content Include="upload_category\cate_banner\50010_1.jpg" />
+    <Content Include="upload_category\cate_banner\5010_1.jpg" />
+    <Content Include="upload_category\cate_banner\51010_1.jpg" />
+    <Content Include="upload_category\cate_banner\54010_1.jpg" />
+    <Content Include="upload_category\cate_banner\55010_1.jpg" />
+    <Content Include="upload_category\cate_banner\6010_1.jpg" />
+    <Content Include="upload_category\cate_banner\61010_1.jpg" />
+    <Content Include="upload_category\cate_banner\63010_1.jpg" />
+    <Content Include="upload_category\cate_banner\66010_1.jpg" />
+    <Content Include="upload_category\cate_banner\69010_1.jpg" />
+    <Content Include="upload_category\cate_banner\70010_1.jpg" />
+    <Content Include="upload_category\cate_banner\7010_1.jpg" />
+    <Content Include="upload_category\cate_banner\73010_1.jpg" />
+    <Content Include="upload_category\cate_banner\74010_1.jpg" />
+    <Content Include="upload_category\cate_banner\78010_1.jpg" />
+    <Content Include="upload_category\cate_banner\79010.jpg" />
+    <Content Include="upload_category\cate_banner\80010_1.jpg" />
+    <Content Include="upload_category\cate_banner\8010_1.jpg" />
+    <Content Include="upload_category\cate_banner\9010_1.jpg" />
+    <Content Include="upload_category\icon\1000001.jpg" />
+    <Content Include="upload_category\icon\1000003.jpg" />
+    <Content Include="upload_category\icon\1000005.jpg" />
+    <Content Include="upload_category\icon\1000009.jpg" />
+    <Content Include="upload_category\icon\1000011.jpg" />
+    <Content Include="upload_category\icon\1000013.jpg" />
+    <Content Include="upload_category\icon\1000015.jpg" />
+    <Content Include="upload_category\icon\1000017.jpg" />
+    <Content Include="upload_category\icon\1000019.jpg" />
+    <Content Include="upload_category\icon\1000021.jpg" />
+    <Content Include="upload_category\icon\1000110.jpg" />
+    <Content Include="upload_category\icon\1000327.jpg" />
+    <Content Include="upload_category\icon\1000362.jpg" />
+    <Content Include="upload_category\icon\200020.jpg" />
+    <Content Include="upload_category\icon\200021.jpg" />
+    <Content Include="upload_category\icon\200022.jpg" />
+    <Content Include="upload_category\icon\200023.jpg" />
+    <Content Include="upload_category\icon\200024.jpg" />
+    <Content Include="upload_category\icon\200026.jpg" />
+    <Content Include="upload_category\icon\200027.jpg" />
+    <Content Include="upload_category\icon\200028.jpg" />
+    <Content Include="upload_category\icon\200030.jpg" />
+    <Content Include="upload_category\icon\200031.jpg" />
+    <Content Include="upload_category\icon\200032.jpg" />
+    <Content Include="upload_category\icon\20010.jpg" />
+    <Content Include="upload_category\icon\27010.jpg" />
+    <Content Include="upload_category\icon\28010.jpg" />
+    <Content Include="upload_category\icon\29010.jpg" />
+    <Content Include="upload_category\icon\30010.jpg" />
+    <Content Include="upload_category\icon\31010.jpg" />
+    <Content Include="upload_category\icon\32010.jpg" />
+    <Content Include="upload_category\icon\33010.jpg" />
+    <Content Include="upload_category\icon\34010.jpg" />
+    <Content Include="upload_category\icon\35010.jpg" />
+    <Content Include="upload_category\icon\36010.jpg" />
+    <Content Include="upload_category\icon\37010.jpg" />
+    <Content Include="upload_category\icon\38010.jpg" />
+    <Content Include="upload_category\icon\39010.jpg" />
+    <Content Include="upload_category\icon\40010.jpg" />
+    <Content Include="upload_category\icon\41010.jpg" />
+    <Content Include="upload_category\icon\42010.jpg" />
+    <Content Include="upload_category\icon\43010.jpg" />
+    <Content Include="upload_category\icon\44010.jpg" />
+    <Content Include="upload_category\icon\45010.jpg" />
+    <Content Include="upload_category\icon\46010.jpg" />
+    <Content Include="upload_category\icon\47010.jpg" />
+    <Content Include="upload_category\icon\48010.jpg" />
+    <Content Include="upload_category\icon\49010.jpg" />
+    <Content Include="upload_category\icon\50010.jpg" />
+    <Content Include="upload_category\icon\51010.jpg" />
+    <Content Include="upload_category\icon\52010.jpg" />
+    <Content Include="upload_category\icon\53010.jpg" />
+    <Content Include="upload_category\icon\54010.jpg" />
+    <Content Include="upload_category\icon\55010.jpg" />
+    <Content Include="upload_category\icon\56010.jpg" />
+    <Content Include="upload_category\icon\57010.jpg" />
+    <Content Include="upload_category\icon\58010.jpg" />
+    <Content Include="upload_category\icon\59010.jpg" />
+    <Content Include="upload_category\icon\60010.jpg" />
+    <Content Include="upload_category\icon\61010.jpg" />
+    <Content Include="upload_category\icon\63010.jpg" />
+    <Content Include="upload_category\icon\64010.jpg" />
+    <Content Include="upload_category\icon\65010.jpg" />
+    <Content Include="upload_category\icon\66010.jpg" />
+    <Content Include="upload_category\icon\67010.jpg" />
+    <Content Include="upload_category\icon\68010.jpg" />
+    <Content Include="upload_category\icon\69010.jpg" />
+    <Content Include="upload_category\icon\70010.jpg" />
+    <Content Include="upload_category\icon\71010.jpg" />
+    <Content Include="upload_category\icon\72010.jpg" />
+    <Content Include="upload_category\icon\73010.jpg" />
+    <Content Include="upload_category\icon\74010.jpg" />
+    <Content Include="upload_category\icon\75010.jpg" />
+    <Content Include="upload_category\icon\76010.jpg" />
+    <Content Include="upload_category\icon\77010.jpg" />
+    <Content Include="upload_category\icon\78010.jpg" />
+    <Content Include="upload_category\icon\79010.jpg" />
+    <Content Include="upload_category\icon\80010.jpg" />
+    <Content Include="upload_category\icon\81010.jpg" />
+    <Content Include="upload_category\icon\Home-Icon.jpg" />
+    <Content Include="upload_image\106000.jpg" />
+    <Content Include="upload_image\106001.jpg" />
+    <Content Include="upload_image\106001_2.jpg" />
+    <Content Include="upload_image\106001_3.jpg" />
+    <Content Include="upload_image\106001_4.jpg" />
+    <Content Include="upload_image\106002.jpg" />
+    <Content Include="upload_image\106002_2.jpg" />
+    <Content Include="upload_image\106002_3.jpg" />
+    <Content Include="upload_image\106002_4.jpg" />
+    <Content Include="upload_image\106003.jpg" />
+    <Content Include="upload_image\106003_2.jpg" />
+    <Content Include="upload_image\106003_3.jpg" />
+    <Content Include="upload_image\106003_4.jpg" />
+    <Content Include="upload_image\106004.jpg" />
+    <Content Include="upload_image\106004_2.jpg" />
+    <Content Include="upload_image\106004_3.jpg" />
+    <Content Include="upload_image\106004_4.jpg" />
+    <Content Include="upload_image\106005.jpg" />
+    <Content Include="upload_image\106005_2.jpg" />
+    <Content Include="upload_image\106005_3.jpg" />
+    <Content Include="upload_image\106005_4.jpg" />
+    <Content Include="upload_image\106006.jpg" />
+    <Content Include="upload_image\106006_2.jpg" />
+    <Content Include="upload_image\106006_3.jpg" />
+    <Content Include="upload_image\106006_4.jpg" />
+    <Content Include="upload_image\106007.jpg" />
+    <Content Include="upload_image\106007_2.jpg" />
+    <Content Include="upload_image\106007_3.jpg" />
+    <Content Include="upload_image\106007_4.jpg" />
+    <Content Include="upload_image\106008.jpg" />
+    <Content Include="upload_image\106008_2.jpg" />
+    <Content Include="upload_image\106008_3.jpg" />
+    <Content Include="upload_image\106008_4.jpg" />
+    <Content Include="upload_image\106009.jpg" />
+    <Content Include="upload_image\106009_2.jpg" />
+    <Content Include="upload_image\106009_3.jpg" />
+    <Content Include="upload_image\106009_4.jpg" />
+    <Content Include="upload_image\107000.jpg" />
+    <Content Include="upload_image\107001.jpg" />
+    <Content Include="upload_image\107001_2.jpg" />
+    <Content Include="upload_image\107001_3.jpg" />
+    <Content Include="upload_image\107001_4.jpg" />
+    <Content Include="upload_image\107002.jpg" />
+    <Content Include="upload_image\107002_2.jpg" />
+    <Content Include="upload_image\107002_3.jpg" />
+    <Content Include="upload_image\107002_4.jpg" />
+    <Content Include="upload_image\108000.jpg" />
+    <Content Include="upload_image\109000.jpg" />
+    <Content Include="upload_image\110000.jpg" />
+    <Content Include="upload_image\111000.jpg" />
+    <Content Include="upload_image\111001.jpg" />
+    <Content Include="upload_image\111001_2.jpg" />
+    <Content Include="upload_image\111001_3.jpg" />
+    <Content Include="upload_image\111001_4.jpg" />
+    <Content Include="upload_image\111002.jpg" />
+    <Content Include="upload_image\111002_2.jpg" />
+    <Content Include="upload_image\111002_3.jpg" />
+    <Content Include="upload_image\111002_4.jpg" />
+    <Content Include="upload_image\111003.jpg" />
+    <Content Include="upload_image\111003_2.jpg" />
+    <Content Include="upload_image\111003_3.jpg" />
+    <Content Include="upload_image\111003_4.jpg" />
+    <Content Include="upload_image\111004.jpg" />
+    <Content Include="upload_image\111004_2.jpg" />
+    <Content Include="upload_image\111004_3.jpg" />
+    <Content Include="upload_image\111004_4.jpg" />
+    <Content Include="upload_image\111005.jpg" />
+    <Content Include="upload_image\111005_2.jpg" />
+    <Content Include="upload_image\111005_3.jpg" />
+    <Content Include="upload_image\111005_4.jpg" />
+    <Content Include="upload_image\111006.jpg" />
+    <Content Include="upload_image\111006_2.jpg" />
+    <Content Include="upload_image\111006_3.jpg" />
+    <Content Include="upload_image\111006_4.jpg" />
+    <Content Include="upload_image\111008.jpg" />
+    <Content Include="upload_image\111008_2.jpg" />
+    <Content Include="upload_image\111008_3.jpg" />
+    <Content Include="upload_image\111008_4.jpg" />
+    <Content Include="upload_image\111009.jpg" />
+    <Content Include="upload_image\111009_2.jpg" />
+    <Content Include="upload_image\111009_3.jpg" />
+    <Content Include="upload_image\111009_4.jpg" />
+    <Content Include="upload_image\111010.jpg" />
+    <Content Include="upload_image\111010_2.jpg" />
+    <Content Include="upload_image\111010_3.jpg" />
+    <Content Include="upload_image\111010_4.jpg" />
+    <Content Include="upload_image\111011.jpg" />
+    <Content Include="upload_image\111011_2.jpg" />
+    <Content Include="upload_image\111011_3.jpg" />
+    <Content Include="upload_image\111011_4.jpg" />
+    <Content Include="upload_image\111012.jpg" />
+    <Content Include="upload_image\111012_2.jpg" />
+    <Content Include="upload_image\111012_3.jpg" />
+    <Content Include="upload_image\111012_4.jpg" />
+    <Content Include="upload_image\111013.jpg" />
+    <Content Include="upload_image\111013_2.jpg" />
+    <Content Include="upload_image\111013_3.jpg" />
+    <Content Include="upload_image\111013_4.jpg" />
+    <Content Include="upload_image\111014.jpg" />
+    <Content Include="upload_image\111014_2.jpg" />
+    <Content Include="upload_image\111014_3.jpg" />
+    <Content Include="upload_image\111014_4.jpg" />
+    <Content Include="upload_image\111015.jpg" />
+    <Content Include="upload_image\111015_2.jpg" />
+    <Content Include="upload_image\111015_3.jpg" />
+    <Content Include="upload_image\111015_4.jpg" />
+    <Content Include="upload_image\111016.jpg" />
+    <Content Include="upload_image\111016_2.jpg" />
+    <Content Include="upload_image\111016_3.jpg" />
+    <Content Include="upload_image\111016_4.jpg" />
+    <Content Include="upload_image\111017.jpg" />
+    <Content Include="upload_image\111017_2.jpg" />
+    <Content Include="upload_image\111017_3.jpg" />
+    <Content Include="upload_image\111017_4.jpg" />
+    <Content Include="upload_image\111018.jpg" />
+    <Content Include="upload_image\111018_2.jpg" />
+    <Content Include="upload_image\111018_3.jpg" />
+    <Content Include="upload_image\111018_4.jpg" />
+    <Content Include="upload_image\111020.jpg" />
+    <Content Include="upload_image\111020_2.jpg" />
+    <Content Include="upload_image\111020_3.jpg" />
+    <Content Include="upload_image\111020_4.jpg" />
+    <Content Include="upload_image\112000.jpg" />
+    <Content Include="upload_image\112001.jpg" />
+    <Content Include="upload_image\112001_2.jpg" />
+    <Content Include="upload_image\112001_3.jpg" />
+    <Content Include="upload_image\112001_4.jpg" />
+    <Content Include="upload_image\112002.jpg" />
+    <Content Include="upload_image\112002_2.jpg" />
+    <Content Include="upload_image\112002_3.jpg" />
+    <Content Include="upload_image\112002_4.jpg" />
+    <Content Include="upload_image\112003.jpg" />
+    <Content Include="upload_image\112003_2.jpg" />
+    <Content Include="upload_image\112003_3.jpg" />
+    <Content Include="upload_image\112003_4.jpg" />
+    <Content Include="upload_image\112004.jpg" />
+    <Content Include="upload_image\112004_2.jpg" />
+    <Content Include="upload_image\112004_3.jpg" />
+    <Content Include="upload_image\112004_4.jpg" />
+    <Content Include="upload_image\113000.jpg" />
+    <Content Include="upload_image\113003.jpg" />
+    <Content Include="upload_image\113003_2.jpg" />
+    <Content Include="upload_image\113003_3.jpg" />
+    <Content Include="upload_image\113003_4.jpg" />
+    <Content Include="upload_image\113004.jpg" />
+    <Content Include="upload_image\113004_2.jpg" />
+    <Content Include="upload_image\113004_3.jpg" />
+    <Content Include="upload_image\113004_4.jpg" />
+    <Content Include="upload_image\113005.jpg" />
+    <Content Include="upload_image\113005_2.jpg" />
+    <Content Include="upload_image\113005_3.jpg" />
+    <Content Include="upload_image\113005_4.jpg" />
+    <Content Include="upload_image\113006.jpg" />
+    <Content Include="upload_image\113006_2.jpg" />
+    <Content Include="upload_image\113006_3.jpg" />
+    <Content Include="upload_image\113006_4.jpg" />
+    <Content Include="upload_image\113013.jpg" />
+    <Content Include="upload_image\113013_2.jpg" />
+    <Content Include="upload_image\113013_3.jpg" />
+    <Content Include="upload_image\113013_4.jpg" />
+    <Content Include="upload_image\114000.jpg" />
+    <Content Include="upload_image\114001.jpg" />
+    <Content Include="upload_image\114001_2.jpg" />
+    <Content Include="upload_image\114001_3.jpg" />
+    <Content Include="upload_image\114001_4.jpg" />
+    <Content Include="upload_image\114002.jpg" />
+    <Content Include="upload_image\114002_2.jpg" />
+    <Content Include="upload_image\114002_3.jpg" />
+    <Content Include="upload_image\114002_4.jpg" />
+    <Content Include="upload_image\114003.jpg" />
+    <Content Include="upload_image\114003_2.jpg" />
+    <Content Include="upload_image\114003_3.jpg" />
+    <Content Include="upload_image\114003_4.jpg" />
+    <Content Include="upload_image\114004.jpg" />
+    <Content Include="upload_image\114004_2.jpg" />
+    <Content Include="upload_image\114004_3.jpg" />
+    <Content Include="upload_image\114004_4.jpg" />
+    <Content Include="upload_image\114005.jpg" />
+    <Content Include="upload_image\114005_2.jpg" />
+    <Content Include="upload_image\114005_3.jpg" />
+    <Content Include="upload_image\114005_4.jpg" />
+    <Content Include="upload_image\114009.jpg" />
+    <Content Include="upload_image\114009_2.jpg" />
+    <Content Include="upload_image\114009_3.jpg" />
+    <Content Include="upload_image\114009_4.jpg" />
+    <Content Include="upload_image\115000.jpg" />
+    <Content Include="upload_image\115001.jpg" />
+    <Content Include="upload_image\115001_2.jpg" />
+    <Content Include="upload_image\115001_3.jpg" />
+    <Content Include="upload_image\115001_4.jpg" />
+    <Content Include="upload_image\115002.jpg" />
+    <Content Include="upload_image\115002_2.jpg" />
+    <Content Include="upload_image\115002_3.jpg" />
+    <Content Include="upload_image\115002_4.jpg" />
+    <Content Include="upload_image\115003.jpg" />
+    <Content Include="upload_image\115003_2.jpg" />
+    <Content Include="upload_image\115003_3.jpg" />
+    <Content Include="upload_image\115003_4.jpg" />
+    <Content Include="upload_image\115004.jpg" />
+    <Content Include="upload_image\115004_2.jpg" />
+    <Content Include="upload_image\115004_3.jpg" />
+    <Content Include="upload_image\115004_4.jpg" />
+    <Content Include="upload_image\115005.jpg" />
+    <Content Include="upload_image\115005_2.jpg" />
+    <Content Include="upload_image\115005_3.jpg" />
+    <Content Include="upload_image\115005_4.jpg" />
+    <Content Include="upload_image\115006.jpg" />
+    <Content Include="upload_image\115006_2.jpg" />
+    <Content Include="upload_image\115006_3.jpg" />
+    <Content Include="upload_image\115006_4.jpg" />
+    <Content Include="upload_image\115007.jpg" />
+    <Content Include="upload_image\115007_2.jpg" />
+    <Content Include="upload_image\115007_3.jpg" />
+    <Content Include="upload_image\115007_4.jpg" />
+    <Content Include="upload_image\115008.jpg" />
+    <Content Include="upload_image\115008_2.jpg" />
+    <Content Include="upload_image\115008_3.jpg" />
+    <Content Include="upload_image\115008_4.jpg" />
+    <Content Include="upload_image\116000.jpg" />
+    <Content Include="upload_image\116001.jpg" />
+    <Content Include="upload_image\116001_2.jpg" />
+    <Content Include="upload_image\116001_3.jpg" />
+    <Content Include="upload_image\116001_4.jpg" />
+    <Content Include="upload_image\116002.jpg" />
+    <Content Include="upload_image\116002_2.jpg" />
+    <Content Include="upload_image\116002_3.jpg" />
+    <Content Include="upload_image\116002_4.jpg" />
+    <Content Include="upload_image\116003.jpg" />
+    <Content Include="upload_image\116003_2.jpg" />
+    <Content Include="upload_image\116003_3.jpg" />
+    <Content Include="upload_image\116003_4.jpg" />
+    <Content Include="upload_image\116004.jpg" />
+    <Content Include="upload_image\116004_2.jpg" />
+    <Content Include="upload_image\116004_3.jpg" />
+    <Content Include="upload_image\116004_4.jpg" />
+    <Content Include="upload_image\116005.jpg" />
+    <Content Include="upload_image\116005_2.jpg" />
+    <Content Include="upload_image\116005_3.jpg" />
+    <Content Include="upload_image\116005_4.jpg" />
+    <Content Include="upload_image\116006.jpg" />
+    <Content Include="upload_image\116006_2.jpg" />
+    <Content Include="upload_image\116006_3.jpg" />
+    <Content Include="upload_image\116006_4.jpg" />
+    <Content Include="upload_image\117000.jpg" />
+    <Content Include="upload_image\117001.jpg" />
+    <Content Include="upload_image\117001_2.jpg" />
+    <Content Include="upload_image\117001_3.jpg" />
+    <Content Include="upload_image\117001_4.jpg" />
+    <Content Include="upload_image\118000.jpg" />
+    <Content Include="upload_image\118001.jpg" />
+    <Content Include="upload_image\118001_2.jpg" />
+    <Content Include="upload_image\118001_3.jpg" />
+    <Content Include="upload_image\118001_4.jpg" />
+    <Content Include="upload_image\119000.jpg" />
+    <Content Include="upload_image\119001.jpg" />
+    <Content Include="upload_image\119001_2.jpg" />
+    <Content Include="upload_image\119001_3.jpg" />
+    <Content Include="upload_image\119001_4.jpg" />
+    <Content Include="upload_image\119002.jpg" />
+    <Content Include="upload_image\119002_2.jpg" />
+    <Content Include="upload_image\119002_3.jpg" />
+    <Content Include="upload_image\119002_4.jpg" />
+    <Content Include="upload_image\119003.jpg" />
+    <Content Include="upload_image\119003_2.jpg" />
+    <Content Include="upload_image\119003_3.jpg" />
+    <Content Include="upload_image\119003_4.jpg" />
+    <Content Include="upload_image\119004.jpg" />
+    <Content Include="upload_image\119004_2.jpg" />
+    <Content Include="upload_image\119004_3.jpg" />
+    <Content Include="upload_image\119004_4.jpg" />
+    <Content Include="upload_image\119005.jpg" />
+    <Content Include="upload_image\119005_2.jpg" />
+    <Content Include="upload_image\119005_3.jpg" />
+    <Content Include="upload_image\119005_4.jpg" />
+    <Content Include="upload_image\119006.jpg" />
+    <Content Include="upload_image\119006_2.jpg" />
+    <Content Include="upload_image\119006_3.jpg" />
+    <Content Include="upload_image\119006_4.jpg" />
+    <Content Include="upload_image\120000.jpg" />
+    <Content Include="upload_image\120001.jpg" />
+    <Content Include="upload_image\120001_2.jpg" />
+    <Content Include="upload_image\120001_3.jpg" />
+    <Content Include="upload_image\120001_4.jpg" />
+    <Content Include="upload_image\120002.jpg" />
+    <Content Include="upload_image\120002_2.jpg" />
+    <Content Include="upload_image\120002_3.jpg" />
+    <Content Include="upload_image\120002_4.jpg" />
+    <Content Include="upload_image\120003.jpg" />
+    <Content Include="upload_image\120003_2.jpg" />
+    <Content Include="upload_image\120003_3.jpg" />
+    <Content Include="upload_image\120003_4.jpg" />
+    <Content Include="upload_image\121000.jpg" />
+    <Content Include="upload_image\121001.jpg" />
+    <Content Include="upload_image\121001_2.jpg" />
+    <Content Include="upload_image\121001_3.jpg" />
+    <Content Include="upload_image\121001_4.jpg" />
+    <Content Include="upload_image\121002.jpg" />
+    <Content Include="upload_image\121002_2.jpg" />
+    <Content Include="upload_image\121002_3.jpg" />
+    <Content Include="upload_image\121002_4.jpg" />
+    <Content Include="upload_image\121003.jpg" />
+    <Content Include="upload_image\121003_2.jpg" />
+    <Content Include="upload_image\121003_3.jpg" />
+    <Content Include="upload_image\121003_4.jpg" />
+    <Content Include="upload_image\121004.jpg" />
+    <Content Include="upload_image\121004_2.jpg" />
+    <Content Include="upload_image\121004_3.jpg" />
+    <Content Include="upload_image\121004_4.jpg" />
+    <Content Include="upload_image\122000.jpg" />
+    <Content Include="upload_image\123000.jpg" />
+    <Content Include="upload_image\123001.jpg" />
+    <Content Include="upload_image\123001_2.jpg" />
+    <Content Include="upload_image\123001_3.jpg" />
+    <Content Include="upload_image\123001_4.jpg" />
+    <Content Include="upload_image\123002.jpg" />
+    <Content Include="upload_image\123002_2.jpg" />
+    <Content Include="upload_image\123002_3.jpg" />
+    <Content Include="upload_image\123002_4.jpg" />
+    <Content Include="upload_image\123003.jpg" />
+    <Content Include="upload_image\123003_2.jpg" />
+    <Content Include="upload_image\123003_3.jpg" />
+    <Content Include="upload_image\123003_4.jpg" />
+    <Content Include="upload_image\124000.jpg" />
+    <Content Include="upload_image\124001.jpg" />
+    <Content Include="upload_image\124001_2.jpg" />
+    <Content Include="upload_image\124001_3.jpg" />
+    <Content Include="upload_image\124001_4.jpg" />
+    <Content Include="upload_image\125000.jpg" />
+    <Content Include="upload_image\125001.jpg" />
+    <Content Include="upload_image\125001_2.jpg" />
+    <Content Include="upload_image\125001_3.jpg" />
+    <Content Include="upload_image\125001_4.jpg" />
+    <Content Include="upload_image\126000.jpg" />
+    <Content Include="upload_image\126002.jpg" />
+    <Content Include="upload_image\126002_2.jpg" />
+    <Content Include="upload_image\126002_3.jpg" />
+    <Content Include="upload_image\126002_4.jpg" />
+    <Content Include="upload_image\127001.jpg" />
+    <Content Include="upload_image\127001_2.jpg" />
+    <Content Include="upload_image\127001_3.jpg" />
+    <Content Include="upload_image\127001_4.jpg" />
+    <Content Include="upload_image\20000.jpg" />
+    <Content Include="upload_image\20001.jpg" />
+    <Content Include="upload_image\20001_2.jpg" />
+    <Content Include="upload_image\20001_3.jpg" />
+    <Content Include="upload_image\20001_4.jpg" />
+    <Content Include="upload_image\20002.jpg" />
+    <Content Include="upload_image\20002_2.jpg" />
+    <Content Include="upload_image\20002_3.jpg" />
+    <Content Include="upload_image\20002_4.jpg" />
+    <Content Include="upload_image\21000.jpg" />
+    <Content Include="upload_image\22000.jpg" />
+    <Content Include="upload_image\23000.jpg" />
+    <Content Include="upload_image\23001.jpg" />
+    <Content Include="upload_image\23001_2.jpg" />
+    <Content Include="upload_image\23001_3.jpg" />
+    <Content Include="upload_image\23001_4.jpg" />
+    <Content Include="upload_image\23002.jpg" />
+    <Content Include="upload_image\23002_2.jpg" />
+    <Content Include="upload_image\23002_3.jpg" />
+    <Content Include="upload_image\23002_4.jpg" />
+    <Content Include="upload_image\categories\106000.jpg" />
+    <Content Include="upload_image\categories\107000.jpg" />
+    <Content Include="upload_image\categories\108000.jpg" />
+    <Content Include="upload_image\categories\109000.jpg" />
+    <Content Include="upload_image\categories\110000.jpg" />
+    <Content Include="upload_image\categories\111000.jpg" />
+    <Content Include="upload_image\categories\112000.jpg" />
+    <Content Include="upload_image\categories\113000.jpg" />
+    <Content Include="upload_image\categories\114000.jpg" />
+    <Content Include="upload_image\categories\115000.jpg" />
+    <Content Include="upload_image\categories\116000.jpg" />
+    <Content Include="upload_image\categories\117000.jpg" />
+    <Content Include="upload_image\categories\118000.jpg" />
+    <Content Include="upload_image\categories\119000.jpg" />
+    <Content Include="upload_image\categories\120000.jpg" />
+    <Content Include="upload_image\categories\121000.jpg" />
+    <Content Include="upload_image\categories\122000.jpg" />
+    <Content Include="upload_image\categories\123000.jpg" />
+    <Content Include="upload_image\categories\124000.jpg" />
+    <Content Include="upload_image\categories\125000.jpg" />
+    <Content Include="upload_image\categories\126000.jpg" />
+    <Content Include="upload_image\categories\20000.jpg" />
+    <Content Include="upload_image\categories\21000.jpg" />
+    <Content Include="upload_image\categories\22000.jpg" />
+    <Content Include="upload_image\categories\23000.jpg" />
+    <Content Include="upload_image\categories\77000.jpg" />
+    <Content Include="upload_image\categories\79000.jpg" />
+    <Content Include="upload_image\categories\81000.jpg" />
+    <Content Include="upload_image\categories\82000.jpg" />
+    <Content Include="upload_image\categories\83000.jpg" />
+    <Content Include="upload_image\categories\84000.jpg" />
+    <Content Include="upload_image\categories\85000.jpg" />
+    <Content Include="upload_image\categories\91000.jpg" />
+    <Content Include="upload_image\categories\92000.jpg" />
+    <Content Include="upload_image\categories\93000.jpg" />
+    <Content Include="upload_image\categories\94000.jpg" />
+    <Content Include="upload_image\categories\95000.jpg" />
+    <Content Include="upload_image\categories\96000.jpg" />
+    <Content Include="upload_image\categories\97000.jpg" />
+    <Content Include="upload_image\categories\98000.jpg" />
+    <Content Include="upload_image\products\106001.jpg" />
+    <Content Include="upload_image\products\106001_1.jpg" />
+    <Content Include="upload_image\products\106001_2.jpg" />
+    <Content Include="upload_image\products\106001_3.jpg" />
+    <Content Include="upload_image\products\106001_4.jpg" />
+    <Content Include="upload_image\products\106002.jpg" />
+    <Content Include="upload_image\products\106002_1.jpg" />
+    <Content Include="upload_image\products\106002_2.jpg" />
+    <Content Include="upload_image\products\106002_3.jpg" />
+    <Content Include="upload_image\products\106002_4.jpg" />
+    <Content Include="upload_image\products\106003.jpg" />
+    <Content Include="upload_image\products\106003_1.jpg" />
+    <Content Include="upload_image\products\106003_2.jpg" />
+    <Content Include="upload_image\products\106003_3.jpg" />
+    <Content Include="upload_image\products\106003_4.jpg" />
+    <Content Include="upload_image\products\106004.jpg" />
+    <Content Include="upload_image\products\106004_1.jpg" />
+    <Content Include="upload_image\products\106004_2.jpg" />
+    <Content Include="upload_image\products\106004_3.jpg" />
+    <Content Include="upload_image\products\106004_4.jpg" />
+    <Content Include="upload_image\products\106005.jpg" />
+    <Content Include="upload_image\products\106005_1.jpg" />
+    <Content Include="upload_image\products\106005_2.jpg" />
+    <Content Include="upload_image\products\106005_3.jpg" />
+    <Content Include="upload_image\products\106005_4.jpg" />
+    <Content Include="upload_image\products\106006.jpg" />
+    <Content Include="upload_image\products\106006_1.jpg" />
+    <Content Include="upload_image\products\106006_2.jpg" />
+    <Content Include="upload_image\products\106006_3.jpg" />
+    <Content Include="upload_image\products\106006_4.jpg" />
+    <Content Include="upload_image\products\106007.jpg" />
+    <Content Include="upload_image\products\106007_2.jpg" />
+    <Content Include="upload_image\products\106007_3.jpg" />
+    <Content Include="upload_image\products\106007_4.jpg" />
+    <Content Include="upload_image\products\106008.jpg" />
+    <Content Include="upload_image\products\106008_2.jpg" />
+    <Content Include="upload_image\products\106008_3.jpg" />
+    <Content Include="upload_image\products\106008_4.jpg" />
+    <Content Include="upload_image\products\106009.jpg" />
+    <Content Include="upload_image\products\106009_2.jpg" />
+    <Content Include="upload_image\products\106009_3.jpg" />
+    <Content Include="upload_image\products\106009_4.jpg" />
+    <Content Include="upload_image\products\107001.jpg" />
+    <Content Include="upload_image\products\107001_1.jpg" />
+    <Content Include="upload_image\products\107001_2.jpg" />
+    <Content Include="upload_image\products\107001_3.jpg" />
+    <Content Include="upload_image\products\107001_4.jpg" />
+    <Content Include="upload_image\products\107002.jpg" />
+    <Content Include="upload_image\products\107002_2.jpg" />
+    <Content Include="upload_image\products\107002_3.jpg" />
+    <Content Include="upload_image\products\107002_4.jpg" />
+    <Content Include="upload_image\products\111001.jpg" />
+    <Content Include="upload_image\products\111001_2.jpg" />
+    <Content Include="upload_image\products\111001_3.jpg" />
+    <Content Include="upload_image\products\111001_4.jpg" />
+    <Content Include="upload_image\products\111002.jpg" />
+    <Content Include="upload_image\products\111002_2.jpg" />
+    <Content Include="upload_image\products\111002_3.jpg" />
+    <Content Include="upload_image\products\111002_4.jpg" />
+    <Content Include="upload_image\products\111003.jpg" />
+    <Content Include="upload_image\products\111003_2.jpg" />
+    <Content Include="upload_image\products\111003_3.jpg" />
+    <Content Include="upload_image\products\111003_4.jpg" />
+    <Content Include="upload_image\products\111004.jpg" />
+    <Content Include="upload_image\products\111004_2.jpg" />
+    <Content Include="upload_image\products\111004_3.jpg" />
+    <Content Include="upload_image\products\111004_4.jpg" />
+    <Content Include="upload_image\products\111005.jpg" />
+    <Content Include="upload_image\products\111005_2.jpg" />
+    <Content Include="upload_image\products\111005_3.jpg" />
+    <Content Include="upload_image\products\111005_4.jpg" />
+    <Content Include="upload_image\products\111006.jpg" />
+    <Content Include="upload_image\products\111006_2.jpg" />
+    <Content Include="upload_image\products\111006_3.jpg" />
+    <Content Include="upload_image\products\111006_4.jpg" />
+    <Content Include="upload_image\products\111008.jpg" />
+    <Content Include="upload_image\products\111008_2.jpg" />
+    <Content Include="upload_image\products\111008_3.jpg" />
+    <Content Include="upload_image\products\111008_4.jpg" />
+    <Content Include="upload_image\products\111009.jpg" />
+    <Content Include="upload_image\products\111009_2.jpg" />
+    <Content Include="upload_image\products\111009_3.jpg" />
+    <Content Include="upload_image\products\111009_4.jpg" />
+    <Content Include="upload_image\products\111010.jpg" />
+    <Content Include="upload_image\products\111010_2.jpg" />
+    <Content Include="upload_image\products\111010_3.jpg" />
+    <Content Include="upload_image\products\111010_4.jpg" />
+    <Content Include="upload_image\products\111011.jpg" />
+    <Content Include="upload_image\products\111011_2.jpg" />
+    <Content Include="upload_image\products\111011_3.jpg" />
+    <Content Include="upload_image\products\111011_4.jpg" />
+    <Content Include="upload_image\products\111012.jpg" />
+    <Content Include="upload_image\products\111012_2.jpg" />
+    <Content Include="upload_image\products\111012_3.jpg" />
+    <Content Include="upload_image\products\111012_4.jpg" />
+    <Content Include="upload_image\products\111013.jpg" />
+    <Content Include="upload_image\products\111013_2.jpg" />
+    <Content Include="upload_image\products\111013_3.jpg" />
+    <Content Include="upload_image\products\111013_4.jpg" />
+    <Content Include="upload_image\products\111014.jpg" />
+    <Content Include="upload_image\products\111014_2.jpg" />
+    <Content Include="upload_image\products\111014_3.jpg" />
+    <Content Include="upload_image\products\111014_4.jpg" />
+    <Content Include="upload_image\products\111015.jpg" />
+    <Content Include="upload_image\products\111015_2.jpg" />
+    <Content Include="upload_image\products\111015_3.jpg" />
+    <Content Include="upload_image\products\111015_4.jpg" />
+    <Content Include="upload_image\products\111016.jpg" />
+    <Content Include="upload_image\products\111016_2.jpg" />
+    <Content Include="upload_image\products\111016_3.jpg" />
+    <Content Include="upload_image\products\111016_4.jpg" />
+    <Content Include="upload_image\products\111017.jpg" />
+    <Content Include="upload_image\products\111017_2.jpg" />
+    <Content Include="upload_image\products\111017_3.jpg" />
+    <Content Include="upload_image\products\111017_4.jpg" />
+    <Content Include="upload_image\products\111018.jpg" />
+    <Content Include="upload_image\products\111018_2.jpg" />
+    <Content Include="upload_image\products\111018_3.jpg" />
+    <Content Include="upload_image\products\111018_4.jpg" />
+    <Content Include="upload_image\products\111020.jpg" />
+    <Content Include="upload_image\products\111020_2.jpg" />
+    <Content Include="upload_image\products\111020_3.jpg" />
+    <Content Include="upload_image\products\111020_4.jpg" />
+    <Content Include="upload_image\products\112001.jpg" />
+    <Content Include="upload_image\products\112001_2.jpg" />
+    <Content Include="upload_image\products\112001_3.jpg" />
+    <Content Include="upload_image\products\112001_4.jpg" />
+    <Content Include="upload_image\products\112002.jpg" />
+    <Content Include="upload_image\products\112002_2.jpg" />
+    <Content Include="upload_image\products\112002_3.jpg" />
+    <Content Include="upload_image\products\112002_4.jpg" />
+    <Content Include="upload_image\products\112003.jpg" />
+    <Content Include="upload_image\products\112003_2.jpg" />
+    <Content Include="upload_image\products\112003_3.jpg" />
+    <Content Include="upload_image\products\112003_4.jpg" />
+    <Content Include="upload_image\products\112004.jpg" />
+    <Content Include="upload_image\products\112004_2.jpg" />
+    <Content Include="upload_image\products\112004_3.jpg" />
+    <Content Include="upload_image\products\112004_4.jpg" />
+    <Content Include="upload_image\products\113003.jpg" />
+    <Content Include="upload_image\products\113003_2.jpg" />
+    <Content Include="upload_image\products\113003_3.jpg" />
+    <Content Include="upload_image\products\113003_4.jpg" />
+    <Content Include="upload_image\products\113004.jpg" />
+    <Content Include="upload_image\products\113004_2.jpg" />
+    <Content Include="upload_image\products\113004_3.jpg" />
+    <Content Include="upload_image\products\113004_4.jpg" />
+    <Content Include="upload_image\products\113005.jpg" />
+    <Content Include="upload_image\products\113005_2.jpg" />
+    <Content Include="upload_image\products\113005_3.jpg" />
+    <Content Include="upload_image\products\113005_4.jpg" />
+    <Content Include="upload_image\products\113006.jpg" />
+    <Content Include="upload_image\products\113006_2.jpg" />
+    <Content Include="upload_image\products\113006_3.jpg" />
+    <Content Include="upload_image\products\113006_4.jpg" />
+    <Content Include="upload_image\products\113011.jpg" />
+    <Content Include="upload_image\products\113011_2.jpg" />
+    <Content Include="upload_image\products\113011_3.jpg" />
+    <Content Include="upload_image\products\113011_4.jpg" />
+    <Content Include="upload_image\products\113013.jpg" />
+    <Content Include="upload_image\products\113013_2.jpg" />
+    <Content Include="upload_image\products\113013_3.jpg" />
+    <Content Include="upload_image\products\113013_4.jpg" />
+    <Content Include="upload_image\products\114001.jpg" />
+    <Content Include="upload_image\products\114001_2.jpg" />
+    <Content Include="upload_image\products\114001_3.jpg" />
+    <Content Include="upload_image\products\114001_4.jpg" />
+    <Content Include="upload_image\products\114002.jpg" />
+    <Content Include="upload_image\products\114002_2.jpg" />
+    <Content Include="upload_image\products\114002_3.jpg" />
+    <Content Include="upload_image\products\114002_4.jpg" />
+    <Content Include="upload_image\products\114003.jpg" />
+    <Content Include="upload_image\products\114003_2.jpg" />
+    <Content Include="upload_image\products\114003_3.jpg" />
+    <Content Include="upload_image\products\114003_4.jpg" />
+    <Content Include="upload_image\products\114004.jpg" />
+    <Content Include="upload_image\products\114004_2.jpg" />
+    <Content Include="upload_image\products\114004_3.jpg" />
+    <Content Include="upload_image\products\114004_4.jpg" />
+    <Content Include="upload_image\products\114005.jpg" />
+    <Content Include="upload_image\products\114005_2.jpg" />
+    <Content Include="upload_image\products\114005_3.jpg" />
+    <Content Include="upload_image\products\114005_4.jpg" />
+    <Content Include="upload_image\products\114008.jpg" />
+    <Content Include="upload_image\products\114008_2.jpg" />
+    <Content Include="upload_image\products\114008_3.jpg" />
+    <Content Include="upload_image\products\114008_4.jpg" />
+    <Content Include="upload_image\products\114009.jpg" />
+    <Content Include="upload_image\products\114009_2.jpg" />
+    <Content Include="upload_image\products\114009_3.jpg" />
+    <Content Include="upload_image\products\114009_4.jpg" />
+    <Content Include="upload_image\products\115001.jpg" />
+    <Content Include="upload_image\products\115001_2.jpg" />
+    <Content Include="upload_image\products\115001_3.jpg" />
+    <Content Include="upload_image\products\115001_4.jpg" />
+    <Content Include="upload_image\products\115002.jpg" />
+    <Content Include="upload_image\products\115002_2.jpg" />
+    <Content Include="upload_image\products\115002_3.jpg" />
+    <Content Include="upload_image\products\115002_4.jpg" />
+    <Content Include="upload_image\products\115003.jpg" />
+    <Content Include="upload_image\products\115003_2.jpg" />
+    <Content Include="upload_image\products\115003_3.jpg" />
+    <Content Include="upload_image\products\115003_4.jpg" />
+    <Content Include="upload_image\products\115004.jpg" />
+    <Content Include="upload_image\products\115004_2.jpg" />
+    <Content Include="upload_image\products\115004_3.jpg" />
+    <Content Include="upload_image\products\115004_4.jpg" />
+    <Content Include="upload_image\products\115005.jpg" />
+    <Content Include="upload_image\products\115005_2.jpg" />
+    <Content Include="upload_image\products\115005_3.jpg" />
+    <Content Include="upload_image\products\115005_4.jpg" />
+    <Content Include="upload_image\products\115006.jpg" />
+    <Content Include="upload_image\products\115006_2.jpg" />
+    <Content Include="upload_image\products\115006_3.jpg" />
+    <Content Include="upload_image\products\115006_4.jpg" />
+    <Content Include="upload_image\products\115007.jpg" />
+    <Content Include="upload_image\products\115007_2.jpg" />
+    <Content Include="upload_image\products\115007_3.jpg" />
+    <Content Include="upload_image\products\115007_4.jpg" />
+    <Content Include="upload_image\products\115008.jpg" />
+    <Content Include="upload_image\products\115008_2.jpg" />
+    <Content Include="upload_image\products\115008_3.jpg" />
+    <Content Include="upload_image\products\115008_4.jpg" />
+    <Content Include="upload_image\products\115009.jpg" />
+    <Content Include="upload_image\products\115009_2.jpg" />
+    <Content Include="upload_image\products\115009_3.jpg" />
+    <Content Include="upload_image\products\115009_4.jpg" />
+    <Content Include="upload_image\products\116001.jpg" />
+    <Content Include="upload_image\products\116001_2.jpg" />
+    <Content Include="upload_image\products\116001_3.jpg" />
+    <Content Include="upload_image\products\116001_4.jpg" />
+    <Content Include="upload_image\products\116002.jpg" />
+    <Content Include="upload_image\products\116002_2.jpg" />
+    <Content Include="upload_image\products\116002_3.jpg" />
+    <Content Include="upload_image\products\116002_4.jpg" />
+    <Content Include="upload_image\products\116003.jpg" />
+    <Content Include="upload_image\products\116003_2.jpg" />
+    <Content Include="upload_image\products\116003_3.jpg" />
+    <Content Include="upload_image\products\116003_4.jpg" />
+    <Content Include="upload_image\products\116004.jpg" />
+    <Content Include="upload_image\products\116004_2.jpg" />
+    <Content Include="upload_image\products\116004_3.jpg" />
+    <Content Include="upload_image\products\116004_4.jpg" />
+    <Content Include="upload_image\products\116005.jpg" />
+    <Content Include="upload_image\products\116005_2.jpg" />
+    <Content Include="upload_image\products\116005_3.jpg" />
+    <Content Include="upload_image\products\116005_4.jpg" />
+    <Content Include="upload_image\products\116006.jpg" />
+    <Content Include="upload_image\products\116006_2.jpg" />
+    <Content Include="upload_image\products\116006_3.jpg" />
+    <Content Include="upload_image\products\116006_4.jpg" />
+    <Content Include="upload_image\products\117001.jpg" />
+    <Content Include="upload_image\products\117001_2.jpg" />
+    <Content Include="upload_image\products\117001_3.jpg" />
+    <Content Include="upload_image\products\117001_4.jpg" />
+    <Content Include="upload_image\products\118001.jpg" />
+    <Content Include="upload_image\products\118001_2.jpg" />
+    <Content Include="upload_image\products\118001_3.jpg" />
+    <Content Include="upload_image\products\118001_4.jpg" />
+    <Content Include="upload_image\products\119001.jpg" />
+    <Content Include="upload_image\products\119001_1.jpg" />
+    <Content Include="upload_image\products\119001_2.jpg" />
+    <Content Include="upload_image\products\119001_3.jpg" />
+    <Content Include="upload_image\products\119001_4.jpg" />
+    <Content Include="upload_image\products\119002.jpg" />
+    <Content Include="upload_image\products\119002_2.jpg" />
+    <Content Include="upload_image\products\119002_3.jpg" />
+    <Content Include="upload_image\products\119002_4.jpg" />
+    <Content Include="upload_image\products\119003.jpg" />
+    <Content Include="upload_image\products\119003_2.jpg" />
+    <Content Include="upload_image\products\119003_3.jpg" />
+    <Content Include="upload_image\products\119003_4.jpg" />
+    <Content Include="upload_image\products\119004.jpg" />
+    <Content Include="upload_image\products\119004_2.jpg" />
+    <Content Include="upload_image\products\119004_3.jpg" />
+    <Content Include="upload_image\products\119004_4.jpg" />
+    <Content Include="upload_image\products\119005.jpg" />
+    <Content Include="upload_image\products\119005_2.jpg" />
+    <Content Include="upload_image\products\119005_3.jpg" />
+    <Content Include="upload_image\products\119005_4.jpg" />
+    <Content Include="upload_image\products\119006.jpg" />
+    <Content Include="upload_image\products\119006_2.jpg" />
+    <Content Include="upload_image\products\119006_3.jpg" />
+    <Content Include="upload_image\products\119006_4.jpg" />
+    <Content Include="upload_image\products\120001.jpg" />
+    <Content Include="upload_image\products\120001_2.jpg" />
+    <Content Include="upload_image\products\120001_3.jpg" />
+    <Content Include="upload_image\products\120001_4.jpg" />
+    <Content Include="upload_image\products\120002.jpg" />
+    <Content Include="upload_image\products\120002_2.jpg" />
+    <Content Include="upload_image\products\120002_3.jpg" />
+    <Content Include="upload_image\products\120002_4.jpg" />
+    <Content Include="upload_image\products\120003.jpg" />
+    <Content Include="upload_image\products\120003_2.jpg" />
+    <Content Include="upload_image\products\120003_3.jpg" />
+    <Content Include="upload_image\products\120003_4.jpg" />
+    <Content Include="upload_image\products\121001.jpg" />
+    <Content Include="upload_image\products\121001_2.jpg" />
+    <Content Include="upload_image\products\121001_3.jpg" />
+    <Content Include="upload_image\products\121001_4.jpg" />
+    <Content Include="upload_image\products\121002.jpg" />
+    <Content Include="upload_image\products\121002_2.jpg" />
+    <Content Include="upload_image\products\121002_3.jpg" />
+    <Content Include="upload_image\products\121002_4.jpg" />
+    <Content Include="upload_image\products\121003.jpg" />
+    <Content Include="upload_image\products\121003_2.jpg" />
+    <Content Include="upload_image\products\121003_3.jpg" />
+    <Content Include="upload_image\products\121003_4.jpg" />
+    <Content Include="upload_image\products\121004.jpg" />
+    <Content Include="upload_image\products\121004_2.jpg" />
+    <Content Include="upload_image\products\121004_3.jpg" />
+    <Content Include="upload_image\products\121004_4.jpg" />
+    <Content Include="upload_image\products\123001.jpg" />
+    <Content Include="upload_image\products\123001_2.jpg" />
+    <Content Include="upload_image\products\123001_3.jpg" />
+    <Content Include="upload_image\products\123001_4.jpg" />
+    <Content Include="upload_image\products\123002.jpg" />
+    <Content Include="upload_image\products\123002_2.jpg" />
+    <Content Include="upload_image\products\123002_3.jpg" />
+    <Content Include="upload_image\products\123002_4.jpg" />
+    <Content Include="upload_image\products\123003.jpg" />
+    <Content Include="upload_image\products\123003_2.jpg" />
+    <Content Include="upload_image\products\123003_3.jpg" />
+    <Content Include="upload_image\products\123003_4.jpg" />
+    <Content Include="upload_image\products\124001.jpg" />
+    <Content Include="upload_image\products\124001_2.jpg" />
+    <Content Include="upload_image\products\124001_3.jpg" />
+    <Content Include="upload_image\products\124001_4.jpg" />
+    <Content Include="upload_image\products\125001.jpg" />
+    <Content Include="upload_image\products\125001_2.jpg" />
+    <Content Include="upload_image\products\125001_3.jpg" />
+    <Content Include="upload_image\products\125001_4.jpg" />
+    <Content Include="upload_image\products\126002.jpg" />
+    <Content Include="upload_image\products\126002_1.jpg" />
+    <Content Include="upload_image\products\126002_2.jpg" />
+    <Content Include="upload_image\products\126002_3.jpg" />
+    <Content Include="upload_image\products\126002_4.jpg" />
+    <Content Include="upload_image\products\127001.jpg" />
+    <Content Include="upload_image\products\127001_1.jpg" />
+    <Content Include="upload_image\products\127001_2.jpg" />
+    <Content Include="upload_image\products\127001_3.jpg" />
+    <Content Include="upload_image\products\127001_4.jpg" />
+    <Content Include="upload_image\products\20001.jpg" />
+    <Content Include="upload_image\products\20001_2.jpg" />
+    <Content Include="upload_image\products\20001_3.jpg" />
+    <Content Include="upload_image\products\20001_4.jpg" />
+    <Content Include="upload_image\products\20002.jpg" />
+    <Content Include="upload_image\products\20002_2.jpg" />
+    <Content Include="upload_image\products\20002_3.jpg" />
+    <Content Include="upload_image\products\20002_4.jpg" />
+    <Content Include="upload_image\products\23001.jpg" />
+    <Content Include="upload_image\products\23001_2.jpg" />
+    <Content Include="upload_image\products\23001_3.jpg" />
+    <Content Include="upload_image\products\23001_4.jpg" />
+    <Content Include="upload_image\products\23002.jpg" />
+    <Content Include="upload_image\products\23002_2.jpg" />
+    <Content Include="upload_image\products\23002_3.jpg" />
+    <Content Include="upload_image\products\23002_4.jpg" />
+    <Content Include="upload_tag\1.jpg" />
+    <Content Include="upload_tag\100.jpg" />
+    <Content Include="upload_tag\1001.jpg" />
+    <Content Include="upload_tag\1002.jpg" />
+    <Content Include="upload_tag\1003.jpg" />
+    <Content Include="upload_tag\1004.jpg" />
+    <Content Include="upload_tag\1005.jpg" />
+    <Content Include="upload_tag\1006.jpg" />
+    <Content Include="upload_tag\1007.jpg" />
+    <Content Include="upload_tag\1008.jpg" />
+    <Content Include="upload_tag\1009.jpg" />
+    <Content Include="upload_tag\101.jpg" />
+    <Content Include="upload_tag\1010.jpg" />
+    <Content Include="upload_tag\1011.jpg" />
+    <Content Include="upload_tag\1012.jpg" />
+    <Content Include="upload_tag\1013.jpg" />
+    <Content Include="upload_tag\1014.jpg" />
+    <Content Include="upload_tag\1015.jpg" />
+    <Content Include="upload_tag\1016.jpg" />
+    <Content Include="upload_tag\1017.jpg" />
+    <Content Include="upload_tag\1018.jpg" />
+    <Content Include="upload_tag\1019.jpg" />
+    <Content Include="upload_tag\102.jpg" />
+    <Content Include="upload_tag\1020.jpg" />
+    <Content Include="upload_tag\1021.jpg" />
+    <Content Include="upload_tag\1022.jpg" />
+    <Content Include="upload_tag\1023.jpg" />
+    <Content Include="upload_tag\1024.jpg" />
+    <Content Include="upload_tag\1025.jpg" />
+    <Content Include="upload_tag\103.jpg" />
+    <Content Include="upload_tag\1031.jpg" />
+    <Content Include="upload_tag\1032.jpg" />
+    <Content Include="upload_tag\104.jpg" />
+    <Content Include="upload_tag\1040.jpg" />
+    <Content Include="upload_tag\105.jpg" />
+    <Content Include="upload_tag\106.jpg" />
+    <Content Include="upload_tag\1085.jpg" />
+    <Content Include="upload_tag\12010.jpg" />
+    <Content Include="upload_tag\135.jpg" />
+    <Content Include="upload_tag\32.jpg" />
+    <Content Include="upload_tag\33.jpg" />
+    <Content Include="upload_tag\34.jpg" />
+    <Content Include="upload_tag\35.jpg" />
+    <Content Include="upload_tag\36.jpg" />
+    <Content Include="upload_tag\37.jpg" />
+    <Content Include="upload_tag\38.jpg" />
+    <Content Include="upload_tag\39.jpg" />
+    <Content Include="upload_tag\40.jpg" />
+    <Content Include="upload_tag\41.jpg" />
+    <Content Include="upload_tag\42.jpg" />
+    <Content Include="upload_tag\43.jpg" />
+    <Content Include="upload_tag\44.jpg" />
+    <Content Include="upload_tag\45.jpg" />
+    <Content Include="upload_tag\46.jpg" />
+    <Content Include="upload_tag\47.jpg" />
+    <Content Include="upload_tag\48.jpg" />
+    <Content Include="upload_tag\49.jpg" />
+    <Content Include="upload_tag\50.jpg" />
+    <Content Include="upload_tag\51.jpg" />
+    <Content Include="upload_tag\52.jpg" />
+    <Content Include="upload_tag\53.jpg" />
+    <Content Include="upload_tag\54.jpg" />
+    <Content Include="upload_tag\55.jpg" />
+    <Content Include="upload_tag\56.jpg" />
+    <Content Include="upload_tag\57.jpg" />
+    <Content Include="upload_tag\58.jpg" />
+    <Content Include="upload_tag\59.jpg" />
+    <Content Include="upload_tag\60.jpg" />
+    <Content Include="upload_tag\61.jpg" />
+    <Content Include="upload_tag\62.jpg" />
+    <Content Include="upload_tag\63.jpg" />
+    <Content Include="upload_tag\64.jpg" />
+    <Content Include="upload_tag\65.jpg" />
+    <Content Include="upload_tag\66.jpg" />
+    <Content Include="upload_tag\67.jpg" />
+    <Content Include="upload_tag\68.jpg" />
+    <Content Include="upload_tag\69.jpg" />
+    <Content Include="upload_tag\70.jpg" />
+    <Content Include="upload_tag\71.jpg" />
+    <Content Include="upload_tag\72.jpg" />
+    <Content Include="upload_tag\73.jpg" />
+    <Content Include="upload_tag\74.jpg" />
+    <Content Include="upload_tag\75.jpg" />
+    <Content Include="upload_tag\76.jpg" />
+    <Content Include="upload_tag\77.jpg" />
+    <Content Include="upload_tag\78.jpg" />
+    <Content Include="upload_tag\79.jpg" />
+    <Content Include="upload_tag\80.jpg" />
+    <Content Include="upload_tag\81.jpg" />
+    <Content Include="upload_tag\82.jpg" />
+    <Content Include="upload_tag\83.jpg" />
+    <Content Include="upload_tag\84.jpg" />
+    <Content Include="upload_tag\85.jpg" />
+    <Content Include="upload_tag\86.jpg" />
+    <Content Include="upload_tag\87.jpg" />
+    <Content Include="upload_tag\88.jpg" />
+    <Content Include="upload_tag\89.jpg" />
+    <Content Include="upload_tag\90.jpg" />
+    <Content Include="upload_tag\91.jpg" />
+    <Content Include="upload_tag\92.jpg" />
+    <Content Include="upload_tag\93.jpg" />
+    <Content Include="upload_tag\94.jpg" />
+    <Content Include="upload_tag\95.jpg" />
+    <Content Include="upload_tag\96.jpg" />
+    <Content Include="upload_tag\97.jpg" />
+    <Content Include="upload_tag\98.jpg" />
+    <Content Include="upload_tag\99.jpg" />
+    <Content Include="upload_tag\icon\1.jpg" />
+    <Content Include="upload_tag\icon\100.jpg" />
+    <Content Include="upload_tag\icon\1001.jpg" />
+    <Content Include="upload_tag\icon\1002.jpg" />
+    <Content Include="upload_tag\icon\1003.jpg" />
+    <Content Include="upload_tag\icon\1004.jpg" />
+    <Content Include="upload_tag\icon\1005.jpg" />
+    <Content Include="upload_tag\icon\1006.jpg" />
+    <Content Include="upload_tag\icon\1007.jpg" />
+    <Content Include="upload_tag\icon\1008.jpg" />
+    <Content Include="upload_tag\icon\1009.jpg" />
+    <Content Include="upload_tag\icon\101.jpg" />
+    <Content Include="upload_tag\icon\1010.jpg" />
+    <Content Include="upload_tag\icon\1011.jpg" />
+    <Content Include="upload_tag\icon\1012.jpg" />
+    <Content Include="upload_tag\icon\1013.jpg" />
+    <Content Include="upload_tag\icon\1014.jpg" />
+    <Content Include="upload_tag\icon\1015.jpg" />
+    <Content Include="upload_tag\icon\1016.jpg" />
+    <Content Include="upload_tag\icon\1017.jpg" />
+    <Content Include="upload_tag\icon\1018.jpg" />
+    <Content Include="upload_tag\icon\1019.jpg" />
+    <Content Include="upload_tag\icon\102.jpg" />
+    <Content Include="upload_tag\icon\1020.jpg" />
+    <Content Include="upload_tag\icon\1021.jpg" />
+    <Content Include="upload_tag\icon\1022.jpg" />
+    <Content Include="upload_tag\icon\1023.jpg" />
+    <Content Include="upload_tag\icon\1024.jpg" />
+    <Content Include="upload_tag\icon\1025.jpg" />
+    <Content Include="upload_tag\icon\103.jpg" />
+    <Content Include="upload_tag\icon\1031.jpg" />
+    <Content Include="upload_tag\icon\1032.jpg" />
+    <Content Include="upload_tag\icon\104.jpg" />
+    <Content Include="upload_tag\icon\1040.jpg" />
+    <Content Include="upload_tag\icon\105.jpg" />
+    <Content Include="upload_tag\icon\106.jpg" />
+    <Content Include="upload_tag\icon\1085.jpg" />
+    <Content Include="upload_tag\icon\12010.jpg" />
+    <Content Include="upload_tag\icon\135.jpg" />
+    <Content Include="upload_tag\icon\171.jpg" />
+    <Content Include="upload_tag\icon\172.jpg" />
+    <Content Include="upload_tag\icon\173.jpg" />
+    <Content Include="upload_tag\icon\174.jpg" />
+    <Content Include="upload_tag\icon\175.jpg" />
+    <Content Include="upload_tag\icon\176.jpg" />
+    <Content Include="upload_tag\icon\177.jpg" />
+    <Content Include="upload_tag\icon\179.jpg" />
+    <Content Include="upload_tag\icon\180.jpg" />
+    <Content Include="upload_tag\icon\181.jpg" />
+    <Content Include="upload_tag\icon\182.jpg" />
+    <Content Include="upload_tag\icon\183.jpg" />
+    <Content Include="upload_tag\icon\184.jpg" />
+    <Content Include="upload_tag\icon\185.jpg" />
+    <Content Include="upload_tag\icon\186.jpg" />
+    <Content Include="upload_tag\icon\187.jpg" />
+    <Content Include="upload_tag\icon\188.jpg" />
+    <Content Include="upload_tag\icon\189.jpg" />
+    <Content Include="upload_tag\icon\190.jpg" />
+    <Content Include="upload_tag\icon\191.jpg" />
+    <Content Include="upload_tag\icon\193.jpg" />
+    <Content Include="upload_tag\icon\194.jpg" />
+    <Content Include="upload_tag\icon\195.jpg" />
+    <Content Include="upload_tag\icon\196.jpg" />
+    <Content Include="upload_tag\icon\197.jpg" />
+    <Content Include="upload_tag\icon\198.jpg" />
+    <Content Include="upload_tag\icon\199.jpg" />
+    <Content Include="upload_tag\icon\200.jpg" />
+    <Content Include="upload_tag\icon\201.jpg" />
+    <Content Include="upload_tag\icon\202.jpg" />
+    <Content Include="upload_tag\icon\203.jpg" />
+    <Content Include="upload_tag\icon\204.jpg" />
+    <Content Include="upload_tag\icon\206.jpg" />
+    <Content Include="upload_tag\icon\207.jpg" />
+    <Content Include="upload_tag\icon\208.jpg" />
+    <Content Include="upload_tag\icon\209.jpg" />
+    <Content Include="upload_tag\icon\210.jpg" />
+    <Content Include="upload_tag\icon\211.jpg" />
+    <Content Include="upload_tag\icon\212.jpg" />
+    <Content Include="upload_tag\icon\213.jpg" />
+    <Content Include="upload_tag\icon\214.jpg" />
+    <Content Include="upload_tag\icon\215.jpg" />
+    <Content Include="upload_tag\icon\216.jpg" />
+    <Content Include="upload_tag\icon\217.jpg" />
+    <Content Include="upload_tag\icon\218.jpg" />
+    <Content Include="upload_tag\icon\219.jpg" />
+    <Content Include="upload_tag\icon\220.jpg" />
+    <Content Include="upload_tag\icon\221.jpg" />
+    <Content Include="upload_tag\icon\222.jpg" />
+    <Content Include="upload_tag\icon\223.jpg" />
+    <Content Include="upload_tag\icon\224.jpg" />
+    <Content Include="upload_tag\icon\225.jpg" />
+    <Content Include="upload_tag\icon\226.jpg" />
+    <Content Include="upload_tag\icon\227.jpg" />
+    <Content Include="upload_tag\icon\228.jpg" />
+    <Content Include="upload_tag\icon\229.jpg" />
+    <Content Include="upload_tag\icon\230.jpg" />
+    <Content Include="upload_tag\icon\231.jpg" />
+    <Content Include="upload_tag\icon\232.jpg" />
+    <Content Include="upload_tag\icon\233.jpg" />
+    <Content Include="upload_tag\icon\234.jpg" />
+    <Content Include="upload_tag\icon\235.jpg" />
+    <Content Include="upload_tag\icon\236.jpg" />
+    <Content Include="upload_tag\icon\237.jpg" />
+    <Content Include="upload_tag\icon\242.jpg" />
+    <Content Include="upload_tag\icon\243.jpg" />
+    <Content Include="upload_tag\icon\244.jpg" />
+    <Content Include="upload_tag\icon\245.jpg" />
+    <Content Include="upload_tag\icon\246.jpg" />
+    <Content Include="upload_tag\icon\247.jpg" />
+    <Content Include="upload_tag\icon\248.jpg" />
+    <Content Include="upload_tag\icon\249.jpg" />
+    <Content Include="upload_tag\icon\250.jpg" />
+    <Content Include="upload_tag\icon\251.jpg" />
+    <Content Include="upload_tag\icon\252.jpg" />
+    <Content Include="upload_tag\icon\253.jpg" />
+    <Content Include="upload_tag\icon\254.jpg" />
+    <Content Include="upload_tag\icon\255.jpg" />
+    <Content Include="upload_tag\icon\256.jpg" />
+    <Content Include="upload_tag\icon\257.jpg" />
+    <Content Include="upload_tag\icon\258.jpg" />
+    <Content Include="upload_tag\icon\259.jpg" />
+    <Content Include="upload_tag\icon\260.jpg" />
+    <Content Include="upload_tag\icon\261.jpg" />
+    <Content Include="upload_tag\icon\262.jpg" />
+    <Content Include="upload_tag\icon\263.jpg" />
+    <Content Include="upload_tag\icon\264.jpg" />
+    <Content Include="upload_tag\icon\265.jpg" />
+    <Content Include="upload_tag\icon\266.jpg" />
+    <Content Include="upload_tag\icon\267.jpg" />
+    <Content Include="upload_tag\icon\268.jpg" />
+    <Content Include="upload_tag\icon\269.jpg" />
+    <Content Include="upload_tag\icon\270.jpg" />
+    <Content Include="upload_tag\icon\271.jpg" />
+    <Content Include="upload_tag\icon\272.jpg" />
+    <Content Include="upload_tag\icon\273.jpg" />
+    <Content Include="upload_tag\icon\274.jpg" />
+    <Content Include="upload_tag\icon\275.jpg" />
+    <Content Include="upload_tag\icon\276.jpg" />
+    <Content Include="upload_tag\icon\277.jpg" />
+    <Content Include="upload_tag\icon\278.jpg" />
+    <Content Include="upload_tag\icon\279.jpg" />
+    <Content Include="upload_tag\icon\280.jpg" />
+    <Content Include="upload_tag\icon\281.jpg" />
+    <Content Include="upload_tag\icon\282.jpg" />
+    <Content Include="upload_tag\icon\283.jpg" />
+    <Content Include="upload_tag\icon\284.jpg" />
+    <Content Include="upload_tag\icon\285.jpg" />
+    <Content Include="upload_tag\icon\286.jpg" />
+    <Content Include="upload_tag\icon\287.jpg" />
+    <Content Include="upload_tag\icon\288.jpg" />
+    <Content Include="upload_tag\icon\289.jpg" />
+    <Content Include="upload_tag\icon\290.jpg" />
+    <Content Include="upload_tag\icon\291.jpg" />
+    <Content Include="upload_tag\icon\292.jpg" />
+    <Content Include="upload_tag\icon\293.jpg" />
+    <Content Include="upload_tag\icon\294.jpg" />
+    <Content Include="upload_tag\icon\295.jpg" />
+    <Content Include="upload_tag\icon\296.jpg" />
+    <Content Include="upload_tag\icon\297.jpg" />
+    <Content Include="upload_tag\icon\298.jpg" />
+    <Content Include="upload_tag\icon\299.jpg" />
+    <Content Include="upload_tag\icon\300.jpg" />
+    <Content Include="upload_tag\icon\301.jpg" />
+    <Content Include="upload_tag\icon\302.jpg" />
+    <Content Include="upload_tag\icon\303.jpg" />
+    <Content Include="upload_tag\icon\304.jpg" />
+    <Content Include="upload_tag\icon\305.jpg" />
+    <Content Include="upload_tag\icon\306.jpg" />
+    <Content Include="upload_tag\icon\307.jpg" />
+    <Content Include="upload_tag\icon\308.jpg" />
+    <Content Include="upload_tag\icon\309.jpg" />
+    <Content Include="upload_tag\icon\310.jpg" />
+    <Content Include="upload_tag\icon\311.jpg" />
+    <Content Include="upload_tag\icon\312.jpg" />
+    <Content Include="upload_tag\icon\313.jpg" />
+    <Content Include="upload_tag\icon\314.jpg" />
+    <Content Include="upload_tag\icon\315.jpg" />
+    <Content Include="upload_tag\icon\316.jpg" />
+    <Content Include="upload_tag\icon\317.jpg" />
+    <Content Include="upload_tag\icon\318.jpg" />
+    <Content Include="upload_tag\icon\319.jpg" />
+    <Content Include="upload_tag\icon\32.jpg" />
+    <Content Include="upload_tag\icon\320.jpg" />
+    <Content Include="upload_tag\icon\321.jpg" />
+    <Content Include="upload_tag\icon\322.jpg" />
+    <Content Include="upload_tag\icon\323.jpg" />
+    <Content Include="upload_tag\icon\324.jpg" />
+    <Content Include="upload_tag\icon\325.jpg" />
+    <Content Include="upload_tag\icon\326.jpg" />
+    <Content Include="upload_tag\icon\327.jpg" />
+    <Content Include="upload_tag\icon\328.jpg" />
+    <Content Include="upload_tag\icon\329.jpg" />
+    <Content Include="upload_tag\icon\33.jpg" />
+    <Content Include="upload_tag\icon\34.jpg" />
+    <Content Include="upload_tag\icon\344.jpg" />
+    <Content Include="upload_tag\icon\345.jpg" />
+    <Content Include="upload_tag\icon\346.jpg" />
+    <Content Include="upload_tag\icon\347.jpg" />
+    <Content Include="upload_tag\icon\348.jpg" />
+    <Content Include="upload_tag\icon\349.jpg" />
+    <Content Include="upload_tag\icon\35.jpg" />
+    <Content Include="upload_tag\icon\350.jpg" />
+    <Content Include="upload_tag\icon\351.jpg" />
+    <Content Include="upload_tag\icon\352.jpg" />
+    <Content Include="upload_tag\icon\353.jpg" />
+    <Content Include="upload_tag\icon\354.jpg" />
+    <Content Include="upload_tag\icon\355.jpg" />
+    <Content Include="upload_tag\icon\356.jpg" />
+    <Content Include="upload_tag\icon\357.jpg" />
+    <Content Include="upload_tag\icon\358.jpg" />
+    <Content Include="upload_tag\icon\359.jpg" />
+    <Content Include="upload_tag\icon\36.jpg" />
+    <Content Include="upload_tag\icon\360.jpg" />
+    <Content Include="upload_tag\icon\361.jpg" />
+    <Content Include="upload_tag\icon\362.jpg" />
+    <Content Include="upload_tag\icon\363.jpg" />
+    <Content Include="upload_tag\icon\37.jpg" />
+    <Content Include="upload_tag\icon\376.jpg" />
+    <Content Include="upload_tag\icon\377.jpg" />
+    <Content Include="upload_tag\icon\378.jpg" />
+    <Content Include="upload_tag\icon\379.jpg" />
+    <Content Include="upload_tag\icon\38.jpg" />
+    <Content Include="upload_tag\icon\380.jpg" />
+    <Content Include="upload_tag\icon\381.jpg" />
+    <Content Include="upload_tag\icon\382.jpg" />
+    <Content Include="upload_tag\icon\383.jpg" />
+    <Content Include="upload_tag\icon\384.jpg" />
+    <Content Include="upload_tag\icon\385.jpg" />
+    <Content Include="upload_tag\icon\39.jpg" />
+    <Content Include="upload_tag\icon\398.jpg" />
+    <Content Include="upload_tag\icon\399.jpg" />
+    <Content Include="upload_tag\icon\40.jpg" />
+    <Content Include="upload_tag\icon\400.jpg" />
+    <Content Include="upload_tag\icon\401.jpg" />
+    <Content Include="upload_tag\icon\402.jpg" />
+    <Content Include="upload_tag\icon\403.jpg" />
+    <Content Include="upload_tag\icon\404.jpg" />
+    <Content Include="upload_tag\icon\405.jpg" />
+    <Content Include="upload_tag\icon\406.jpg" />
+    <Content Include="upload_tag\icon\407.jpg" />
+    <Content Include="upload_tag\icon\408.jpg" />
+    <Content Include="upload_tag\icon\409.jpg" />
+    <Content Include="upload_tag\icon\41.jpg" />
+    <Content Include="upload_tag\icon\410.jpg" />
+    <Content Include="upload_tag\icon\411.jpg" />
+    <Content Include="upload_tag\icon\412.jpg" />
+    <Content Include="upload_tag\icon\413.jpg" />
+    <Content Include="upload_tag\icon\414.jpg" />
+    <Content Include="upload_tag\icon\415.jpg" />
+    <Content Include="upload_tag\icon\416.jpg" />
+    <Content Include="upload_tag\icon\417.jpg" />
+    <Content Include="upload_tag\icon\418.jpg" />
+    <Content Include="upload_tag\icon\419.jpg" />
+    <Content Include="upload_tag\icon\42.jpg" />
+    <Content Include="upload_tag\icon\420.jpg" />
+    <Content Include="upload_tag\icon\421.jpg" />
+    <Content Include="upload_tag\icon\422.jpg" />
+    <Content Include="upload_tag\icon\423.jpg" />
+    <Content Include="upload_tag\icon\424.jpg" />
+    <Content Include="upload_tag\icon\43.jpg" />
+    <Content Include="upload_tag\icon\439.jpg" />
+    <Content Include="upload_tag\icon\44.jpg" />
+    <Content Include="upload_tag\icon\440.jpg" />
+    <Content Include="upload_tag\icon\441.jpg" />
+    <Content Include="upload_tag\icon\442.jpg" />
+    <Content Include="upload_tag\icon\443.jpg" />
+    <Content Include="upload_tag\icon\444.jpg" />
+    <Content Include="upload_tag\icon\445.jpg" />
+    <Content Include="upload_tag\icon\446.jpg" />
+    <Content Include="upload_tag\icon\447.jpg" />
+    <Content Include="upload_tag\icon\448.jpg" />
+    <Content Include="upload_tag\icon\449.jpg" />
+    <Content Include="upload_tag\icon\45.jpg" />
+    <Content Include="upload_tag\icon\451.jpg" />
+    <Content Include="upload_tag\icon\452.jpg" />
+    <Content Include="upload_tag\icon\453.jpg" />
+    <Content Include="upload_tag\icon\454.jpg" />
+    <Content Include="upload_tag\icon\455.jpg" />
+    <Content Include="upload_tag\icon\456.jpg" />
+    <Content Include="upload_tag\icon\457.jpg" />
+    <Content Include="upload_tag\icon\458.jpg" />
+    <Content Include="upload_tag\icon\459.jpg" />
+    <Content Include="upload_tag\icon\46.jpg" />
+    <Content Include="upload_tag\icon\460.jpg" />
+    <Content Include="upload_tag\icon\461.jpg" />
+    <Content Include="upload_tag\icon\47.jpg" />
+    <Content Include="upload_tag\icon\478.jpg" />
+    <Content Include="upload_tag\icon\479.jpg" />
+    <Content Include="upload_tag\icon\48.jpg" />
+    <Content Include="upload_tag\icon\480.jpg" />
+    <Content Include="upload_tag\icon\481.jpg" />
+    <Content Include="upload_tag\icon\487.jpg" />
+    <Content Include="upload_tag\icon\488.jpg" />
+    <Content Include="upload_tag\icon\489.jpg" />
+    <Content Include="upload_tag\icon\49.jpg" />
+    <Content Include="upload_tag\icon\490.jpg" />
+    <Content Include="upload_tag\icon\491.jpg" />
+    <Content Include="upload_tag\icon\492.jpg" />
+    <Content Include="upload_tag\icon\493.jpg" />
+    <Content Include="upload_tag\icon\494.jpg" />
+    <Content Include="upload_tag\icon\495.jpg" />
+    <Content Include="upload_tag\icon\496.jpg" />
+    <Content Include="upload_tag\icon\497.jpg" />
+    <Content Include="upload_tag\icon\498.jpg" />
+    <Content Include="upload_tag\icon\499.jpg" />
+    <Content Include="upload_tag\icon\50.jpg" />
+    <Content Include="upload_tag\icon\500.jpg" />
+    <Content Include="upload_tag\icon\51.jpg" />
+    <Content Include="upload_tag\icon\52.jpg" />
+    <Content Include="upload_tag\icon\522.jpg" />
+    <Content Include="upload_tag\icon\523.jpg" />
+    <Content Include="upload_tag\icon\524.jpg" />
+    <Content Include="upload_tag\icon\525.jpg" />
+    <Content Include="upload_tag\icon\527.jpg" />
+    <Content Include="upload_tag\icon\528.jpg" />
+    <Content Include="upload_tag\icon\529.jpg" />
+    <Content Include="upload_tag\icon\53.jpg" />
+    <Content Include="upload_tag\icon\530.jpg" />
+    <Content Include="upload_tag\icon\531.jpg" />
+    <Content Include="upload_tag\icon\532.jpg" />
+    <Content Include="upload_tag\icon\533.jpg" />
+    <Content Include="upload_tag\icon\534.jpg" />
+    <Content Include="upload_tag\icon\535.jpg" />
+    <Content Include="upload_tag\icon\536.jpg" />
+    <Content Include="upload_tag\icon\537.jpg" />
+    <Content Include="upload_tag\icon\538.jpg" />
+    <Content Include="upload_tag\icon\539.jpg" />
+    <Content Include="upload_tag\icon\54.jpg" />
+    <Content Include="upload_tag\icon\540.jpg" />
+    <Content Include="upload_tag\icon\55.jpg" />
+    <Content Include="upload_tag\icon\56.jpg" />
+    <Content Include="upload_tag\icon\57.jpg" />
+    <Content Include="upload_tag\icon\570.jpg" />
+    <Content Include="upload_tag\icon\571.jpg" />
+    <Content Include="upload_tag\icon\572.jpg" />
+    <Content Include="upload_tag\icon\573.jpg" />
+    <Content Include="upload_tag\icon\574.jpg" />
+    <Content Include="upload_tag\icon\575.jpg" />
+    <Content Include="upload_tag\icon\576.jpg" />
+    <Content Include="upload_tag\icon\577.jpg" />
+    <Content Include="upload_tag\icon\578.jpg" />
+    <Content Include="upload_tag\icon\58.jpg" />
+    <Content Include="upload_tag\icon\59.jpg" />
+    <Content Include="upload_tag\icon\60.jpg" />
+    <Content Include="upload_tag\icon\61.jpg" />
+    <Content Include="upload_tag\icon\62.jpg" />
+    <Content Include="upload_tag\icon\63.jpg" />
+    <Content Include="upload_tag\icon\64.jpg" />
+    <Content Include="upload_tag\icon\65.jpg" />
+    <Content Include="upload_tag\icon\66.jpg" />
+    <Content Include="upload_tag\icon\67.jpg" />
+    <Content Include="upload_tag\icon\68.jpg" />
+    <Content Include="upload_tag\icon\69.jpg" />
+    <Content Include="upload_tag\icon\70.jpg" />
+    <Content Include="upload_tag\icon\72.jpg" />
+    <Content Include="upload_tag\icon\73.jpg" />
+    <Content Include="upload_tag\icon\74.jpg" />
+    <Content Include="upload_tag\icon\75.jpg" />
+    <Content Include="upload_tag\icon\76.jpg" />
+    <Content Include="upload_tag\icon\77.jpg" />
+    <Content Include="upload_tag\icon\78.jpg" />
+    <Content Include="upload_tag\icon\79.jpg" />
+    <Content Include="upload_tag\icon\80.jpg" />
+    <Content Include="upload_tag\icon\81.jpg" />
+    <Content Include="upload_tag\icon\82.jpg" />
+    <Content Include="upload_tag\icon\83.jpg" />
+    <Content Include="upload_tag\icon\84.jpg" />
+    <Content Include="upload_tag\icon\85.jpg" />
+    <Content Include="upload_tag\icon\86.jpg" />
+    <Content Include="upload_tag\icon\87.jpg" />
+    <Content Include="upload_tag\icon\88.jpg" />
+    <Content Include="upload_tag\icon\89.jpg" />
+    <Content Include="upload_tag\icon\90.jpg" />
+    <Content Include="upload_tag\icon\91.jpg" />
+    <Content Include="upload_tag\icon\92.jpg" />
+    <Content Include="upload_tag\icon\93.jpg" />
+    <Content Include="upload_tag\icon\94.jpg" />
+    <Content Include="upload_tag\icon\95.jpg" />
+    <Content Include="upload_tag\icon\96.jpg" />
+    <Content Include="upload_tag\icon\97.jpg" />
+    <Content Include="upload_tag\icon\98.jpg" />
+    <Content Include="upload_tag\icon\99.jpg" />
+    <Content Include="upload_tag\icon\diet.jpg" />
+    <Content Include="upload_tag\icon\golf.jpg" />
+    <Content Include="upload_tag\icon\lotus-position.jpg" />
+    <Content Include="upload_tag\icon\salad.jpg" />
+    <Content Include="upload_tag\icon\weightlifting %281%29.jpg" />
+    <Content Include="upload_tag\icon\weightlifting %282%29.jpg" />
+    <Content Include="upload_tag\icon\weightlifting.jpg" />
+    <Content Include="upload_tag\icon\yoga.jpg" />
+    <Content Include="UserSignUp.aspx" />
+    <Content Include="vendor\OwlCarousel\owl.carousel.min.css" />
+    <Content Include="vendor\OwlCarousel\owl.carousel.min.js" />
+    <Content Include="vendor\OwlCarousel\owl.theme.default.min.css" />
+    <Content Include="vendor\OwlCarousel\owl.video.play.png" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Add-Category-Kayword.aspx.cs">
+      <DependentUpon>Add-Category-Kayword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Add-Category-Kayword.aspx.designer.cs">
+      <DependentUpon>Add-Category-Kayword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\add-category.aspx.cs">
+      <DependentUpon>add-category.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\add-category.aspx.designer.cs">
+      <DependentUpon>add-category.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Add-City.aspx.cs">
+      <DependentUpon>Add-City.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Add-City.aspx.designer.cs">
+      <DependentUpon>Add-City.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\add-listing.aspx.cs">
+      <DependentUpon>add-listing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\add-listing.aspx.designer.cs">
+      <DependentUpon>add-listing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Add-tag.aspx.cs">
+      <DependentUpon>Add-tag.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Add-tag.aspx.designer.cs">
+      <DependentUpon>Add-tag.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Change-image-master-tag.aspx.cs">
+      <DependentUpon>Change-image-master-tag.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Change-image-master-tag.aspx.designer.cs">
+      <DependentUpon>Change-image-master-tag.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Change-image-master.aspx.cs">
+      <DependentUpon>Change-image-master.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Change-image-master.aspx.designer.cs">
+      <DependentUpon>Change-image-master.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\City.asmx.cs">
+      <DependentUpon>City.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\Company-enquiry-list.aspx.cs">
+      <DependentUpon>Company-enquiry-list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Company-enquiry-list.aspx.designer.cs">
+      <DependentUpon>Company-enquiry-list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\DLogin.aspx.cs">
+      <DependentUpon>DLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\DLogin.aspx.designer.cs">
+      <DependentUpon>DLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Enable-Disable-listing.aspx.cs">
+      <DependentUpon>Enable-Disable-listing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Enable-Disable-listing.aspx.designer.cs">
+      <DependentUpon>Enable-Disable-listing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\LocalPanditAdmin.Master.cs">
+      <DependentUpon>LocalPanditAdmin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\LocalPanditAdmin.Master.designer.cs">
+      <DependentUpon>LocalPanditAdmin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\manage-listing-master.aspx.cs">
+      <DependentUpon>manage-listing-master.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\manage-listing-master.aspx.designer.cs">
+      <DependentUpon>manage-listing-master.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\manage-listing.aspx.cs">
+      <DependentUpon>manage-listing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\manage-listing.aspx.designer.cs">
+      <DependentUpon>manage-listing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\New-Manage-Listing.aspx.cs">
+      <DependentUpon>New-Manage-Listing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\New-Manage-Listing.aspx.designer.cs">
+      <DependentUpon>New-Manage-Listing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Set-priority.aspx.cs">
+      <DependentUpon>Set-priority.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Set-priority.aspx.designer.cs">
+      <DependentUpon>Set-priority.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\User-requirement.aspx.cs">
+      <DependentUpon>User-requirement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\User-requirement.aspx.designer.cs">
+      <DependentUpon>User-requirement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Category.aspx.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Category.aspx.designer.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryOld.aspx.cs">
+      <DependentUpon>CategoryOld.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CategoryOld.aspx.designer.cs">
+      <DependentUpon>CategoryOld.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FreeListingLogin.aspx.cs">
+      <DependentUpon>FreeListingLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FreeListingLogin.aspx.designer.cs">
+      <DependentUpon>FreeListingLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FreeListingRegs.aspx.cs">
+      <DependentUpon>FreeListingRegs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FreeListingRegs.aspx.designer.cs">
+      <DependentUpon>FreeListingRegs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListingDetails.aspx.cs">
+      <DependentUpon>ListingDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListingDetails.aspx.designer.cs">
+      <DependentUpon>ListingDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListingPage.aspx.cs">
+      <DependentUpon>ListingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListingPage.aspx.designer.cs">
+      <DependentUpon>ListingPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="new1.aspx.cs">
+      <DependentUpon>new1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="new1.aspx.designer.cs">
+      <DependentUpon>new1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewDefault.aspx.cs">
+      <DependentUpon>NewDefault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewDefault.aspx.designer.cs">
+      <DependentUpon>NewDefault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewFreeListingRegs.aspx.cs">
+      <DependentUpon>NewFreeListingRegs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewFreeListingRegs.aspx.designer.cs">
+      <DependentUpon>NewFreeListingRegs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecoverPassword.aspx.cs">
+      <DependentUpon>RecoverPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RecoverPassword.aspx.designer.cs">
+      <DependentUpon>RecoverPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tag.aspx.cs">
+      <DependentUpon>Tag.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tag.aspx.designer.cs">
+      <DependentUpon>Tag.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserSignUp.aspx.cs">
+      <DependentUpon>UserSignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserSignUp.aspx.designer.cs">
+      <DependentUpon>UserSignUp.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\assets\bootstrap-colorpicker\css\colorpicker.css.tmp" />
+    <Content Include="Admin\assets\bootstrap-datepicker\css\datepicker.css.tmp" />
+    <Content Include="Admin\assets\bootstrap-duallistbox\duallistbox\bootstrap-duallistbox.css.tmp" />
+    <Content Include="Admin\assets\bootstrap-fileupload\bootstrap-fileupload.css.tmp" />
+    <Content Include="Admin\assets\bootstrap-timepicker\compiled\timepicker.css.tmp" />
+    <Content Include="Admin\assets\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Admin\assets\bootstrap\fonts\glyphicons-halflings-regular.svg.tmp" />
+    <Content Include="Admin\assets\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Admin\assets\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Admin\assets\bootstrap\fonts\glyphicons-halflings-regulard41d.eot.tmp" />
+    <Content Include="Admin\assets\chosen-bootstrap\chosen.min.css.tmp" />
+    <Content Include="Admin\assets\clockface\css\clockface.css.tmp" />
+    <Content Include="Admin\assets\code-prettify\code-prettify.css.tmp" />
+    <Content Include="Admin\assets\dropzone\downloads\css\dropzone.css.tmp" />
+    <Content Include="Admin\assets\font-awesome\fonts\fontawesome-webfont862f.eot" />
+    <Content Include="Admin\assets\font-awesome\fonts\fontawesome-webfont862f.svg.tmp" />
+    <Content Include="Admin\assets\font-awesome\fonts\fontawesome-webfont862f.ttf" />
+    <Content Include="Admin\assets\font-awesome\fonts\fontawesome-webfont862f.woff" />
+    <Content Include="Admin\assets\font-awesome\fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="Admin\assets\gritter\css\jquery.gritter.css.tmp" />
+    <Content Include="Admin\assets\jquery-pwstrength\jquery.pwstrength.css.tmp" />
+    <Content Include="Admin\assets\jquery-tags-input\jquery.tagsinput.css.tmp" />
+    <Content Include="Admin\assets\jquery-ui\jquery-ui.min.css.tmp" />
+    <Content Include="Admin\fonts\fontawesome-webfont.eot" />
+    <Content Include="Admin\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Admin\fonts\fontawesome-webfont.woff" />
+    <Content Include="Admin\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Admin\fonts\FontAwesome.otf" />
+    <Content Include="Admin\LocalPanditAdmin.Master" />
+    <Content Include="assets\fonts\fontawesome-webfont3e6e.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont3e6e.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont3e6e.woff" />
+    <Content Include="assets\fonts\fontawesome-webfont3e6e.woff2" />
+    <Content Include="assets\fonts\fontawesome-webfontd41d.eot" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{7353963b-ec11-448f-9f89-32d4552c3389}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="upload_image\upload_image\categories\" />
+    <Folder Include="upload_image\upload_image\products\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54363</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44318/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aismtc", "aismtc\aismtc.csproj", "{A859FB95-4EF5-40C1-ACE1-A7899F3AEFCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{62A796FF-5670-4685-B31E-2768900C40C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A859FB95-4EF5-40C1-ACE1-A7899F3AEFCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A859FB95-4EF5-40C1-ACE1-A7899F3AEFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A859FB95-4EF5-40C1-ACE1-A7899F3AEFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A859FB95-4EF5-40C1-ACE1-A7899F3AEFCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A796FF-5670-4685-B31E-2768900C40C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A796FF-5670-4685-B31E-2768900C40C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A796FF-5670-4685-B31E-2768900C40C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A796FF-5670-4685-B31E-2768900C40C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {975B6A89-531F-4ECA-A833-229C8E23BB35}
+	EndGlobalSection
+EndGlobal

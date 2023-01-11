@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\hp\Desktop\Deploy\MIL</_PublishTargetUrl>
+    <History>True|2021-08-04T04:08:35.9954882Z;True|2021-08-03T19:08:15.2921024+05:30;True|2021-08-03T19:06:24.0252739+05:30;True|2021-08-03T17:57:16.4419249+05:30;True|2021-08-03T17:51:50.4530128+05:30;True|2021-08-02T18:42:24.8234977+05:30;True|2021-08-02T18:17:19.8200121+05:30;True|2021-08-02T17:52:31.9487918+05:30;True|2021-08-02T17:24:30.4212237+05:30;True|2021-08-02T17:24:22.4738688+05:30;True|2021-08-02T17:00:24.8990952+05:30;True|2021-08-02T16:49:27.3389937+05:30;True|2021-08-02T16:49:22.9229764+05:30;True|2021-08-02T16:42:55.7118515+05:30;True|2021-08-02T16:42:49.9651688+05:30;True|2021-08-02T14:13:45.7555077+05:30;True|2021-08-02T14:13:41.9156420+05:30;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>02/08/2021 18:30:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/MIL.dll">
+      <publishTime>08/04/2021 09:38:34</publishTime>
+    </File>
+    <File Include="bin/MIL.pdb">
+      <publishTime>08/04/2021 09:38:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/27/2016 21:50:24</publishTime>
+    </File>
+    <File Include="career.aspx">
+      <publishTime>02/08/2021 18:30:39</publishTime>
+    </File>
+    <File Include="Contact.aspx">
+      <publishTime>08/04/2021 09:37:51</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>02/08/2021 17:07:32</publishTime>
+    </File>
+    <File Include="css/font-awesome.min.css">
+      <publishTime>07/31/2021 13:43:45</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>02/08/2021 18:29:28</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>08/03/2021 18:57:07</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>07/31/2021 13:43:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>07/31/2021 13:43:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>07/31/2021 13:43:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>07/31/2021 13:43:45</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>07/31/2021 13:43:45</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>07/31/2021 13:43:45</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/31/2021 16:05:15</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>02/08/2021 16:42:13</publishTime>
+    </File>
+    <File Include="images/about.jpg">
+      <publishTime>07/31/2021 14:49:27</publishTime>
+    </File>
+    <File Include="images/arrow.png">
+      <publishTime>07/31/2021 13:43:45</publishTime>
+    </File>
+    <File Include="images/b3.jpg">
+      <publishTime>08/02/2021 15:04:34</publishTime>
+    </File>
+    <File Include="images/b5.jpg">
+      <publishTime>07/31/2021 13:43:45</publishTime>
+    </File>
+    <File Include="images/banner1.jpg">
+      <publishTime>08/02/2021 11:48:53</publishTime>
+    </File>
+    <File Include="images/blog1.jpg">
+      <publishTime>07/31/2021 13:43:45</publishTime>
+    </File>
+    <File Include="images/blog2.jpg">
+      <publishTime>07/31/2021 13:43:45</publishTime>
+    </File>
+    <File Include="images/blog3.jpg">
+      <publishTime>07/31/2021 13:43:45</publishTime>
+    </File>
+    <File Include="images/blog4.jpg">
+      <publishTime>07/31/2021 13:43:45</publishTime>
+    </File>
+    <File Include="images/car1.png">
+      <publishTime>07/31/2021 15:05:52</publishTime>
+    </File>
+    <File Include="images/circle-feature-agriculture-b6.7.jpg">
+      <publishTime>07/31/2021 14:11:22</publishTime>
+    </File>
+    <File Include="images/download.jpeg">
+      <publishTime>07/31/2021 14:11:22</publishTime>
+    </File>
+    <File Include="images/electrical motor.jpg">
+      <publishTime>07/31/2021 14:11:22</publishTime>
+    </File>
+    <File Include="images/electriccar.jpg">
+      <publishTime>02/08/2021 17:31:23</publishTime>
+    </File>
+    <File Include="images/ev-electric-motor-tile-yellow-background.jpg">
+      <publishTime>08/02/2021 16:04:29</publishTime>
+    </File>
+    <File Include="images/ev-electric-motor-tile-yellow-background.webp">
+      <publishTime>07/31/2021 14:11:22</publishTime>
+    </File>
+    <File Include="images/ev-regenerative-braking.webp">
+      <publishTime>07/31/2021 14:11:22</publishTime>
+    </File>
+    <File Include="images/EV-West-unveils-Tesla-crate-motor-for-EV-conversion-projects-2.jpg">
+      <publishTime>07/31/2021 14:11:22</publishTime>
+    </File>
+    <File Include="images/g1.jpg">
+      <publishTime>07/31/2021 13:43:45</publishTime>
+    </File>
+    <File Include="images/health.jpg">
+      <publishTime>08/02/2021 12:39:43</publishTime>
+    </File>
+    <File Include="images/how-electric-cars-work 1.jpg">
+      <publishTime>08/02/2021 11:52:01</publishTime>
+    </File>
+    <File Include="images/how-electric-cars-work.jpg">
+      <publishTime>07/31/2021 14:11:22</publishTime>
+    </File>
+    <File Include="images/message.jpg">
+      <publishTime>08/02/2021 09:58:03</publishTime>
+    </File>
+    <File Include="images/milgoals.jpg">
+      <publishTime>08/02/2021 10:14:06</publishTime>
+    </File>
+    <File Include="images/millogo.jpg">
+      <publishTime>08/02/2021 15:10:39</publishTime>
+    </File>
+    <File Include="images/mittal logo.png">
+      <publishTime>07/31/2021 14:11:22</publishTime>
+    </File>
+    <File Include="images/MzM5ODEzNg.jpeg">
+      <publishTime>07/31/2021 14:11:22</publishTime>
+    </File>
+    <File Include="images/qm.jpg">
+      <publishTime>08/02/2021 11:25:14</publishTime>
+    </File>
+    <File Include="images/recr.jpeg">
+      <publishTime>08/02/2021 12:37:51</publishTime>
+    </File>
+    <File Include="images/speech.jfif">
+      <publishTime>08/02/2021 09:59:22</publishTime>
+    </File>
+    <File Include="images/t1.jpg">
+      <publishTime>07/31/2021 13:43:45</publishTime>
+    </File>
+    <File Include="images/t2.jpg">
+      <publishTime>07/31/2021 13:43:45</publishTime>
+    </File>
+    <File Include="images/t3.jpg">
+      <publishTime>07/31/2021 13:43:45</publishTime>
+    </File>
+    <File Include="images/t4.jpg">
+      <publishTime>07/31/2021 13:43:45</publishTime>
+    </File>
+    <File Include="images/vaccin.jpg">
+      <publishTime>08/02/2021 12:21:40</publishTime>
+    </File>
+    <File Include="images/vision-and-mission.jpg">
+      <publishTime>08/02/2021 10:32:44</publishTime>
+    </File>
+    <File Include="MIL.Master">
+      <publishTime>08/03/2021 19:04:30</publishTime>
+    </File>
+    <File Include="tranning.aspx">
+      <publishTime>02/08/2021 18:31:02</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/02/2021 17:00:24</publishTime>
+    </File>
+    <File Include="whatwedo.aspx">
+      <publishTime>02/08/2021 18:31:02</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

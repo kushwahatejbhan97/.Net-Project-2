@@ -1,0 +1,313 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FD62DF8C-849F-4471-A778-70CEB7A32713}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>punarvaas</RootNamespace>
+    <AssemblyName>punarvaas</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44327</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="about.aspx" />
+    <Content Include="alcohol-treatment.aspx" />
+    <Content Include="contact.aspx" />
+    <Content Include="css\blog.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\fontawesome-all.min.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\simpleLightbox.css" />
+    <Content Include="css\style3.css" />
+    <Content Include="css\style2.css" />
+    <Content Include="css\style.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="drug-rehabilitation.aspx" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="how-we-help.aspx" />
+    <Content Include="HtmlPage1.html" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\client.jpg" />
+    <Content Include="images\client1.jpg" />
+    <Content Include="images\contact.jpg" />
+    <Content Include="images\g1.jpg" />
+    <Content Include="images\g2.jpg" />
+    <Content Include="images\g3.jpg" />
+    <Content Include="images\g4.jpg" />
+    <Content Include="images\g5.jpg" />
+    <Content Include="images\g6.jpg" />
+    <Content Include="images\g7.jpg" />
+    <Content Include="images\g8.jpg" />
+    <Content Include="images\g9.jpg" />
+    <Content Include="images\left.png" />
+    <Content Include="images\punarvaas-logo-ps-whitebg.png" />
+    <Content Include="images\right.png" />
+    <Content Include="images\slide.jpg" />
+    <Content Include="images\stats.jpg" />
+    <Content Include="images\t1.jpg" />
+    <Content Include="images\t2.png" />
+    <Content Include="images\t3.png" />
+    <Content Include="images\t4.jpg" />
+    <Content Include="images\te1.jpg" />
+    <Content Include="images\te2.jpg" />
+    <Content Include="images\te3.jpg" />
+    <Content Include="images\te4.jpg" />
+    <Content Include="images\te5.jpg" />
+    <Content Include="images\testi.jpg" />
+    <Content Include="img\12 step program.jpg" />
+    <Content Include="img\12 steps.jfif" />
+    <Content Include="img\12-steps-change.jpg" />
+    <Content Include="img\1640413800554003_1317216182.png" />
+    <Content Include="img\1640413800554003_1317216182_1.png" />
+    <Content Include="img\Addiction-Recovery-2.jpeg" />
+    <Content Include="img\alcohol rehab first phase.jpg" />
+    <Content Include="img\alcohol rehab second phase.jpg" />
+    <Content Include="img\alcohol rehab third phase.jpg" />
+    <Content Include="img\alcohol withdrawal.jpg" />
+    <Content Include="img\Best facilities 1.jpg" />
+    <Content Include="img\Best facilities 2.jpg" />
+    <Content Include="img\Best facilities 3.jpg" />
+    <Content Include="img\best rehab centre.jpg" />
+    <Content Include="img\conducive environment 1.jpg" />
+    <Content Include="img\contact us.jpg" />
+    <Content Include="img\drug-addiction-signs.jpg" />
+    <Content Include="img\easily accesible.png" />
+    <Content Include="img\Easily Accessible 1.jpeg" />
+    <Content Include="img\family program 2.jpg" />
+    <Content Include="img\family program.jpg" />
+    <Content Include="img\group therapy 1.jpg" />
+    <Content Include="img\IMG_20220204_143011.jpg" />
+    <Content Include="img\IMG_20220204_145035.jpg" />
+    <Content Include="img\IMG_20220204_150007.jpg" />
+    <Content Include="img\IMG_20220204_150452.jpg" />
+    <Content Include="img\IMG_20220204_152113.jpg" />
+    <Content Include="img\IMG_20220204_152346.jpg" />
+    <Content Include="img\IMG_20220204_152600.jpg" />
+    <Content Include="img\individual therapy 2.jpg" />
+    <Content Include="img\knowledgable team.jpg" />
+    <Content Include="img\our facilities.jpg" />
+    <Content Include="img\our-mission-vision.png" />
+    <Content Include="img\Personalised Treatment &amp; Care.jpg" />
+    <Content Include="img\Personalized Alcohol Detox Programs At Punarvaas.jpeg" />
+    <Content Include="img\Personalizedtreatment1.jpg" />
+    <Content Include="img\premier services.jpg" />
+    <Content Include="img\serenity calm and care.jpg" />
+    <Content Include="img\testimonial %281%29.jpg" />
+    <Content Include="img\Testimonial.jpg" />
+    <Content Include="img\Untitled design.png" />
+    <Content Include="img\user-circle-icon.png" />
+    <Content Include="img\vision.jpg" />
+    <Content Include="img\mission.jpg" />
+    <Content Include="img\what is drug addiction.jpg" />
+    <Content Include="img\whatsapp-icon.png" />
+    <Content Include="img\why choose drug rehab 2.jpg" />
+    <Content Include="img\why choose drug rehab.jpg" />
+    <Content Include="img\why to chose alcohol rehab.png" />
+    <Content Include="img\why-us-png-3.png" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\counter.js" />
+    <Content Include="js\easing.js" />
+    <Content Include="js\jquery-2.2.3.min.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery.flexisel.js" />
+    <Content Include="js\move-top.js" />
+    <Content Include="js\responsiveslides.min.js" />
+    <Content Include="js\simpleLightbox.js" />
+    <Content Include="js\SmoothScroll.min.js" />
+    <Content Include="team\1.png" />
+    <Content Include="team\2.png" />
+    <Content Include="team\20220211130257_IMG_3813-01.jpeg" />
+    <Content Include="team\20220211130608_IMG_3828-01.jpeg" />
+    <Content Include="team\3.png" />
+    <Content Include="team\4.png" />
+    <Content Include="team\5.png" />
+    <Content Include="team\a11adc03-e3c1-4e5c-932d-ab65d78f101a-01.jpeg" />
+    <Content Include="team\dr.jpg" />
+    <Content Include="team\IMG-1865.jpg" />
+    <Content Include="team\IMG-20210421-WA0003.jpg" />
+    <Content Include="team\IMG-20220607-WA0004.jpg" />
+    <Content Include="team\IMG_20220211_125158.jpg" />
+    <Content Include="team\IMG_2804.JPG" />
+    <Content Include="team\jpg_20220323_121859_0000-01.jpeg" />
+    <Content Include="team\new.png" />
+    <Content Include="team\newgirl.jpg" />
+    <Content Include="team\sole.jpg" />
+    <Content Include="videos\v.mp4" />
+    <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
+    <Content Include="why-punarvaas.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="alcohol-treatment.aspx.cs">
+      <DependentUpon>alcohol-treatment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="alcohol-treatment.aspx.designer.cs">
+      <DependentUpon>alcohol-treatment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="drug-rehabilitation.aspx.cs">
+      <DependentUpon>drug-rehabilitation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="drug-rehabilitation.aspx.designer.cs">
+      <DependentUpon>drug-rehabilitation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="how-we-help.aspx.cs">
+      <DependentUpon>how-we-help.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="how-we-help.aspx.designer.cs">
+      <DependentUpon>how-we-help.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="why-punarvaas.aspx.cs">
+      <DependentUpon>why-punarvaas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="why-punarvaas.aspx.designer.cs">
+      <DependentUpon>why-punarvaas.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\home page main image.webp" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1864</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44327/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

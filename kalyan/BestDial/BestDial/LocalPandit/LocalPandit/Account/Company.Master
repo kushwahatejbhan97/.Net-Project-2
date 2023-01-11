@@ -1,0 +1,198 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Company.master.cs" Inherits="LocalPandit.Account.Company" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Local Pandit | The local Search Engine</title>
+	<!-- META TAGS -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- FAV ICON(BROWSER TAB ICON) -->
+	<link rel="shortcut icon" href="/Account/img/aff-logo.png" type="image/x-icon">
+	<!-- GOOGLE FONT -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins%7CQuicksand:500,700" rel="stylesheet">
+	<!-- FONTAWESOME ICONS -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- ALL CSS FILES -->
+	<link href="css/materialize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+	<!-- RESPONSIVE.CSS ONLY FOR MOBILE AND TABLET VIEWS -->
+	<link href="css/responsive.css" rel="stylesheet">
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+    <style>
+      .nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flow-root;
+}
+
+.Mya {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: white;
+}
+
+  .myLi
+  {
+      border-bottom: 1px solid #e8960b;
+  }
+    .footMenu    
+        {
+   position: fixed;
+    bottom: 60px;
+    right: 20px;
+    background: #13dcb2;
+    width: 168px;
+}
+        
+    .Myfooter {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    background-color: #fff;
+    height: 40px;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,.6);
+    will-change: transform;
+}
+.Myfooter ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    display: table;
+    height: 100%;
+}
+.Myfooter ul li {
+    width: 20%;
+    display: table-cell;
+    text-align: center;
+    position: relative;
+    padding-top: 0;
+    vertical-align: middle;
+    line-height: normal;
+}
+ul li {
+    list-style-type: none;
+}
+ul, ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+    </style>
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<form id="form1" runat="server">
+	<div id="preloader">
+		<div id="status">&nbsp;</div>
+	</div>
+	<!--== MAIN CONTRAINER ==-->
+	<div class="container-fluid sb1">
+		<div class="row">
+			<!--== LOGO ==-->
+			<div class="col-md-2 col-sm-3 col-xs-6 sb1-1"> <a href="#" class="btn-close-menu"><i class="fa fa-times" aria-hidden="true"></i></a> <a href="#" class="atab-menu"><i class="fa fa-bars tab-menu" aria-hidden="true"></i></a>
+			</div>
+			<!--== SEARCH ==-->
+			<div class="col-md-6 col-sm-6 mob-hide">
+				
+			</div>
+			<!--== NOTIFICATION ==-->
+			<div class="col-md-2 tab-hide">
+				<div class="top-not-cen"></div>
+			</div>
+			<!--== MY ACCCOUNT ==-->
+			<div class="col-md-2 col-sm-3 col-xs-6">
+				<!-- Dropdown Trigger -->
+				<a class='waves-effect dropdown-button top-user-pro' href='#' data-activates='top-menu'>Account<i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+				<!-- Dropdown Structure -->
+				<ul id='top-menu' class='dropdown-content top-menu-sty'>
+					<li><a href="Edit-profile.aspx" class="waves-effect"><i class="fa fa-cogs"></i>Edit Profile</a> </li>
+					<li class="divider"></li>
+                    <li><a href="Change-password.aspx" class="waves-effect"><i class="fa fa-cogs"></i>Change Password</a> </li>
+                    <li class="divider"></li>
+                    <li><asp:LinkButton ID="lkbtnlgout" class="ho-dr-con-last waves-effect" runat="server" onclick="lkbtnlgoutClick" ><i class="fa fa-sign-in" aria-hidden="true"></i> Logout</asp:LinkButton></li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--== BODY CONTNAINER ==-->
+	<div class="container-fluid sb2">
+		<div class="row">
+			<div class="sb2-1">
+				<!--== USER INFO ==-->
+				<div class="sb2-12">
+					<ul>
+						<li><asp:Image ID="ImageCompany" runat="server"  style="height:30px; width:30px;"  class="img img-responsive" /></li>
+						<li>
+							<h5><asp:Label ID="lblcompname" runat="server" ></asp:Label></h5> </li>
+						<li></li>
+					</ul>
+				</div>
+				<!--== LEFT MENU ==-->
+				<div class="sb2-13">
+					<ul class="collapsible" data-collapsible="accordion">
+						<li><a href="Dashboard.aspx" class="menu-active"><i class="fa fa-tachometer" aria-hidden="true"></i> Dashboard</a> </li>
+						<li><a href="Profile.aspx"><i class="fa fa-cogs" aria-hidden="true"></i>Profile</a> </li>
+						<li><a href="Edit-profile.aspx"><i class="fa fa-plus-square-o" aria-hidden="true"></i>Edit Profile</a> </li>
+                        <%--<li><a href="edit-listing-details.aspx" ><i class="fa fa-list-ul" aria-hidden="true"></i>Edit listing Details</a> </li>--%>
+                        
+                        <li><a href="Enquiry.aspx" ><i class="fa fa-bell-o" aria-hidden="true"></i>Enquiry</a> </li>
+                         <li><a href="reviews-list.aspx" ><i class="fa fa-rss" aria-hidden="true"></i>Review</a> </li>
+                        <li><asp:LinkButton ID="LinkButton1" class="ho-dr-con-last waves-effect" runat="server" onclick="lkbtnlgoutClick" ><i class="fa fa-sign-in" aria-hidden="true"></i> Logout</asp:LinkButton></li>
+                        
+					</ul>
+				</div>
+			</div>
+			<!--== BODY INNER CONTAINER ==-->
+			<div class="sb2-2">
+              <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+              </asp:ContentPlaceHolder>
+             </div>
+		    </div>
+	       </div>
+	<!--== BOTTOM FLOAT ICON ==-->
+	
+
+     <Myfooter id="footerBottom" class="Myfooter headroomft headroom headroom--not-bottom headroom--pinned headroom--top" style="display: block;">
+     <ul>
+        <li>
+          <span><i class="fa fa-home"></i></span>
+         <a href="/Main.aspx"><span class="txt">Go To Home</span></a> 
+        </li>
+       
+        <li> 
+          <span><i class="fa fa-list-ul"></i></span>
+         <a href="Edit-profile.aspx"><span class="txt">Edit Profile</span></a> 
+        </li>
+    </ul>
+    </Myfooter>
+
+
+	<!--SCRIPT FILES-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.js" type="text/javascript"></script>
+	<script src="js/materialize.min.js" type="text/javascript"></script>
+	<script src="js/custom.js"></script>
+    </form>
+
+</body>
+</html>

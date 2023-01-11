@@ -1,0 +1,205 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ListingApp.master.cs" Inherits="LocalPandit.ListingApp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Best Dial | Find every thing near you.!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="/css/animate.min.css">
+    <!-- Font-awesome CSS-->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <!-- Owl Caousel CSS -->
+    <link rel="stylesheet" href="/vendor/OwlCarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="/vendor/OwlCarousel/owl.theme.default.min.css">
+    <!-- Main Menu CSS -->
+    <link rel="stylesheet" href="/css/meanmenu.min.css">
+    <!-- Select2 CSS -->
+    <link rel="stylesheet" href="/css/select2.min.css">
+    <!-- Magnific CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/magnific-popup.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/style.css">
+
+    <style>
+      .nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flow-root;
+}
+
+.Mya {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: white;
+}
+
+  .myLi
+  {
+      border-bottom: 1px solid #e8960b;
+  }
+    .footMenu    
+        {
+   position: fixed;
+    bottom: 52px;
+    right: 0px;
+    background: #1fa287;
+    width: 200px;
+}
+        
+    .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    background-color: #fff;
+    height: 35px;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,.6);
+    will-change: transform;
+    background: #1fa287;
+    border-radius: 0px 0px 1px 1px;
+}
+.footer ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    display: table;
+    height: 100%;
+}
+.footer ul li {
+    width: 20%;
+    display: table-cell;
+    text-align: center;
+    position: relative;
+    padding-top: 0;
+    vertical-align: middle;
+    line-height: normal;
+}
+ul li {
+    list-style-type: none;
+}
+ul, ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+    </style>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+   </script>
+
+
+    <style>
+    .container-fluid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1px;
+    padding-left: 1px;
+    width: 100%;
+}
+
+.container-fluid {
+    padding-right: 2px !important;
+    padding-left: 2px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+    </style>
+
+ <asp:ContentPlaceHolder ID="head" runat="server">
+ </asp:ContentPlaceHolder>
+</head>
+<body>
+<form id="form1" runat="server">
+     <div id="preloader"></div>
+    <!-- Preloader End Here -->
+    <div id="wrapper">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   <div class="footMenu" id="MyFootMenu" style="display:none;">
+    <div class="nav">
+     <a onclick="closeNav()" style="padding: 2px 9px 4px 9px; background: #f38b1f;">X</a>
+      <ul class="nav">
+        <li id="Compname" runat="server" visible="false" class="myLi nav-item"><a href="#" class="Mya"><asp:Label ID="lblcompname" runat="server" style="color:White;"></asp:Label></a></li>
+        <li class="myLi nav-item" id="freelisting" runat="server" visible="false"><a href="/free-listing.aspx" class="Mya" style="color:White;">Free Listing</a></li>
+        <li class="myLi nav-item" id="loginac" runat="server" visible="false"><a href="/login.aspx" class="Mya" style="color:White;">Login</a></li>
+        <li class="myLi nav-item" id="Managecomp" runat="server" visible="false"><a href="/Account/Dashboard.aspx" class="Mya" style="color:White;">Manage Listing</a></li>
+      </ul>
+    </div>
+ </div>
+ 
+ <footer id="footerBottom" class="footer headroomft headroom headroom--not-bottom headroom--pinned headroom--top" style="display: block;">
+ <ul>
+    <li>
+      <a href="Main.aspx"><span><i class="fa fa-home" style="color:White;"></i></span>
+     <span class="txt" style="color:White;">Home</span></a> 
+    </li>
+    <li>
+        <a href="https://www.facebook.com/"><span><i class="fa fa-facebook-official" style="color:White;"></i></span>
+        <span class="txt" style="color:White;">Social</span></a>
+    </li>
+    <li> 
+      <a onclick="openNav()"> <span><i class="fa fa-list-ul" style="color:White;"></i></span>
+      <span class="txt" style="color:White;">Menu</span></a>
+    </li>
+</ul>
+</footer>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("MyFootMenu").style.display = "";
+        }
+
+        function closeNav() {
+            document.getElementById("MyFootMenu").style.display = "none";
+        }
+
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- jquery-->
+    <script src="/js/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="/js/popper.js"></script>
+    <!-- Bootstrap js -->
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- Owl Cauosel JS -->
+    <script src="/vendor/OwlCarousel/owl.carousel.min.js"></script>
+    <!-- Meanmenu Js -->
+    <script src="/js/jquery.meanmenu.min.js"></script>
+    <!-- Srollup js -->
+    <script src="/js/jquery.scrollUp.min.js"></script>
+    <!-- jquery.counterup js -->
+    <script src="/js/jquery.counterup.min.js"></script>
+    <script src="/js/waypoints.min.js"></script>
+    <!-- Select2 Js -->
+    <script src="/js/select2.min.js"></script>
+    <!-- Isotope js -->
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <!-- Google Map js -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtmXSwv4YmAKtcZyyad9W7D4AC08z0Rb4"></script>
+    <!-- Custom Js -->
+    <script src="/js/main.js"></script>
+    </form>
+</body>
+</html>

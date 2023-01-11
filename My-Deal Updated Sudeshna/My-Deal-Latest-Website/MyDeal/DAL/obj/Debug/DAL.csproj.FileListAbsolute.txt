@@ -1,0 +1,6 @@
+D:\Ongoing\BestDial\My-Deal-Latest-Website\MyDeal\DAL\bin\Debug\DAL.dll
+D:\Ongoing\BestDial\My-Deal-Latest-Website\MyDeal\DAL\bin\Debug\DAL.pdb
+D:\Ongoing\BestDial\My-Deal-Latest-Website\MyDeal\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Ongoing\BestDial\My-Deal-Latest-Website\MyDeal\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Ongoing\BestDial\My-Deal-Latest-Website\MyDeal\DAL\obj\Debug\DAL.dll
+D:\Ongoing\BestDial\My-Deal-Latest-Website\MyDeal\DAL\obj\Debug\DAL.pdb

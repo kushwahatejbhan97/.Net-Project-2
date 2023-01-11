@@ -1,0 +1,407 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0D561136-3BA8-45A7-BB35-72B875EBCE88}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>fashion</RootNamespace>
+    <AssemblyName>fashion</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44371</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aboutus.aspx" />
+    <Content Include="assets\css\style-starter.css" />
+    <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\images\1.jpg" />
+    <Content Include="assets\images\11.jpg" />
+    <Content Include="assets\images\2.jpg" />
+    <Content Include="assets\images\3.jpg" />
+    <Content Include="assets\images\33.jpg" />
+    <Content Include="assets\images\banner1.jpg" />
+    <Content Include="assets\images\banner2.jpg" />
+    <Content Include="assets\images\banner3.jpg" />
+    <Content Include="assets\images\banner4.jpg" />
+    <Content Include="assets\images\bg1.jpg" />
+    <Content Include="assets\images\bg2.jpg" />
+    <Content Include="assets\images\bg4.jpg" />
+    <Content Include="assets\images\c1.jpg" />
+    <Content Include="assets\images\c2.jpg" />
+    <Content Include="assets\images\c3.jpg" />
+    <Content Include="assets\images\c4.jpg" />
+    <Content Include="assets\images\cart1.jpg" />
+    <Content Include="assets\images\cart2.jpg" />
+    <Content Include="assets\images\cart3.jpg" />
+    <Content Include="assets\images\cart4.jpg" />
+    <Content Include="assets\images\grid1.jpg" />
+    <Content Include="assets\images\grid2.jpg" />
+    <Content Include="assets\images\grid3.jpg" />
+    <Content Include="assets\images\grid4.jpg" />
+    <Content Include="assets\images\grid5.jpg" />
+    <Content Include="assets\images\grid6.jpg" />
+    <Content Include="assets\images\led.jpg" />
+    <Content Include="assets\images\left1.jpg" />
+    <Content Include="assets\images\left2.jpg" />
+    <Content Include="assets\images\left3.jpg" />
+    <Content Include="assets\images\shop-1.jpg" />
+    <Content Include="assets\images\shop-11.jpg" />
+    <Content Include="assets\images\shop-2.jpg" />
+    <Content Include="assets\images\shop-22.jpg" />
+    <Content Include="assets\images\shop-3.jpg" />
+    <Content Include="assets\images\shop-33.jpg" />
+    <Content Include="assets\images\shop-4.jpg" />
+    <Content Include="assets\images\shop-44.jpg" />
+    <Content Include="assets\images\shop-5.jpg" />
+    <Content Include="assets\images\shop-55.jpg" />
+    <Content Include="assets\images\shop-6.jpg" />
+    <Content Include="assets\images\shop-66.jpg" />
+    <Content Include="assets\images\shop-7.jpg" />
+    <Content Include="assets\images\shop-77.jpg" />
+    <Content Include="assets\images\shop-8.jpg" />
+    <Content Include="assets\images\shop-88.jpg" />
+    <Content Include="assets\images\team1.jpg" />
+    <Content Include="assets\images\team2.jpg" />
+    <Content Include="assets\images\team3.jpg" />
+    <Content Include="assets\js\all.js" />
+    <Content Include="assets\js\app.js" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\imagezoom.js" />
+    <Content Include="assets\js\jquery-2.1.4.min.js" />
+    <Content Include="assets\js\jquery-3.3.1.min.js" />
+    <Content Include="assets\js\jquery-ui.js" />
+    <Content Include="assets\js\jquery.flexslider.js" />
+    <Content Include="assets\js\jquery.magnific-popup.js" />
+    <Content Include="assets\js\jquery.prettyPhoto.js" />
+    <Content Include="assets\js\jquery.quicksand.js" />
+    <Content Include="assets\js\minicart.js" />
+    <Content Include="assets\js\popper.min.js" />
+    <Content Include="assets\js\script.js" />
+    <Content Include="assets\js\swiper.js" />
+    <Content Include="business.aspx" />
+    <Content Include="contact.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="electronics.aspx" />
+    <Content Include="ewastemanagement.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="imgs-css\css\style-starter.css" />
+    <Content Include="imgs-css\fonts\fontawesome-webfont.svg" />
+    <Content Include="imgs-css\images\ab1.jpg" />
+    <Content Include="imgs-css\images\ab2.jpg" />
+    <Content Include="imgs-css\images\ab3.jpg" />
+    <Content Include="imgs-css\images\banner.jpg" />
+    <Content Include="imgs-css\images\banner1.jpg" />
+    <Content Include="imgs-css\images\p1.jpg" />
+    <Content Include="imgs-css\images\p2.jpg" />
+    <Content Include="imgs-css\images\p3.jpg" />
+    <Content Include="imgs-css\images\p4.jpg" />
+    <Content Include="imgs-css\images\p5.jpg" />
+    <Content Include="imgs-css\images\p6.jpg" />
+    <Content Include="imgs-css\images\p7.jpg" />
+    <Content Include="imgs-css\images\p8.jpg" />
+    <Content Include="imgs-css\images\p9.jpg" />
+    <Content Include="imgs-css\images\s1.jpg" />
+    <Content Include="imgs-css\images\s2.jpg" />
+    <Content Include="imgs-css\images\s3.jpg" />
+    <Content Include="imgs-css\images\s4.jpg" />
+    <Content Include="imgs-css\images\s5.jpg" />
+    <Content Include="imgs-css\images\s6.jpg" />
+    <Content Include="imgs-css\images\sprite.png" />
+    <Content Include="imgs-css\images\team1.jpg" />
+    <Content Include="imgs-css\images\team2.jpg" />
+    <Content Include="imgs-css\images\team3.jpg" />
+    <Content Include="imgs-css\images\team4.jpg" />
+    <Content Include="imgs-css\images\team5.jpg" />
+    <Content Include="imgs-css\images\team6.jpg" />
+    <Content Include="imgs-css\js\bootstrap.min.js" />
+    <Content Include="imgs-css\js\jquery-1.7.2.js" />
+    <Content Include="imgs-css\js\jquery-3.3.1.min.js" />
+    <Content Include="imgs-css\js\jquery.countup.js" />
+    <Content Include="imgs-css\js\jquery.prettyPhoto.js" />
+    <Content Include="imgs-css\js\jquery.quicksand.js" />
+    <Content Include="imgs-css\js\jquery.waypoints.min.js" />
+    <Content Include="imgs-css\js\owl.carousel.js" />
+    <Content Include="imgs-css\js\script.js" />
+    <Content Include="imgs-css\js\theme-change.js" />
+    <Content Include="imgs\jeans\1.jpg" />
+    <Content Include="imgs\jeans\2.jpg" />
+    <Content Include="imgs\jeans\3.jpg" />
+    <Content Include="imgs\jeans\4.jpg" />
+    <Content Include="imgs\jeans\5.jpg" />
+    <Content Include="imgs\jeans\6.jpg" />
+    <Content Include="imgs\joggers\1.jpeg" />
+    <Content Include="imgs\joggers\2.jpeg" />
+    <Content Include="imgs\joggers\3.jpeg" />
+    <Content Include="imgs\joggers\4.jpeg" />
+    <Content Include="imgs\joggers\5.jpeg" />
+    <Content Include="imgs\joggers\6.jpeg" />
+    <Content Include="imgs\leds\banner12.png" />
+    <Content Include="imgs\leds\banner6.png" />
+    <Content Include="imgs\leds\icons\1.jpg" />
+    <Content Include="imgs\leds\icons\2.png" />
+    <Content Include="imgs\leds\icons\3.jpg" />
+    <Content Include="imgs\leds\icons\4.jpeg" />
+    <Content Include="imgs\leds\LED-4k.jpg" />
+    <Content Include="imgs\leds\led4kHead.jpg" />
+    <Content Include="imgs\leds\LEDTV!.jpg" />
+    <Content Include="imgs\leds\Nik-cat-6.jpg" />
+    <Content Include="imgs\ledtv\1.png" />
+    <Content Include="imgs\ledtv\2.png" />
+    <Content Include="imgs\ledtv\3.png" />
+    <Content Include="imgs\ledtv\4.png" />
+    <Content Include="imgs\ledtv\5.png" />
+    <Content Include="imgs\ledtv\6.png" />
+    <Content Include="imgs\ledtv\7.jfif" />
+    <Content Include="imgs\ledtv\8.jpg" />
+    <Content Include="imgs\ledtv\9.jpg" />
+    <Content Include="imgs\shirts\1.jpg" />
+    <Content Include="imgs\shirts\2.jpg" />
+    <Content Include="imgs\shirts\3.jpg" />
+    <Content Include="imgs\shirts\4.jpg" />
+    <Content Include="imgs\shirts\5.jpg" />
+    <Content Include="imgs\shirts\6.jpg" />
+    <Content Include="imgs\shopwithus\1.jpg" />
+    <Content Include="imgs\shopwithus\2.jfif" />
+    <Content Include="imgs\shopwithus\3.jpg" />
+    <Content Include="imgs\shopwithus\4.jpg" />
+    <Content Include="imgs\shopwithus\5.jpg" />
+    <Content Include="imgs\shopwithus\6.jpg" />
+    <Content Include="imgs\shorts\1.jpg" />
+    <Content Include="imgs\shorts\2.jpg" />
+    <Content Include="imgs\shorts\3.jpg" />
+    <Content Include="imgs\shorts\4.jpg" />
+    <Content Include="imgs\shorts\5.jpg" />
+    <Content Include="imgs\shorts\6.jpg" />
+    <Content Include="imgs\trousers\1.jpg" />
+    <Content Include="imgs\trousers\2.jpg" />
+    <Content Include="imgs\trousers\3.jpg" />
+    <Content Include="imgs\trousers\4.jpg" />
+    <Content Include="imgs\trousers\5.jpg" />
+    <Content Include="imgs\trousers\6.jpg" />
+    <Content Include="imgs\tshirts\1.jpeg" />
+    <Content Include="imgs\tshirts\2.jpeg" />
+    <Content Include="imgs\tshirts\3.jpeg" />
+    <Content Include="imgs\tshirts\4.jpeg" />
+    <Content Include="imgs\tshirts\5.jpeg" />
+    <Content Include="imgs\tshirts\6.jpeg" />
+    <Content Include="jeans.aspx" />
+    <Content Include="joggers.aspx" />
+    <Content Include="shirts.aspx" />
+    <Content Include="shorts.aspx" />
+    <Content Include="trousers.aspx" />
+    <Content Include="tshirts.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aboutus.aspx.cs">
+      <DependentUpon>aboutus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aboutus.aspx.designer.cs">
+      <DependentUpon>aboutus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="business.aspx.cs">
+      <DependentUpon>business.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="business.aspx.designer.cs">
+      <DependentUpon>business.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="electronics.aspx.cs">
+      <DependentUpon>electronics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="electronics.aspx.designer.cs">
+      <DependentUpon>electronics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ewastemanagement.aspx.cs">
+      <DependentUpon>ewastemanagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ewastemanagement.aspx.designer.cs">
+      <DependentUpon>ewastemanagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="jeans.aspx.cs">
+      <DependentUpon>jeans.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jeans.aspx.designer.cs">
+      <DependentUpon>jeans.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="joggers.aspx.cs">
+      <DependentUpon>joggers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="joggers.aspx.designer.cs">
+      <DependentUpon>joggers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="shorts.aspx.cs">
+      <DependentUpon>shorts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shorts.aspx.designer.cs">
+      <DependentUpon>shorts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="shirts.aspx.cs">
+      <DependentUpon>shirts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shirts.aspx.designer.cs">
+      <DependentUpon>shirts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="trousers.aspx.cs">
+      <DependentUpon>trousers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="trousers.aspx.designer.cs">
+      <DependentUpon>trousers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tshirts.aspx.cs">
+      <DependentUpon>tshirts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tshirts.aspx.designer.cs">
+      <DependentUpon>tshirts.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="imgs-css\fonts\fontawesome-webfont.eot" />
+    <Content Include="imgs-css\fonts\fontawesome-webfont.ttf" />
+    <Content Include="imgs-css\fonts\fontawesome-webfont.woff" />
+    <Content Include="imgs-css\fonts\fontawesome-webfont.woff2" />
+    <Content Include="imgs-css\fonts\FontAwesome.otf" />
+    <None Include="packages.config" />
+    <Content Include="Site1.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61253</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44371/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

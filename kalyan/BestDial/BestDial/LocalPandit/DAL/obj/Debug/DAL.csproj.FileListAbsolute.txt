@@ -1,0 +1,6 @@
+D:\OnGoingProject\BestDial\LocalPandit\DAL\bin\Debug\DAL.dll
+D:\OnGoingProject\BestDial\LocalPandit\DAL\bin\Debug\DAL.pdb
+D:\OnGoingProject\BestDial\LocalPandit\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\OnGoingProject\BestDial\LocalPandit\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\OnGoingProject\BestDial\LocalPandit\DAL\obj\Debug\DAL.dll
+D:\OnGoingProject\BestDial\LocalPandit\DAL\obj\Debug\DAL.pdb

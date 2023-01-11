@@ -1,0 +1,1 @@
+﻿update NewListing_Website_tags_tbl set CatImageID =TagId,CatIConImageID=TagId

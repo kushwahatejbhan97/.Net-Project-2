@@ -1,0 +1,18 @@
+E:\Ongoing project\DecoratinComplete\DecoratinComplete\DAL\bin\Debug\DAL.dll
+E:\Ongoing project\DecoratinComplete\DecoratinComplete\DAL\bin\Debug\DAL.pdb
+E:\Ongoing project\DecoratinComplete\DecoratinComplete\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+E:\Ongoing project\DecoratinComplete\DecoratinComplete\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\Ongoing project\DecoratinComplete\DecoratinComplete\DAL\obj\Debug\DAL.dll
+E:\Ongoing project\DecoratinComplete\DecoratinComplete\DAL\obj\Debug\DAL.pdb
+D:\Ongoing\Decoratin\DecoratinComplete\DecoratinComplete\DecoratinComplete\DAL\bin\Debug\DAL.dll
+D:\Ongoing\Decoratin\DecoratinComplete\DecoratinComplete\DecoratinComplete\DAL\bin\Debug\DAL.pdb
+D:\Ongoing\Decoratin\DecoratinComplete\DecoratinComplete\DecoratinComplete\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Ongoing\Decoratin\DecoratinComplete\DecoratinComplete\DecoratinComplete\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Ongoing\Decoratin\DecoratinComplete\DecoratinComplete\DecoratinComplete\DAL\obj\Debug\DAL.dll
+D:\Ongoing\Decoratin\DecoratinComplete\DecoratinComplete\DecoratinComplete\DAL\obj\Debug\DAL.pdb
+D:\Ongoing\Decoratin\DecoratinComplete\DecoratinComplete1\DecoratinComplete\DAL\bin\Debug\DAL.dll
+D:\Ongoing\Decoratin\DecoratinComplete\DecoratinComplete1\DecoratinComplete\DAL\bin\Debug\DAL.pdb
+D:\Ongoing\Decoratin\DecoratinComplete\DecoratinComplete1\DecoratinComplete\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Ongoing\Decoratin\DecoratinComplete\DecoratinComplete1\DecoratinComplete\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Ongoing\Decoratin\DecoratinComplete\DecoratinComplete1\DecoratinComplete\DAL\obj\Debug\DAL.dll
+D:\Ongoing\Decoratin\DecoratinComplete\DecoratinComplete1\DecoratinComplete\DAL\obj\Debug\DAL.pdb

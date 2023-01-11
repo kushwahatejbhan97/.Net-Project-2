@@ -1,0 +1,166 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LocalPanditAdmin.master.cs" Inherits="LocalPandit.Admin.LocalPanditAdmin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<title>My-Deal</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="" />
+    <link rel="shortcut icon" href="/Account/img/aff-logo.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/flaty.css" />
+    <link rel="stylesheet" href="css/flaty-responsive.css" />
+    <link rel="shortcut icon" href="img/mydeal12.png" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+  </head>
+<body>
+<form id="form1" runat="server">
+<asp:ScriptManager ID="ScriptManager1" runat="server">
+</asp:ScriptManager>
+    
+    <!-- BEGIN Navbar -->
+    <div id="navbar" class="navbar" style="background: #fff;">
+        <button type="button" class="navbar-toggle navbar-btn collapsed" data-toggle="collapse" data-target="#sidebar">
+            <span class="fa fa-bars"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+            <small>
+                <img src="../assets/images/finaldeal1.png" style="width: 63%;" />
+
+</small>
+        </a>
+
+
+    </div>
+    <!-- END Navbar -->
+    <div class="container" id="main-container">
+        <!-- BEGIN Sidebar -->
+        <div id="sidebar" class="navbar-collapse collapse">
+            <!-- BEGIN Navlist -->
+            <ul class="nav nav-list">
+              
+                <li class="active">
+                    <a href="Dashboard.aspx">
+                        <i class="fa fa-dashboard"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+
+               
+
+                <li style="padding-top:15px;">
+                    <a href="#" class="dropdown-toggle">
+                        <i class="fa fa-edit"></i>
+                        <span>Add</span>
+                        <b class="arrow fa fa-angle-right"></b>
+                    </a>
+
+                    <!-- BEGIN Submenu -->
+                    <ul class="submenu">
+                        <li><a href="add-category.aspx">Add Category</a></li>
+                         <li><a href="Add-tag.aspx">Add Category Tags</a></li>
+                        <li><a href="Add-Category-Kayword.aspx">Add Category Kayword</a></li>
+                       <li><a href="Add-City.aspx">Add City</a></li>
+                    </ul>
+                    <!-- END Submenu -->
+                </li>
+
+                <li style="padding-top:15px;">
+                    <a href="#" class="dropdown-toggle">
+                        <i class="fa fa-list"></i>
+                        <span>Listing</span>
+                        <b class="arrow fa fa-angle-right"></b>
+                    </a>
+
+                    <!-- BEGIN Submenu -->
+                    <ul class="submenu">
+                        <li><a href="add-listing.aspx">Add listing</a></li>
+                         <li><a href="Enable-Disable-listing.aspx">Enable/Disable listing</a></li>
+                        <li><a href="New-Manage-Listing.aspx">Manage Listing</a></li>
+                        
+                    </ul>
+                    <!-- END Submenu -->
+                </li>
+                
+               
+
+                <li style="padding-top:15px;">
+                    <a href="#" class="dropdown-toggle">
+                        <i class="fa fa-users"></i>
+                        <span>User Requirement</span>
+                        <b class="arrow fa fa-angle-right"></b>
+                    </a>
+
+                    <!-- BEGIN Submenu -->
+                    <ul class="submenu">
+                        <li><a href="User-requirement.aspx">user Requirement List</a></li>
+                        
+                    </ul>
+                    <!-- END Submenu -->
+                </li>
+
+                 <li style="padding-top:15px;">
+                    <a href="#" class="dropdown-toggle">
+                        <i class="fa fa-list-alt"></i>
+                        <span>Enquiry List</span>
+                        <b class="arrow fa fa-angle-right"></b>
+                    </a>
+
+                    <!-- BEGIN Submenu -->
+                    <ul class="submenu">
+                        <li><a href="Company-enquiry-list.aspx">Enquiry</a></li>
+                        
+                    </ul>
+                    <!-- END Submenu -->
+                </li>
+
+                
+            </ul>
+            <!-- END Navlist -->
+
+            <!-- BEGIN Sidebar Collapse Button -->
+            <div id="sidebar-collapse" class="visible-lg" >
+                <i class="fa fa-angle-double-left"></i>
+            </div>
+            <!-- END Sidebar Collapse Button -->
+        </div>
+        <!-- END Sidebar -->
+
+        
+ 
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+
+                 <!-- BEGIN Container -->
+   
+    </div>
+   
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="assets/jquery/jquery-2.1.1.min.js"><\/script>')
+    </script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="assets/jquery-cookie/jquery.cookie.js"></script>
+
+    <!--page specific plugin scripts-->
+    <script src="assets/flot/jquery.flot.js"></script>
+    <script src="assets/flot/jquery.flot.resize.js"></script>
+    <script src="assets/flot/jquery.flot.pie.js"></script>
+    <script src="assets/flot/jquery.flot.stack.js"></script>
+    <script src="assets/flot/jquery.flot.crosshair.js"></script>
+    <script src="assets/flot/jquery.flot.tooltip.min.js"></script>
+    <script src="assets/sparkline/jquery.sparkline.min.js"></script>
+
+    <!--flaty scripts-->
+    <script src="js/flaty.js"></script>
+    <script src="js/flaty-demo-codes.js"></script>
+    </form>
+</body>
+      
+</html>

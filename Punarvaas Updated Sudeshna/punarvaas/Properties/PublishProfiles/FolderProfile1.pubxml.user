@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Acer\Desktop\Deploy\punarvassnew\</_PublishTargetUrl>
+    <History>False|2022-03-23T08:19:20.8088149Z;False|2022-03-23T13:36:38.0913790+05:30;False|2022-03-23T13:35:33.6563443+05:30;True|2022-03-09T10:59:09.7232745+05:30;True|2022-03-03T19:02:27.1203889+05:30;True|2022-02-28T14:46:22.2753860+05:30;True|2022-02-18T12:20:55.7493852+05:30;True|2022-02-17T13:42:57.3807479+05:30;True|2022-02-17T13:41:00.1919123+05:30;True|2022-02-16T18:27:57.3816866+05:30;True|2022-02-16T17:46:05.3086167+05:30;True|2022-02-16T17:46:00.6341469+05:30;True|2022-02-16T15:45:20.8976398+05:30;True|2022-02-16T15:41:59.0192059+05:30;True|2022-02-16T15:41:54.5536071+05:30;True|2022-02-14T18:01:16.4314221+05:30;True|2022-02-14T15:27:12.7164216+05:30;True|2022-02-14T15:27:07.8913208+05:30;False|2022-02-14T15:25:08.1264605+05:30;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="about.aspx">
+      <publishTime>03/03/2022 19:02:10</publishTime>
+    </File>
+    <File Include="alcohol-treatment.aspx">
+      <publishTime>03/03/2022 19:06:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/punarvaas.dll">
+      <publishTime>03/09/2022 10:59:08</publishTime>
+    </File>
+    <File Include="bin/punarvaas.pdb">
+      <publishTime>03/09/2022 10:59:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="contact.aspx">
+      <publishTime>03/03/2022 19:02:10</publishTime>
+    </File>
+    <File Include="css/blog.css">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="css/fontawesome-all.min.css">
+      <publishTime>02/11/2022 10:26:51</publishTime>
+    </File>
+    <File Include="css/jquery-ui.css">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="css/simpleLightbox.css">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="css/style1.css">
+      <publishTime>03/03/2022 19:01:20</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>03/03/2022 19:02:10</publishTime>
+    </File>
+    <File Include="drug-rehabilitation.aspx">
+      <publishTime>03/03/2022 19:05:39</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>02/09/2022 10:21:21</publishTime>
+    </File>
+    <File Include="how-we-help.aspx">
+      <publishTime>03/03/2022 19:02:09</publishTime>
+    </File>
+    <File Include="HtmlPage1.html">
+      <publishTime>03/03/2022 19:02:10</publishTime>
+    </File>
+    <File Include="images/banner.jpg">
+      <publishTime>02/08/2022 12:13:50</publishTime>
+    </File>
+    <File Include="images/client.jpg">
+      <publishTime>02/08/2022 12:13:50</publishTime>
+    </File>
+    <File Include="images/client1.jpg">
+      <publishTime>02/08/2022 12:13:50</publishTime>
+    </File>
+    <File Include="images/contact.jpg">
+      <publishTime>02/08/2022 12:13:50</publishTime>
+    </File>
+    <File Include="images/g1.jpg">
+      <publishTime>02/08/2022 12:13:50</publishTime>
+    </File>
+    <File Include="images/g2.jpg">
+      <publishTime>02/08/2022 12:13:50</publishTime>
+    </File>
+    <File Include="images/g3.jpg">
+      <publishTime>02/08/2022 12:13:50</publishTime>
+    </File>
+    <File Include="images/g4.jpg">
+      <publishTime>02/08/2022 12:13:50</publishTime>
+    </File>
+    <File Include="images/g5.jpg">
+      <publishTime>02/08/2022 12:13:50</publishTime>
+    </File>
+    <File Include="images/g6.jpg">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="images/g7.jpg">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="images/g8.jpg">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="images/g9.jpg">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="images/left.png">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="images/punarvaas-logo-ps-whitebg.png">
+      <publishTime>02/08/2022 16:33:30</publishTime>
+    </File>
+    <File Include="images/right.png">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="images/slide.jpg">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="images/stats.jpg">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="images/t1.jpg">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="images/t2.png">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="images/t3.png">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="images/t4.jpg">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="images/te1.jpg">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="images/te2.jpg">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="images/te3.jpg">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="images/te4.jpg">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="images/te5.jpg">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="images/testi.jpg">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="img/12 step program.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/12 steps.jfif">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/12-steps-change.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/1640413800554003_1317216182.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/1640413800554003_1317216182_1.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/Addiction-Recovery-2.jpeg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/alcohol rehab first phase.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/alcohol rehab second phase.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/alcohol rehab third phase.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/alcohol withdrawal.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/Best facilities 1.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/Best facilities 2.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/Best facilities 3.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/best rehab centre.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/conducive environment 1.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/contact us.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/drug-addiction-signs.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/easily accesible.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/Easily Accessible 1.jpeg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/family program 2.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/family program.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/group therapy 1.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/home page main image.webp">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/IMG_20220204_143011.jpg">
+      <publishTime>02/09/2022 13:53:58</publishTime>
+    </File>
+    <File Include="img/IMG_20220204_145035.jpg">
+      <publishTime>02/08/2022 19:06:46</publishTime>
+    </File>
+    <File Include="img/IMG_20220204_150007.jpg">
+      <publishTime>02/08/2022 19:06:46</publishTime>
+    </File>
+    <File Include="img/IMG_20220204_150452.jpg">
+      <publishTime>02/08/2022 19:06:46</publishTime>
+    </File>
+    <File Include="img/IMG_20220204_152113.jpg">
+      <publishTime>02/09/2022 15:03:46</publishTime>
+    </File>
+    <File Include="img/IMG_20220204_152346.jpg">
+      <publishTime>02/08/2022 19:06:46</publishTime>
+    </File>
+    <File Include="img/IMG_20220204_152600.jpg">
+      <publishTime>02/08/2022 19:06:46</publishTime>
+    </File>
+    <File Include="img/individual therapy 2.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/knowledgable team.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/mission.jpg">
+      <publishTime>02/08/2022 18:11:40</publishTime>
+    </File>
+    <File Include="img/our facilities.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/our-mission-vision.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/Personalised Treatment &amp; Care.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/Personalized Alcohol Detox Programs At Punarvaas.jpeg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/Personalizedtreatment1.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/premier services.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/serenity calm and care.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/testimonial %281%29.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/Testimonial.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/Untitled design.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/user-circle-icon.png">
+      <publishTime>02/09/2022 15:23:58</publishTime>
+    </File>
+    <File Include="img/vision.jpg">
+      <publishTime>02/08/2022 18:15:03</publishTime>
+    </File>
+    <File Include="img/what is drug addiction.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/whatsapp-icon.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/why choose drug rehab 2.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/why choose drug rehab.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/why to chose alcohol rehab.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/why-us-png-3.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="js/counter.js">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="js/easing.js">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="js/jquery-2.2.3.min.js">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="js/jquery-ui.js">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="js/jquery.flexisel.js">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="js/move-top.js">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="js/responsiveslides.min.js">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="js/simpleLightbox.js">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="js/SmoothScroll.min.js">
+      <publishTime>02/08/2022 12:13:51</publishTime>
+    </File>
+    <File Include="team/20220211130257_IMG_3813-01.jpeg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="team/20220211130608_IMG_3828-01.jpeg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="team/IMG-20210421-WA0003.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="team/IMG_20220211_125158.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="team/IMG_2804.JPG">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="videos/v.mp4">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="why-punarvaas.aspx">
+      <publishTime>03/03/2022 19:02:11</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

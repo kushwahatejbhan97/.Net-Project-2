@@ -1,0 +1,12 @@
+D:\OnGoingProject\aism\aismtc\DAL\bin\Debug\DAL.dll
+D:\OnGoingProject\aism\aismtc\DAL\bin\Debug\DAL.pdb
+D:\OnGoingProject\aism\aismtc\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\OnGoingProject\aism\aismtc\DAL\obj\Debug\DAL.dll
+D:\OnGoingProject\aism\aismtc\DAL\obj\Debug\DAL.pdb
+D:\OnGoingProject\aism\aismtc\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\DAL\bin\Debug\DAL.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\DAL\bin\Debug\DAL.pdb
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\DAL\obj\Debug\DAL.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\DAL\obj\Debug\DAL.pdb

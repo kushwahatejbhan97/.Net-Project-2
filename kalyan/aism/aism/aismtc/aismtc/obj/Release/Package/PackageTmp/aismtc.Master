@@ -1,0 +1,331 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="aismtc.master.cs" Inherits="aismtc.aismtc" %>
+
+<!DOCTYPE html>
+
+<html >
+<head runat="server">
+
+
+		<title>Asian Institute Of Safety Management</title>
+		<meta name="description" content="Asian Institute Of Safety Management offer Training Courses like Nebosh Safety IGC,  IOSH Managing Safely, Fire and Safety,CONFINED SPACE,ELECTRICAL SAFETY,EXCAVATION,HAZARD COMMUNICATION,SCAFFOLDING Training in Hyderabad, India with best practical labs and industrial visits especially for engineering students. Providing Job Assistance and Placements in India and Abroad. Call or WhatsApp for free career guidance +91-8328130021 +91-91 8121 066705" />
+		<meta name="keywords" content="Asian Institute Of Safety Management,Safety Management ,Best Safety Cources In Hyderabad,Fire Safety In Hyderabad,Safety Management Cources In Hyderabad , Electrical Safety In Hyderabad,Arabic Tranning In Hyderabad,Hyderabad Safety Management Cources,Safety Management Institutes In Hyderabad,safety management cources In Hyderabad for students,Best placements cources for arab countries In Hyderabad" />
+		<meta name="title" content="Institute Of Safety Management | Fire Safety |Electrical Safety |Scaffolding| First Aid Traning | Hyderabad" />
+		<link rel="canonical" href="https://www.aismtc.com/home" />
+		<link href="https://www.aismtc.com/home" rel="shortlink"/>
+
+		
+
+		<meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+		<meta content="ASIAN INSTITUTE OF SAFETY MANAGEMENT" name="author"/>
+		<meta content="index, follow" name="robots"/>
+		<meta content="2 days" name="revisit-after"/>
+		<meta content="index,follow,archive" name="googlebot"/>
+		<meta content="index,follow,archive" name="msnbot"/>
+		<meta content="index,follow,archive" name="Slurp"/>
+		<meta content="ASIAN INSTITUTE OF SAFETY MANAGEMENT" name="publisher"/>
+		<meta content="ASIAN INSTITUTE OF SAFETY MANAGEMENT" name="owner"/>
+		<meta content="width=device-width,initial-scale=1,maximum-scale=1" name="viewport"/>
+		<meta content="Web Page" name="doc-type"/>
+		<meta content="Copywritten Work" name="doc-rights"/>
+		<meta content="All" name="rating"/>
+		<meta content="Global" name="distribution"/>
+		<meta content="Public" name="document-type"/>
+	   
+		<meta content="IN-AP" name="geo.region"/>
+		<meta content="Hyderabad" name="geo.placename"/>
+		<link href="css/bootstrap.min.css" rel="stylesheet"/>
+		<link href="images/icons/logo-aism.png" rel="shortcut icon"/>
+		<link href="images/icons/logo-aism3.png" rel="apple-touch-icon" sizes="72x72"/>
+		<link href="images/icons/logo-aism4.png" rel="apple-touch-icon" sizes="114x114"/>
+   
+	<asp:ContentPlaceHolder ID="head" runat="server">
+		
+ </asp:ContentPlaceHolder>
+
+	</head>
+
+
+
+<body id="top" onLoad="initialize()" class="inner">
+
+
+
+<!-- ::: START HEADER ::: -->
+<header id="home" class="cbp-af-header header2">
+			<div class="header-top BGdark">
+				<div class="container">
+					<div class="col-md-8 col-sm-12 col-xs-12">
+					 <h1 class="vikas">Asian Institute Of Safety Management</h1>
+						<span><i class="fa fa-phone"></i> +91 8121066705  </span>
+						
+
+						<span><i class="fa fa-envelope-o"></i> <a href="mailto:info@aismtc.com" title="">info@aismtc.com</a> </span>
+					</div>
+					<div class="col-md-4 hidden-sm hidden-xs">
+						<ul class="social list-inline pull-right">
+							<li><a class="fb" href="https://www.facebook.com/AISMTC/" target="_blank" title="Follow Us on Facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a class="tw" href="https://twitter.com/intent/tweet?text=Asian%20Institute%20of%20Safety%20Management&source=sharethiscom&related=sharethis&via=sharethis&url=https://shar.es/15xFu3" target="_blank" title="Follow Us on Twitter"><i class="fa fa-twitter"></i></a></li>
+						   
+							<li><a class="gplus" href="https://plus.google.com/100636578765435002473" target="_blank" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+						   
+					   
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div class="container">
+				<div class="col-md-2 col-sm-2 col-xs-12 logo" >
+					<a title="company Logo" href="/">
+						
+						 <img class="img-responsive"  src="img/Exteriors/logo-aism.png"   alt="Company Logo"  /></a>
+				  
+					
+				</div>
+				<div class="col-md-10 col-sm-10 col-xs-12 cbp-af-inner rightnav">
+					<nav class="navbar navbar-default">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="menu">
+
+							<!-- ::: Main Nav ::: -->
+							<ul class="nav navbar-nav">
+								<li ><a href="/home" title="Home">Home</a></li>
+								<li class="sub"><a href="/aboutus" title="About">About Us</a>
+
+									<ul class="sub-nav">
+										
+										<li><a href="/mission-vision" title="Mission & Vision">Mission & Vision</a></li>
+										<li><a href="/history" title="history">History</a></li>
+										 <li><a href="/goals" title="goals">Goals</a></li>
+										 <li><a href="/qualitypolicies" title="qualitypolicies">Quality Policies</a></li>
+										 <li><a href="/directorsmessage" title="directorsmessage">Directors Message</a></li>
+										 <li><a href="/services" title="services">Services</a></li>
+										
+									</ul>
+
+								</li>
+
+								<li class="sub"><a href="#" title="Services">Trainer</a>
+								<ul class="sub-nav">
+									 <li><a href="/traneer1" title="services">Mohammed Abdul Samay Sayeed</a></li>
+									<li><a href="/traneer2" title="services"> Mohammed Abdul Rafay Abid</a></li>
+									<li><a href="/traneer3" title="services"> Mohammed Abdul Jamay Junaid</a></li>
+									
+								</ul>
+							   </li>
+
+								<li class="sub"><a href="#" title="Cources">Cources</a>
+
+									<ul class="sub-nav">
+										<li><a href="/packages" title="packages"> Packages</a></li>
+										<li><a href="/internationalcources" title="Internationcources"> International Cources</a></li>
+										<li><a href="/pgdiploma" title="pg-deploma"> PG Deploma & Deploma</a></li>
+										  <li><a href="/trainigs" title="trainigs">Trainings</a></li>
+
+									</ul>
+
+								</li>
+
+								<li class="sub"><a  href="/testimonials" title="Testimonials">Testimonials</a>
+									<ul class="sub-nav">
+										<li><a href="/successstory" title="Residential">Success Story</a></li>
+										<li><a href="/studentspeak" title="studentspeak">Student Speak</a></li>
+										
+
+									</ul>
+								</li>
+
+								 
+								 <li ><a  href="/alumni" title="alumni">Alumni</a>
+									
+								</li>
+
+
+								<li ><a  href="/career" title="career">Career</a>
+									
+								</li>
+								<li  ><a href="/contact-us" title="Contact">Contact Us</a></li>
+
+							</ul>
+							<!-- ::: Main Nav ::: -->
+
+						</div>
+						<!-- /.navbar-collapse -->
+					</nav>
+				</div>
+			</div>
+		</header>
+<!-- ::: END ::: -->
+
+
+
+
+
+
+ <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+		
+ </asp:ContentPlaceHolder>
+
+
+
+
+
+
+   <footer class="BGdark footer2 page-block-small ">
+			<div class="container">
+
+				<div class="col-xs-12 wow col-md-12 col-sm-12 fadeInDown " data-wow-delay="0.50s" data-wow-duration="0.50s">
+					<img alt="Follow Us "   src="images/icons/logo-aism.png"/ class="img-responsive pull-left " title="Company-gry" height="50" width="200">
+				   <ul class="social list-inline pull-right">
+							<li><a class="fb" href="https://www.facebook.com/AISMTC/" target="_blank" title="Follow Us on Facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a class="tw" href="https://twitter.com/intent/tweet?text=Asian%20Institute%20of%20Safety%20Management&source=sharethiscom&related=sharethis&via=sharethis&url=https://shar.es/15xFu3" target="_blank" title="Follow Us on Twitter"><i class="fa fa-twitter"></i></a></li>
+						   
+							
+							<li><a class="gplus" href="https://plus.google.com/100636578765435002473" target="_blank" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+							
+					   
+						</ul>
+					<div class="clear"></div>
+					<hr class="light"> </div>
+				<div class="col-xs-12 wow col-md-4 col-sm-12 content-box fadeInUp " data-wow-delay="0.50s" data-wow-duration="0.50s">
+					<h5>About</h5>
+					<p>Asian Institute of Safety Management is a globally recognized safety training institute located in Hyderabad; AISM is the one of the first flush institutes who initiated health and safety programmes in Hyderabad, India. 
+						We have more than a decade experience in health & safety programmes in different levels such as P.G. Diploma in HSE, Diploma in Construction Safety.
+						
+
+					</p><a href="http://www.spacedesignstudio.net/about-us" title="About Company ">Read More <i class="fa fa-chevron-circle-right "></i></a>
+				
+		
+ </div>
+				<div class="col-xs-12 wow content-box fadeInUp col-md-2 col-sm-3 " data-wow-delay="0.75s" data-wow-duration="0.50s">
+					<h5>Quick Links</h5>
+					<ul>
+						<li><a href="/home" title="Home">Home</a></li>
+							<li><a href="/aboutus" title="About Us ">About Us</a></li>
+								<li><a href="/mission-vision" title="Mission & Vision ">Mission & Vision</a></li>
+								   
+										<li><a href="/gallery" title="Gallery">Gallery</a></li>
+						<li><a href="/testimonial-us" title="testimonial">Testionial</a></li>
+											
+												<li><a href="/contact-us" title="Contact">Contact</a></li>
+											   
+
+				</div>
+				<div class="col-xs-12 wow content-box fadeInUp col-md-3 col-sm-4 " data-wow-delay="1s" data-wow-duration="0.50s">
+					<h5>Cources Offered</h5>
+					<ul>
+						<li><a href="/home" title="Our Approach ">Safety Policy</a></li>
+							<li><a href="3d-design-concept.aspx" title="3D Design Concepts ">Safety Organization</a></li>
+								
+						<li><a href="/home" title="Project Execution ">Safety Tranning</a></li>
+						<li><a href="/home" title="Project Execution ">Accident/Incident Investigation</a></li>
+						<li><a href="/home" title="Project Execution ">Personal Protection Program</a></li>
+						<li><a href="/home" title="Project Execution ">Safety Rules And Regulations</a></li>
+						<li><a href="/home" title="Project Execution "> Inspection Of Hazardous Conditions</a></li>
+								</ul>
+								
+				</div>
+
+
+
+				<div class="col-xs-12 wow col-md-3 col-sm-5 content-box fadeInUp " data-wow-delay="0.50s" data-wow-duration="0.50s">
+					<h5>About</h5>
+					<p>
+						<i class="fa fa-map-marker "></i> Asian Institute of Safety Managment <br /> 19-2-105/1, First Floor, Opp. Rehan Hotel,<br /> Tadban X Road Near Nehru Zoological Park, NH 7 Hyderabad-64.
+<br /><i class="fa fa-phone "></i> 91 8121066705 | 9346066705|
+040-24472416 <br /><i class="fa fa-envelope-o "></i> info@aismtc.com
+
+					</p>
+				
+		
+ </div>
+				
+				<div class="clear"></div>
+				
+				
+
+				 <div class="clear"></div>
+				<hr class="light">
+				<div class="wow copyright fadeInUp " data-wow-delay="0.50s" data-wow-duration="0.50s" data-wow-offset="0">
+					<div class="col-xs-12 col-sm-6 col-md-6 ">
+						<p><strong>Asian Institute Of Safety Management</strong> © 2020. All Rights Reserved.</p>
+					 </div>
+					  <div class="col-xs-12 col-sm-6 col-md-6 ">
+						<p>Designed & Developed By: <a href="http://dexterous.in/" title="Dexterous target=_blank"><strong>Dexterous Technology</strong></a></p>
+					 </div>
+				</div>
+			</div>
+		</footer><a href="#top" class="top"><i class="fa fa-angle-up fa-lg "></i></a>
+		
+	<link href="css/animate.min.css" rel="stylesheet" />
+		<link href="css/combined.css " rel="stylesheet " type="text/css " />
+		<link href="css/aism.css" rel="stylesheet"/>
+		<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/jquery.ui.touch-punch.min.js"></script>
+		<script src="js/isotope.pkgd.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/waypoints.min.js"></script>
+		<script src="js/jquery.countTo.js"></script>
+		<script src="js/jquery.prettyPhoto.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/jquery.datetimepicker.js"></script>
+		<script src="js/placeholders.js"></script>
+		<script src="js/jquery.bxslider.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/master.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+
+
+
+<script>
+
+	// Google Map for single location
+
+	function initialize() {
+		var myLatlng = new google.maps.LatLng(42.879489, -78.876206); // Add your coordinates here
+		var mapOptions = {
+			zoom: 17,
+			scrollwheel: false,
+			center: myLatlng,
+			disableAutoPan: true
+		}
+		var map = new google.maps.Map(document.getElementById('map_canvas1'), mapOptions);
+
+		var contentString = '<div class="info_content">' +
+			'<h5>Striking<small>Los Angeles</small></h5>'; // name and city here
+
+		var infowindow = new google.maps.InfoWindow({
+			content: contentString
+		});
+
+		var marker = new google.maps.Marker({
+			position: myLatlng,
+			map: map
+		});
+
+		google.maps.event.addListener(marker, 'click', function () {
+			infowindow.open(map, marker);
+		});
+		infowindow.open(map, marker);
+	}
+	google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+</body>
+
+</html>

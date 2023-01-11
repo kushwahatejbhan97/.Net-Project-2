@@ -1,0 +1,37 @@
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\balajiEstate.dll.config
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\balajiEstate.dll
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\balajiEstate.pdb
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\csc.exe
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\csc.exe.config
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\csc.rsp
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\csi.exe
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\csi.rsp
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\System.AppContext.dll
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\System.Collections.Immutable.dll
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\System.IO.FileSystem.dll
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\System.Reflection.Metadata.dll
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\vbc.exe
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\vbc.exe.config
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\vbc.rsp
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\VBCSCompiler.exe
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\roslyn\VBCSCompiler.exe.config
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\obj\Debug\balajiEstate.csproj.AssemblyReference.cache
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\obj\Debug\balajiEstate.csproj.CoreCompileInputs.cache
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\obj\Debug\balajiEstate.dll
+D:\OnGoingProject\sribalaji\balajiEstate\balajiEstate\obj\Debug\balajiEstate.pdb
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\sribalaji\sribalaji\balajiEstate\balajiEstate\obj\Debug\balajiEstate.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\sribalaji\sribalaji\balajiEstate\balajiEstate\obj\Debug\balajiEstate.pdb

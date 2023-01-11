@@ -1,0 +1,185 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MIL.master.cs" Inherits="MIL.MIL" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+     <meta charset="UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <meta name="keywords" content="" />
+      <script>
+          addEventListener("load", function () {
+              setTimeout(hideURLbar, 0);
+          }, false);
+
+          function hideURLbar() {
+              window.scrollTo(0, 1);
+          }
+      </script>
+      <!--//meta tags ends here-->
+      <!--booststrap-->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+      <!--//booststrap end-->
+      <!-- font-awesome icons -->
+      <link href="css/font-awesome.min.css" rel="stylesheet"/>
+      <!-- //font-awesome icons -->
+      <!--stylesheets-->
+      <link href="css/style.css" rel='stylesheet' type='text/css' media="all"/>
+      <!--//stylesheets-->
+      <link href="//fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700" rel="stylesheet"/>
+      <link href="//fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet"/>
+    
+    <link href="images/mittal%20logo.png" rel="shortcut icon"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+          
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <!--headder-->
+    <div class="header-outs inner_page-banner " id="home" >
+      <div class="headder-top" style="background:rgb(17, 60, 105)">
+        <!--//navigation section -->
+        <!-- nav -->
+        <nav >
+          <div id="logo">
+            <h1><a href="/Home"> <img src="images/millogo.jpg" class="img-fluid img-thumbnail icons " style="max-height:70px;" /></a></h1>
+          </div>
+          <label for="drop" class="toggle">Menu</label>
+          <input type="checkbox" id="drop">
+          <ul class="menu mt-2">
+            <li class="pb-3" ><a href="/Home" style="color: #ffb100;font-size: 18px;font-family: 'Fira Sans'; font-weight: 600;">Home</a></li>
+                            <li class="mx-lg-3 mx-md-2 my-md-0 my-1"><a href="/About" style="color: #ffb100;font-size: 18px;font-family: 'Fira Sans'; font-weight: 600;" >About</a></li>
+                            <li><a href="/whatwedo" style="color: #ffb100;font-size: 18px;font-family: 'Fira Sans'; font-weight: 600;">What We Do</a></li>
+                            <li><a href="/tranning" style="color: #ffb100;font-size: 18px;font-family: 'Fira Sans'; font-weight: 600;">Tranning</a></li>
+                            <li><a href="/career" style="color: #ffb100;font-size: 18px;font-family: 'Fira Sans'; font-weight: 600;">Career</a></li>
+                            <li><a href="/Contact" style="color: #ffb100;font-size: 18px;font-family: 'Fira Sans'; font-weight: 600;">Contact Us</a></li>
+          </ul>
+        </nav>
+        <!-- //nav -->
+      </div>
+    </div>
+    <!-- //Navigation -->
+    <!--//headder-->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+
+         <!-- footer -->
+             <!-- footer -->
+            <footer class="py-lg-4 py-md-3 py-sm-3 py-3">
+                <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-7 footer-left-grid">
+                            <div class="footer-w3layouts-head">
+                                <h2><a href="/About"> Mittal Ispat LTD </a></h2>
+                            </div>
+                            <div class="mb-1 pt-lg-5 pt-md-4 pt-3 footer-address">
+                                <ul>
+                                    <li>
+                                        <h4>Get In Touch</h4>
+                                    </li>
+                                    <br />
+                                    <li>
+                                        <p>73/A Sdf,Seepz,Andheri,East Mumbai,<br />Maharastra-400096.</p>
+                                    </li>
+                                    <hr />
+                                   <li>
+                                       <p>No.32,Sanganakal Rd,KHB Colony,<br />Basaveshwar Nagar,Ballari,Karnataka-583103.</p>
+                                   </li>
+                                    <hr />
+                                    <li>
+                                        <p>Vostak Building,Salt Lake Sector-III,<br />Near Amri Hospital,Kolkata-700106</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mb-1 footer-address">
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="footer-info-bottom col-lg-6 col-md-5" style="padding-top:69px" >
+
+                            <div class="mb-1 footer-address">
+                                <ul>
+                                    <li>
+                                        <%--<h4>Phone</h4>--%>
+                                    </li>
+                                    <li>
+                                        <p></p>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <h4>Email</h4>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a href="mailto:info@mittalispatlimited.com">info@mittalispatlimited.com</a>
+                                        </p>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <div class="mb-1 footer-address" >
+                                <ul>
+                                    <li>
+                                        <%--<h4>Phone</h4>--%>
+                                    </li>
+                                    <li>
+                                        <p></p>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <h4>CIN Number</h4>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            U27109DL1985PLC020067
+                                            <%--<a href="mailto:info@mittalispatlimited.com">info@mittalispatlimited.com</a>--%>
+                                        </p>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <h4 class="pb-lg-4 pb-md-3 pb-3" style="margin-top: 32px;">Social Media</h4>
+                            
+                            <div class="footer-office-hour mt-3" >
+                                <p></p>
+                            </div>
+                            <div class="icons mt-3 ">
+                                <ul>
+                                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-rss"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-vk"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        
+
+                    </div>
+                    <div class="bottem-wthree-footer text-center pt-lg-5 pt-md-4 pt-3">
+                        <p>
+                            © 2019 Mittal Ispat LTD. All Rights Reserved | Design by <a href="https://www.dexterous.in/" target="_blank">Dexterous Technologies</a>
+                        </p>
+                    </div>
+                    <!-- move icon -->
+                    <div class="text-center">
+                        <a href="#home" class="move-top text-center mt-3"></a>
+                    </div>
+                    <!--//move icon -->
+                </div>
+            </footer>
+            <!--//footer -->
+            <!--//footer -->
+    </form>
+</body>
+</html>

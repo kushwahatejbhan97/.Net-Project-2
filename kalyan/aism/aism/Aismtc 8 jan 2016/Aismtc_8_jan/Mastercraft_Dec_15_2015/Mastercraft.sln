@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mastercraft", "Mastercraft\Mastercraft.csproj", "{DBC57834-854C-4FC5-8A6F-06E816F378B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{1AAF2EC8-CB18-4255-917C-CDC54633A9E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CKEditor.NET", "CKEditor.NET\CKEditor.NET.csproj", "{FC4500A9-8E83-46B0-87FA-86D44AB79AA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBC57834-854C-4FC5-8A6F-06E816F378B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC57834-854C-4FC5-8A6F-06E816F378B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC57834-854C-4FC5-8A6F-06E816F378B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC57834-854C-4FC5-8A6F-06E816F378B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AAF2EC8-CB18-4255-917C-CDC54633A9E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AAF2EC8-CB18-4255-917C-CDC54633A9E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AAF2EC8-CB18-4255-917C-CDC54633A9E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AAF2EC8-CB18-4255-917C-CDC54633A9E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC4500A9-8E83-46B0-87FA-86D44AB79AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC4500A9-8E83-46B0-87FA-86D44AB79AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC4500A9-8E83-46B0-87FA-86D44AB79AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC4500A9-8E83-46B0-87FA-86D44AB79AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

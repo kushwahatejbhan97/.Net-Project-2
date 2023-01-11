@@ -1,0 +1,112 @@
+D:\OnGoingProject\aismtc\aismtc\bin\aismtc.dll.config
+D:\OnGoingProject\aismtc\aismtc\bin\aismtc.dll
+D:\OnGoingProject\aismtc\aismtc\bin\aismtc.pdb
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\csc.exe
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\csc.exe.config
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\csc.rsp
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\csi.exe
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\csi.rsp
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\System.AppContext.dll
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\System.Collections.Immutable.dll
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\System.IO.FileSystem.dll
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\System.Reflection.Metadata.dll
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\vbc.exe
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\vbc.exe.config
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\vbc.rsp
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\VBCSCompiler.exe
+D:\OnGoingProject\aismtc\aismtc\bin\roslyn\VBCSCompiler.exe.config
+D:\OnGoingProject\aismtc\aismtc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\OnGoingProject\aismtc\aismtc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\OnGoingProject\aismtc\aismtc\obj\Debug\aismtc.csproj.AssemblyReference.cache
+D:\OnGoingProject\aismtc\aismtc\obj\Debug\aismtc.csproj.CoreCompileInputs.cache
+D:\OnGoingProject\aismtc\aismtc\obj\Debug\aismtc.csproj.CopyComplete
+D:\OnGoingProject\aismtc\aismtc\obj\Debug\aismtc.dll
+D:\OnGoingProject\aismtc\aismtc\obj\Debug\aismtc.pdb
+D:\OnGoingProject\aism\aismtc\aismtc\bin\aismtc.dll.config
+D:\OnGoingProject\aism\aismtc\aismtc\bin\aismtc.dll
+D:\OnGoingProject\aism\aismtc\aismtc\bin\aismtc.pdb
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\csc.exe
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\csc.exe.config
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\csc.rsp
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\csi.exe
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\csi.rsp
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\System.AppContext.dll
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\System.Collections.Immutable.dll
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\System.IO.FileSystem.dll
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\System.Reflection.Metadata.dll
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\vbc.exe
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\vbc.exe.config
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\vbc.rsp
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\VBCSCompiler.exe
+D:\OnGoingProject\aism\aismtc\aismtc\bin\roslyn\VBCSCompiler.exe.config
+D:\OnGoingProject\aism\aismtc\aismtc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\OnGoingProject\aism\aismtc\aismtc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\OnGoingProject\aism\aismtc\aismtc\obj\Debug\aismtc.csproj.AssemblyReference.cache
+D:\OnGoingProject\aism\aismtc\aismtc\obj\Debug\aismtc.csproj.CoreCompileInputs.cache
+D:\OnGoingProject\aism\aismtc\aismtc\obj\Debug\aismtc.csproj.CopyComplete
+D:\OnGoingProject\aism\aismtc\aismtc\obj\Debug\aismtc.dll
+D:\OnGoingProject\aism\aismtc\aismtc\obj\Debug\aismtc.pdb
+D:\OnGoingProject\aism\aismtc\aismtc\bin\DAL.dll
+D:\OnGoingProject\aism\aismtc\aismtc\bin\DAL.pdb
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\aismtc.dll.config
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\aismtc.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\aismtc.pdb
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\csc.exe
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\csc.exe.config
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\csc.rsp
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\csi.exe
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\csi.rsp
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\System.AppContext.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\System.Collections.Immutable.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\System.IO.FileSystem.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\System.Reflection.Metadata.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\vbc.exe
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\vbc.exe.config
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\vbc.rsp
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\VBCSCompiler.exe
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\roslyn\VBCSCompiler.exe.config
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\DAL.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\DAL.pdb
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\obj\Debug\aismtc.csproj.AssemblyReference.cache
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\obj\Debug\aismtc.csproj.CoreCompileInputs.cache
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\obj\Debug\aismtc.csproj.CopyComplete
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\obj\Debug\aismtc.dll
+D:\.NET On Going\Updated Project Sudeshna\Updated Project Sudeshna\Kylan Project Work\kalyan\aism\aism\aismtc\aismtc\obj\Debug\aismtc.pdb

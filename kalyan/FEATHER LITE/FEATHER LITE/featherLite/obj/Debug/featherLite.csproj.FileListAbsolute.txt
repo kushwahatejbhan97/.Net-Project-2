@@ -1,0 +1,72 @@
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\featherLite.dll.config
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\featherLite.dll
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\featherLite.pdb
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\csc.exe
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\csc.exe.config
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\csc.rsp
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\csi.exe
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\csi.rsp
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\System.AppContext.dll
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\vbc.exe
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\vbc.exe.config
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\vbc.rsp
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\VBCSCompiler.exe
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\obj\Debug\featherLite.csproj.AssemblyReference.cache
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\obj\Debug\featherLite.csproj.CoreCompileInputs.cache
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\obj\Debug\featherLite.csproj.CopyComplete
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\obj\Debug\featherLite.dll
+C:\Users\Venkatesh\source\repos\featherLite\featherLite\obj\Debug\featherLite.pdb
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\featherLite.dll.config
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\featherLite.dll
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\featherLite.pdb
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\csc.exe
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\csc.exe.config
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\csc.rsp
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\csi.exe
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\csi.rsp
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\System.AppContext.dll
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\System.Collections.Immutable.dll
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\System.IO.FileSystem.dll
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\System.Reflection.Metadata.dll
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\vbc.exe
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\vbc.exe.config
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\vbc.rsp
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\VBCSCompiler.exe
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\roslyn\VBCSCompiler.exe.config
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\obj\Debug\featherLite.csproj.AssemblyReference.cache
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\obj\Debug\featherLite.csproj.CoreCompileInputs.cache
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\obj\Debug\featherLite.csproj.CopyComplete
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\obj\Debug\featherLite.dll
+D:\OnGoingProject\Featherlite\FEATHER LITE\featherLite\obj\Debug\featherLite.pdb

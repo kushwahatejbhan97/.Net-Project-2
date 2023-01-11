@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HimsIndia", "HimsIndia\HimsIndia.csproj", "{2E98708D-EDC2-4C9F-90A3-F40D7E430268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{243D7638-BFCE-4D3B-96A2-748AA6A0EDB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E98708D-EDC2-4C9F-90A3-F40D7E430268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E98708D-EDC2-4C9F-90A3-F40D7E430268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E98708D-EDC2-4C9F-90A3-F40D7E430268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E98708D-EDC2-4C9F-90A3-F40D7E430268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{243D7638-BFCE-4D3B-96A2-748AA6A0EDB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243D7638-BFCE-4D3B-96A2-748AA6A0EDB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243D7638-BFCE-4D3B-96A2-748AA6A0EDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243D7638-BFCE-4D3B-96A2-748AA6A0EDB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF05E00A-86BC-46C6-BFF3-CFE8707D4AB9}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,239 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="HimsIndia.Default1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+	<title></title>
+	  <link rel="shortcut icon" href="../images/logohism%20(2).png" />
+	
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- //Meta tag Keywords -->
+
+	<!-- Custom-Files -->
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<!-- Bootstrap-Core-CSS -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!-- Style-CSS -->
+	<link rel="stylesheet" href="css/font-awesome.css" />
+	<!-- Font-Awesome-Icons-CSS -->
+	<!-- //Custom-Files -->
+
+	<!-- Web-Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Hind:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet" />
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=latin-ext"
+	 rel="stylesheet" />
+	<link href="//fonts.googleapis.com/css?family=Great+Vibes&amp;subset=latin-ext" rel="stylesheet" />
+	<!-- //Web-Fonts -->
+
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body>
+	<form id="form1" runat="server">
+		<div>
+
+			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+						<a class="navbar-brand" href="/Home">
+						  
+							
+					<%--<img src="images/logohism%20(2).png" class="logo img-fluid" alt=""/>--%>HIMS INDIA<br />
+							<p style="font-size: 10px;color: #ffeb3b;">AN ISO CERTIFIED 9001-2015</p>
+						</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-toggle" aria-controls="navbarNavAltMarkup"
+							aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse navbar-toggle " id="navbarNavAltMarkup">
+							<ul class="navbar-nav mx-lg-auto">
+								<li>
+									<a class="nav-link " href="/Home">Home</a>
+								</li>
+								<li>
+									<a class="nav-link" href="/Artist-Registration">Artist</a>
+								</li>
+								
+								<li>
+									<a class="nav-link" href="/PostJobs">Post-Job</a>
+								</li>
+									<li>
+									<a class="nav-link" href="/Become-a-Model">Become a Model</a>
+								</li>
+								<li>
+									<a class="nav-link" href="/Academy">Academy</a>
+								</li>
+								<li>
+									<a class="nav-link" href="/Franchise">Franchise</a>
+								</li>
+								<li>
+									<a class="nav-link" href="/Contact-Us">Contact-Us</a>
+								</li>
+
+							</ul>
+							
+						</div>
+					</nav>
+			<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+			</asp:ContentPlaceHolder>
+
+			<footer class="footer-emp-w3ls py-5">
+				<div class="container py-xl-5 py-lg-3">
+					<div class="row footer-top">
+						<div class="col-lg-4 footer-grid-wthree">
+							<h1 class="footer-title text-white mb-4">Get In Touch</h1>
+							<div class="contact-info">
+								<h4 class="text-light text-uppercase mb-2">Email :</h4>
+								<%--<p>INDIA CALCUTTA</p>--%>
+								<a href="mailto:care@himsindia.com">care@himsindia.com</a>
+								
+	<div class="phone mt-4 pt-2">
+									<h4 class="text-light text-uppercase mb-2"></h4>
+									<a   href="PrivacyPolicy.aspx" style="color:white"> OurPrivacy Policy</a>
+                                    <br />
+                                    <a style="color:white"  href="Faq.aspx">FAQs</a><br />
+									 <a style="color:white"  href="UserAgreement.aspx">User Agreement</a><br />
+							 <a style="color:white"  href="UserAgreementClients.aspx">User Agreement Clients</a>
+								</div>
+							
+							</div>
+						</div>
+						<div class="col-lg-4 footer-grid-wthree mt-lg-0 mt-4">
+							<h2 class="footer-title text-white mb-4">Quick Links</h2>
+							<ul class="links list-unstyled " style="padding:0px !important">
+								<li>
+									<a href="/Home">Home</a>
+								</li>
+								<li class="my-2">
+									<a href="/About">About</a>
+								</li>
+								<li class="my-2">
+									<a  href="/HimsIndiaTour">Tour</a>
+								</li>
+								<li class="my-2">
+									<a href="/Artist-Registration">Artist</a>
+								</li>
+								
+								<li class="my-2">
+									<a  href="/PostJobs">Post-Job</a>
+								</li>
+									<li class="my-2">
+									<a href="/Become-a-Model">Become a Model</a>
+								</li>
+								<li class="my-2">
+									<a  href="/Academy">Academy</a>
+								</li>
+								<li class="my-2">
+									<a  href="/Franchise">Franchise</a>
+								</li>
+								<li class="my-2">
+									<a  href="/Contact-Us">Contact-Us</a>
+								</li>
+								<%--<li class="my-2">
+                                    <a class="nav-link" href="Faq.aspx">Faq</a>
+								</li>
+								<li class="my-2">
+									<a class="nav-link" href="PrivacyPolicy.aspx">Privacy Policy</a>
+                                    
+								</li >--%>
+								<%--<li class="my-2"> <a  href="UserAgreement.aspx">User Agreement</a>
+									
+								</li>
+								<li class="my-2">
+									<a  href="UserAgreementClients.aspx">User Agreement Clients</a>
+									
+								</li>--%>
+
+							</ul>
+
+							
+						</div>
+						<div class="col-lg-4 footer-grid-wthree mt-lg-0 mt-5">
+							<div class="footer-title">
+								
+								<a class="navbar-brand" href="/Home">
+									<%--<img src="images/logo2.png" class="logo img-fluid" alt=""/>--%>HIMS INDIA
+								</a>
+
+							</div>
+							<div class="contact-info" style="text-align: center;">
+									<h4 class="text-light text-uppercase mb-2" style="padding-top:5px;color: #fb4386 !important;">An ISO Certified 9001-2015</h4>
+								</div>
+							<p class="copy-right text-center mt-4">
+								&copy; 2021 HIMS INDIA. All Rights Reserved | Design by
+						<a href="https://www.dexterous.in">Dexterous Technologies </a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<!-- Js files -->
+			<!-- JavaScript -->
+			<script src="js/jquery-2.2.3.min.js"></script>
+			<!-- Default-JavaScript-File -->
+
+			<!-- navigation -->
+			<!-- dropdown smooth -->
+			<script>
+				$(document).ready(function () {
+					$(".dropdown").hover(
+						function () {
+							$('.dropdown-menu', this).stop(true, true).slideDown("fast");
+							$(this).toggleClass('open');
+						},
+						function () {
+							$('.dropdown-menu', this).stop(true, true).slideUp("fast");
+							$(this).toggleClass('open');
+						}
+					);
+				});
+			</script>
+			<!-- //dropdown smooth -->
+			<!-- fixed nav -->
+			<script>
+				$(window).scroll(function () {
+					if ($(document).scrollTop() > 50) {
+						$('nav').addClass('shrink');
+					} else {
+						$('nav').removeClass('shrink');
+					}
+				});
+			</script>
+			<!-- //fixed nav -->
+			<!-- //navigation -->
+
+			<!-- carousel -->
+			<script src="js/carousel.js"></script>
+			<link rel="stylesheet" href="css/carousel.css" type="text/css" media="all" />
+			<!-- //carousel -->
+
+			<!-- smooth scrolling -->
+			<script src="js/SmoothScroll.min.js"></script>
+			<!-- move-top -->
+			<script src="js/move-top.js"></script>
+			<!-- easing -->
+			<script src="js/easing.js"></script>
+			<!--  necessary snippets for few javascript files -->
+			<script src="js/look.js"></script>
+
+			<script src="js/bootstrap.js"></script>
+			<!-- Necessary-JavaScript-File-For-Bootstrap -->
+			<!-- //Js files -->
+
+		</div>
+	</form>
+</body>
+</html>

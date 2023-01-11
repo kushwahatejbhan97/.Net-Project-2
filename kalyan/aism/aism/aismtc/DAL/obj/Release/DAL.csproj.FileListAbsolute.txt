@@ -1,0 +1,6 @@
+D:\OnGoingProject\aism\aismtc\DAL\bin\Release\DAL.dll
+D:\OnGoingProject\aism\aismtc\DAL\bin\Release\DAL.pdb
+D:\OnGoingProject\aism\aismtc\DAL\obj\Release\DAL.csproj.AssemblyReference.cache
+D:\OnGoingProject\aism\aismtc\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+D:\OnGoingProject\aism\aismtc\DAL\obj\Release\DAL.dll
+D:\OnGoingProject\aism\aismtc\DAL\obj\Release\DAL.pdb

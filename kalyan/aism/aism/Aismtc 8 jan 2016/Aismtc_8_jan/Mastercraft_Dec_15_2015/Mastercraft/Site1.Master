@@ -1,0 +1,407 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Mastercraft.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Asian institute of safety management</title>
+<meta name="description" content="government registered ,health, safety , environment, fire and safety institute at hyderabad" />
+<meta name="keywords" content=" Safety Institute in Hyderabad, Asian Safety, Asian Institute, Hyderabad Safety, Safety Training Institute, Safety Courses in Hyderabad, Safety Jobs in Hyderabad, Safety Hyderabad, Fire and Safety Institute, Offshore Safety Institute. fire and safety institute in Hyderabad , Oil and gas safety courses in hyderbad" />
+<meta name="author" content="metatags generator">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="3 month">
+
+<asp:ContentPlaceHolder ID="head" runat="server">
+    
+    </asp:ContentPlaceHolder>
+    <link href="css/custome.css" rel="stylesheet" type="text/css" />
+    <link href="Menu/StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <script src="Menu/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="Menu/JScript1.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('a.login-window').click(function () {
+
+            // Getting the variable's value from a link 
+            var loginBox = $(this).attr('href');
+
+            //Fade in the Popup and add closes button
+            $(loginBox).fadeIn(300);
+
+            //Set the center alignment padding + border
+            var popMargTop = ($(loginBox).height() + 24) / 2;
+            var popMargLeft = ($(loginBox).width() + 24) / 2;
+
+            $(loginBox).css({
+                'margin-top': -popMargTop,
+                'margin-left': -popMargLeft
+            });
+
+            // Add the mask to body
+            $('body').append('<div id="mask"></div>');
+            $('#mask').fadeIn(300);
+
+            return false;
+        });
+
+        // When clicking on the button closes or the mask layer the popup closesd
+        $('a.closes, #mask').live('click', function () {
+            $('#mask , .login-popup').fadeOut(300, function () {
+                $('#mask').remove();
+            });
+            return false;
+        });
+    });
+</script>
+<link rel="canonical" href="http://www.alessioatzeni.com/wp-content/tutorials/jquery/login-box-modal-dialog-window/index.html" />
+
+<link rel="shortcut icon" href="images/facivon.png">
+    
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Pasta Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+        });
+    });
+</script>
+<!-- start-smoth-scrolling -->
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<style>
+    .cmn-t-shake {
+padding: 20px 40px;
+  color: #fff;
+  background-color: #ff3296;
+  animation: pulse 1s ease infinite;
+  /* transition: transform 0.2s; */
+}
+.cmn-t-shake:hover {
+  color: #fff;
+  animation: shake .5s ease-in-out;
+}
+
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+    
+  }
+
+  20% {
+    transform: translateX(-10px);
+  }
+
+  40% {
+    transform: translateX(10px);
+  }
+
+  60% {
+    transform: translateX(-10px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+</style>
+
+
+
+<style>
+img.btn_closes {
+	float: right; 
+	margin: -28px -28px 0 0;
+}
+
+</style>
+
+<style type="text/css">
+    .top-bar {
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(1,34,49,1)), color-stop(0%, rgba(1,34,49,1)));
+    /* border-bottom: 1px solid #000000; */
+    height: 35px;
+    overflow: hidden;
+}
+.content-inner {
+    margin: 0px auto;
+    padding: 0px 15px;
+    max-width: 1200px;
+    position: relative;
+}
+
+body a{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+ul.social{
+ 	padding: 11px 0 0;
+}
+ul.social li{
+	display:inline-block;
+}
+ul.social  li i{
+	width: 16px;
+	height: 16px;
+	background: url(../images/img-sprite.png) no-repeat 2px -2px ;
+	display: block;
+	margin: 0 5px;
+}
+ul.social  li i.gmail{
+	background-position: -21px -3px;
+}
+ul.social  li i.twitter{
+	background-position: -46px -5px;
+}
+ul.social  li i:hover{
+transform: rotatey(360deg);
+  -webkit-transform: rotatey(360deg);
+  -moz-transform: rotatey(360deg);
+  -o-transform: rotatey(360deg);
+  -ms-transform: rotatey(360deg);
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+}
+</style>
+</head>
+	
+<body>
+<!-- header -->
+<div class = "upperstrip" ></div>
+<div class="top-bar">
+<div class=" container">
+
+
+  <div class="col-lg-4 pull-left" style="color:White; margin-top:10px; font-family:Franklin Gothic Demi; font-weight:600;">Call Us:&nbsp;&nbsp; +91-8121066705 &nbsp;&nbsp;|&nbsp;&nbsp; +91-04-2447417</div>
+ 
+<div class="col-md-2 pull-right">
+<ul class="social ">
+						<li><a href="https://www.facebook.com/Asian-Institute-of-Safety-Management-358217057691734/?fref=ts"><i> </i></a></li>
+						<li><a href="https://plus.google.com/100636578765435002473"><i class="gmail"> </i></a></li>
+						<li><a href="https://twitter.com/intent/tweet?text=Asian%20Institute%20of%20Safety%20Management&source=sharethiscom&related=sharethis&via=sharethis&url=https://shar.es/15xFu3"><i class="twitter"> </i></a></li>
+						<li><a style="color:white; margin-top:10px; font-size:17px; font-weight:900; font-family:Times New Roman; margin-left:15px; text-align:right; text-decoration:none;" href="#">Sign In</a> </li>
+					</ul>
+</div>
+ <div class="col-lg-3 pull-right" style="color:White; margin-top:10px; font-weight:600; text-align:right">Email : info@aismtc.com</div>
+</div>
+
+</div>
+<div class="logoa">
+
+</div>
+
+	<div class="boxDiv " >
+    <section id="header" class="vikshadow">
+         <header>
+         
+        <nav id='cssmenu' style=" z-index:1;">
+            <div id="head-mobile"></div>
+            
+             <ul class="container">
+      <li class="hvr-bounce-to-bottom "><a href="Default.aspx">HOME</a></li>
+        <li class="hvr-bounce-to-bottom"><a href="aboutus1.aspx" >ABOUT US</a>
+        <ul>
+          <li><a href="mission_vission1.aspx">MISSION & VISION</a></li>
+          <li><a href="history1.aspx">HISTORY</a></li>
+          <li><a href="goal1.aspx">GOAL</a></li>
+          <li><a href="quality_policy1.aspx">QUALITY POLICY</a></li>
+          <li><a href="directors_msg1.aspx">DIRECTOR’S MESSAGE</a></li>
+          <li><a href="services1.aspx">SERVICES</a></li>
+        </ul>
+      </li>
+      <li class="hvr-bounce-to-bottom "><a href="#">TRAINERS</a>
+        <ul>
+          <li><a href="Trainer04.aspx">MOHAMMED ABDUL SAMAY SAYEED</a></li>
+          <li><a href="Trainer01.aspx">MOHAMMED ABDUL RAFAY ABID </a></li>
+          <li><a href="Trainer03.aspx">MOHAMMED ABDUL JAMAY JUNAID</a></li>
+          <li><a href="Trainer02.aspx">FIROZ AHMED</a></li>
+          
+        </ul>
+      </li>
+      <li class="hvr-bounce-to-bottom "><a href='#'>COURSES</a>
+        <ul>
+           <li><a href="AISMPackage1.aspx">PACKAGES</a></li>
+                                    <li><a href="AISMinternational_courses.aspx">INTERNATIONAL COURSES</a></li>
+                                    <li><a href="AISMpgdeploma_deploma.aspx">PG DIPLOMA’S & DIPLOMA’S</a></li>
+                                    <li><a href="AISMtrainings.aspx">TRAININGS </a></li>
+        </ul>
+      </li>
+      <li class="hvr-bounce-to-bottom "><a href="Testimonials1.aspx">TESTIMONIALS</a>
+        <ul>
+          <li><a href="Success_Story1.aspx">SUCCESS STORIES</a></li>
+          <li><a href="Student_Speek1.aspx">STUDENT SPEAK </a></li>
+        </ul>
+      </li>
+      <li class="hvr-bounce-to-bottom "><a href="#">GALLERY</a>
+        <ul>
+          <li><a href="galleryimage.aspx">IMAGE GALLERY</a></li>
+          <li><a href="video_gallery.aspx">VIDEO GALLERY </a></li>
+        </ul>
+      </li>
+      <li class="hvr-bounce-to-bottom "><a href="allumni.aspx">ALUMNI</a>
+        
+      </li>
+      <li class="hvr-bounce-to-bottom "><a href="career.aspx">CAREER</a>
+        
+      </li>
+      <li class="hvr-bounce-to-bottom "><a href="contactus.aspx">CONTACT US</a>
+        
+      </li>
+    </ul>
+        </nav>
+    </header>
+    </section>
+</div>
+<!-- //header -->
+
+
+<section style="background-position: 0px 0px;
+    padding: 0em 0;
+    background-image: url('../images/pattern.png');
+    background-repeat: repeat;">
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+</section>
+
+
+
+<!--- footer --->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-grids">
+				<div class="col-md-3 footer-grid">
+					<h3>Courses Offered</h3>
+					<ul>
+						<li><a href="#">(1)	Safety policy</a></li>
+						<li><a href="#">(2)	Safety organization</a></li>
+						<li><a href="#">(3)	Safety training</a></li>
+						<li><a href="#">(4)	In-house safety rules and regulations</a></li>
+                        <li><a href="#">(5)	Programme for inspection of hazardous conditions</a></li>
+                        <li><a href="#">(6)	Accident/incident investigation</a></li>
+                        <li><a href="#">(7)	Personal protection programme</a></li>
+                        <h1><li><a href="#">View More</a></li></h1>
+					</ul> 
+				</div>
+				<div class="col-md-3 footer-grid">
+				    <h3>Quick Links</h3>
+					<ul>
+						
+						<li><a href="#">Home</a></li>
+						<li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">TRAINERS </a></li>
+                        <li><a href="#">COURSES</a></li>
+                        <li><a href="#">TESTIMONIALS</a></li>
+                        <li><a href="#">GALLERY</a></li>
+                        <li><a href="#">ALUMNI</a></li>
+                        <li><a href="#">CAREER</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+						
+					</ul>
+				</div>
+				<div class="col-md-3 footer-grid">
+					<h3>OWNERSHIP</h3>
+					<ul>
+						<li><a href="#">Performance</a></li>
+                        <li><a href="#">Warranty</a></li>
+						<li><a href="#">ISO Certifications</a></li>
+						<li><a href="#">Construction </a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 footer-grid">
+					<h3>CONTACT US</h3>
+                    <h4 style="color:White;">Office:</h4>
+					<p>Asian Institute of Safety Managment
+19-2-105/1, First Floor,
+Opp. Rehan Hotel, Tadban X Road
+Near Nehru Zoological Park, NH 7
+Hyderabad-64 A.P,
+</p>
+					<div class="footer-grid-address">
+						<p>India Ph: +91 8121 066 705 |<br /> 040-24472416 | 040-24472417</p>
+						
+						<p>Email: <a class="email-link" href="mailto:info@aihse.com">info@aismtc.com</a></p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="clear"> </div>
+	<div class="copy-right">
+		<p>Copyright © 2015. All rights reserved | Design by  <a href="">Dexterous Technology </a></p>
+	</div>
+
+      <div id="login-box" class="login-popup">
+        <a href="#" class="closes"><img src="close_pop.png" class="btn_closes" title="closes Window" alt="closes" /></a>
+          <form method="post" class="signin" action="#">
+                <fieldset class="textbox">
+            	<label class="username">
+                <span>Username or email</span>
+                <input id="username" name="username" value="" type="text" autocomplete="on" placeholder="Username">
+                </label>
+                
+                <label class="password">
+                <span>Password</span>
+                <input id="password" name="password" value="" type="password" placeholder="Password">
+                </label>
+                
+                <button class="submit button" type="button">Sign in</button>
+                
+                <p>
+                <a class="forgot" href="#">Forgot your password?</a>
+                </p>
+                
+                </fieldset>
+          </form>
+		</div>
+<!--- //footer --->
+<!-- for bootstrap working -->
+		<script src="js/bootstrap.js"> </script>
+<!-- //for bootstrap working -->
+
+
+
+</body>
+</html>
+

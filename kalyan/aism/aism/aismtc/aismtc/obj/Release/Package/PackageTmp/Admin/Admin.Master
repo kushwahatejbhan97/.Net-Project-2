@@ -1,0 +1,212 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="aismtc.Admin.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta charset="utf-8" />
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta content="" name="description" />
+        <meta content="AISM" name="author" />
+       
+        <link rel="shortcut icon" href="images/icons/logo-aism.png">
+
+       
+        <link href="assets/css/bootstrap.min.css" id="bootstrapstyle" rel="stylesheet" type="text/css" />
+        
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        
+        <link href="assets/css/app.min.css" id="appstyle" rel="stylesheet" type="text/css" />
+
+
+   
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <title>Admin Panel | AISM </title>
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+
+    <header id="page-topbar">
+                <div class="navbar-header">
+                    <div class="d-flex">
+                      <div class="navbar-brand-box">
+                            <a href="Dashboard.aspx" class="logo logo-dark">
+                                <span class="logo-sm">
+                                    <img src="../images/icons/logo-aism.png" height="40"/>
+                                </span>
+                                <span class="logo-lg">
+                                <img src="../images/icons/logo-aism.png" height="60"/>
+                                </span>
+                                
+                            </a>
+
+                            <a href="Dashboard.aspx" class="logo logo-light">
+                                <span class="logo-sm">
+                                <img src="../images/icons/logo-aism.png" height="40"/>
+                                   
+                                </span>
+                                <span class="logo-lg">
+                                    <img src="../images/icons/logo-aism.png" height="60"/>
+                                </span>
+                            </a>
+                        </div>
+                      
+                        <button type="button" class="btn btn-sm px-3 font-size-16 header-item waves-effect" id="vertical-menu-btn">
+                           
+                            <i class="fa fa-fw fa-bars"></i>
+                        </button>
+
+                      
+                    </div>
+
+                    <div class="d-flex">
+
+                        
+
+                        
+            
+                    </div>
+                </div>
+            </header>
+
+    <form id="form1" runat="server">
+        <div class="vertical-menu">
+
+                <div data-simplebar class ="h-100">
+
+                    
+                    <div id="sidebar-menu">
+            
+            <ul class="metismenu list-unstyled" id="side-menu">
+                
+
+                <li>
+                    <a href="Dashboard.aspx" class="waves-effect">
+                        <i class="bx bx-home-circle"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class="bx bx-layout"></i>
+                        <span>Add-Edit</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                                    <li><a href="Addslider.aspx"  class="waves-effect">Slider</a></li>
+                                    <li><a href="allumuni.aspx" class="waves-effect">Allumuni</a></li>
+                                   <%-- <li><a href="Addcontent.aspx" class="waves-effect">Content</a></li>
+                                    <li><a href="Addimages" class=" waves-effect"><span>Images</span></a>--%>
+                                        <%--<ul class="sub-menu" aria-expanded="false">
+                                            <li><a href="Items.aspx">Add Product</a></li>
+                                            <li><a href="EditProduct.aspx">Edit Product</a></li>
+                                         </ul>--%>
+                                   <%-- <li><a href="javascript: void(0);" class="has-arrow waves-effect"><span>Product sizes</span></a>
+                                        <ul class="sub-menu" aria-expanded="false">
+                                            <li><a href="ProductSizes.aspx">Add ProductSizes</a></li>
+                                            <li><a href="EditProdSiz.aspx">Edit ProductSizes</a></li>
+                                        </ul>
+                                     </li>
+                                    <li><a href="javascript: void(0);" class="has-arrow waves-effect"><span>Sliders-Banners</span></a>
+                                        <ul class="sub-menu" aria-expanded="false">
+                                            <li><a href="AddSlider.aspx">Sliders</a></li>
+                                            <li><a href="OffersImages.aspx">Banners</a></li>
+                                        </ul>
+                                        </li>
+                                    <li><a href="javascript: void(0);" class="has-arrow waves-effect"><span>Coupons</span></a>
+                                        <ul class="sub-menu" aria-expanded="false">
+                                            <li><a href="AddCoupon.aspx" class="waves-effect">General Coupon</a></li>
+                                            <li><a href="AddCouponSingle.aspx" class="waves-effect">Single Coupon</a></li>
+                                            </ul>--%>
+                                    <li><a href="Addnotice.aspx" class="waves-effect">Notice</a></li>
+                                    <%--<li><a href="AddDelivery.aspx" class="waves-effect">Employee</a>
+                                        <li><a href="Slot.aspx" class="waves-effect"><span>Slots</span></a></li>--%>
+                                    </ul>
+                </li>
+
+                 
+                   
+                
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow waves-effect">
+                        <i class="bx bxs-bar-chart-alt-2"></i>
+                        <span>Testinonial</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="addtestimonial.aspx" class="waves-effect">Add Testimonial</a></li>
+                        <li><a href="addsuccess.aspx" class="waves-effect">Success Stories</a></li>
+                        <li><a href="addstudentspeak.aspx" class="waves-effect">Add Students Speak</a></li>
+                       
+                    </ul>
+                    </li>
+                
+                  <li>
+                                <a href="addalumuni.aspx" class=" waves-effect">
+                                    <i class="bx bx-task"></i>
+                                    <span>Alumni</span>
+                                </a>
+                               
+                            </li>
+
+                             <li>
+                    <a href="career.aspx" class="waves-effect">
+                        <i class="bx bx-file"></i>
+                        <span>Career</span>
+                    </a>
+                </li>
+
+                  <li>
+                    <a href="resume.aspx" class="waves-effect">
+                        <i class="bx bx-file"></i>
+                        <span>Resume</span>
+                    </a>
+                </li>
+
+                <li>
+  
+                
+     <asp:LinkButton ID="LinkButton3" runat="server" OnClick="logout"  >
+                    
+                       <i class="bx bx-power-off" aria-hidden="true"></i>
+                        <span>Logout</span>
+                    </asp:LinkButton>
+                
+                </li>
+            </ul>
+        </div>
+                   
+                </div>
+            </div>
+
+        <div class="main-content">
+            <asp:ContentPlaceHolder ID="body" runat="server">
+                
+            </asp:ContentPlaceHolder>
+
+            <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            
+                        </div>
+                    </div>
+                </footer>
+        </div>
+    </form>
+
+    <div class="rightbar-overlay"></div>
+
+        
+        <script src="assets/libs/jquery/jquery.min.js"></script>
+        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+        <script src="assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="assets/libs/node-waves/waves.min.js"></script>
+        <script src="assets/libs/parsleyjs/parsley.min.js"></script>
+        <script src="assets/js/pages/form-validation.init.js"></script>
+        <script src="assets/js/app.js"></script>
+</body>
+</html>

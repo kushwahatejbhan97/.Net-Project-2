@@ -1,0 +1,235 @@
+﻿.post { margin: 0 auto; padding-bottom: 50px; float: left; width: 960px; }
+
+
+
+#mask {
+	display: none;
+	background: #000; 
+	position: fixed; left: 0; top: 0; 
+	z-index: 10;
+	width: 100%; height: 100%;
+	opacity: 0.8;
+	z-index: 999;
+}
+
+.login-popup{
+	display:none;
+	background: #333;
+	padding: 10px; 	
+	border: 2px solid #ddd;
+	float: left;
+	font-size: 1.2em;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 99999;
+	box-shadow: 0px 0px 20px #999;
+	-moz-box-shadow: 0px 0px 20px #999; /* Firefox */
+    -webkit-box-shadow: 0px 0px 20px #999; /* Safari, Chrome */
+	border-radius:3px 3px 3px 3px;
+    -moz-border-radius: 3px; /* Firefox */
+    -webkit-border-radius: 3px; /* Safari, Chrome */
+}
+
+
+
+fieldset { 
+	border:none; 
+}
+
+form.signin .textbox label { 
+	display:block; 
+	padding-bottom:7px; 
+}
+
+form.signin .textbox span { 
+	display:block;
+}
+
+form.signin p, form.signin span { 
+	color:#999; 
+	font-size:11px; 
+	line-height:18px;
+} 
+
+form.signin .textbox input { 
+	background:#666666; 
+	border-bottom:1px solid #333;
+	border-left:1px solid #000;
+	border-right:1px solid #333;
+	border-top:1px solid #000;
+	color:#fff; 
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+	font:13px Arial, Helvetica, sans-serif;
+	padding:6px 6px 4px;
+	width:200px;
+}
+
+form.signin input:-moz-placeholder { color:#bbb; text-shadow:0 0 2px #000; }
+form.signin input::-webkit-input-placeholder { color:#bbb; text-shadow:0 0 2px #000;  }
+
+
+
+
+.vikshadow
+{
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+}
+
+.vikheader
+{
+    background: linear-gradient(to bottom, #fefcea 0%,#efe5a0 100%);
+    margin: 0px;
+    margin-bottom: 30px;
+    height: 45px;
+    width: 100%;
+    border-radius: 9px 9px 0 0;
+}
+.vikwidget
+{
+    border-radius:10px; 
+    min-height:334px; margin-top:15px; margin-bottom:10px; width:100%;
+    background: #fff;
+    position: relative;
+    border: 1px solid #CECCCC;
+    border-radius: 6px;
+    padding: 5px;
+} 
+
+.vikwidget_Story
+{
+    border-radius:10px; 
+    min-height:475px; margin-top:15px; margin-bottom:10px; width:100%;
+    background: #fff;
+    position: relative;
+    border: 1px solid #CECCCC;
+    border-radius: 6px;
+    padding: 5px;
+} 
+
+.vikwidget_right
+{
+    border-radius:10px; 
+    min-height:800px;
+    margin-top:15px; margin-bottom:10px; width:100%;
+   
+   
+    border-radius: 6px;
+    padding: 5px;
+    display: inline-block;
+} 
+
+.vikwidget-head
+{
+    background: linear-gradient(to bottom, #073a52 0%,#012c41 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#073a52', endColorstr='#012c41',GradientType=0 );
+    color: #fff !important;
+    height: 45px;
+    line-height: 35px;
+    position: relative;
+    padding: 6px 10px 0 0;
+    
+} 
+
+.quick-link
+{
+    width:100%;
+    color: #FFFFFF;
+    background-color: maroon;
+    border:1px solid gray;
+    padding-left:15px;
+    padding-right:15px;
+    margin-left:20px;
+    margin-right:20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.vikwidget-body
+{
+    padding:15px;
+    font-size:13px;
+    font-weight:600;
+    color:Black;
+    font-family:  'Open Sans', sans-serif;
+    position:relative;
+    
+}
+
+.vikwidget-body-story
+{
+    padding-left:10px;
+    padding-right:10px;
+    font-size:13px;
+    font-weight:600;
+    color:Black;
+    font-family:  'Open Sans', sans-serif;
+}
+.vikwidget-star
+{
+     border-radius: 4px;
+    -webkit-box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.2), inset -1px -1px 1px rgba(0, 0, 0, 0.02);
+    padding: 5px 0;
+    margin-top: 15%;
+    height: 95px;
+    position: relative;
+    text-align: center;
+    display: block;
+    color: #fff;
+    border: 2px solid #E29D18;
+    background: #2A62A1;
+}
+
+
+
+
+#leftBar {
+	width: 100%;
+	float: left;
+	
+	border-right: 0px solid #dcdcdc;
+	text-align: left;
+}
+#leftBar ul {list-style: none;padding: 0; margin: 0;font-size: 13px;margin-top: 20px;}
+#leftBar ul li
+{
+    width: 100%;
+    background: url('../../images/icon-left.png') no-repeat left center, url('../../images/green.jpg') repeat-x center;
+    
+    margin-top: 8px;
+    margin-left: 9px;
+    border: 1px solid #dcdcdc;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -o-border-top-left-radius: 8px;
+    -o-border-bottom-left-radius: 8px;
+   
+}
+#leftBar ul li a {
+	width: 100%;
+	color: #2e2e2e;
+    cursor: pointer;
+	padding: 10px 0px 10px 35px;
+    -webkit-transition: padding-left 250ms ease-out;
+	-moz-transition: padding-left 250ms ease-out;
+	-o-transition: padding-left 250ms ease-out;
+}
+#leftBar ul li a:hover {
+    padding-left: 30px;
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 1px 1px #496d2a;
+}
+
+
+.quote
+{
+       float: left;
+    padding-left: 4%;
+    padding-top: 4px;
+    color: rgba(128, 128, 128, 0.93);
+}
+
+

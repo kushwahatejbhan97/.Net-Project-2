@@ -1,0 +1,11 @@
+E:\Ongoing project\DecoratinComplete\DecoratinComplete\DAL\bin\Release\DAL.dll
+E:\Ongoing project\DecoratinComplete\DecoratinComplete\DAL\bin\Release\DAL.pdb
+E:\Ongoing project\DecoratinComplete\DecoratinComplete\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+E:\Ongoing project\DecoratinComplete\DecoratinComplete\DAL\obj\Release\DAL.dll
+E:\Ongoing project\DecoratinComplete\DecoratinComplete\DAL\obj\Release\DAL.pdb
+D:\Ongoing\Decoratin\DecoratinComplete\DecoratinComplete\DecoratinComplete\DAL\bin\Release\DAL.dll
+D:\Ongoing\Decoratin\DecoratinComplete\DecoratinComplete\DecoratinComplete\DAL\bin\Release\DAL.pdb
+D:\Ongoing\Decoratin\DecoratinComplete\DecoratinComplete\DecoratinComplete\DAL\obj\Release\DAL.csproj.AssemblyReference.cache
+D:\Ongoing\Decoratin\DecoratinComplete\DecoratinComplete\DecoratinComplete\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+D:\Ongoing\Decoratin\DecoratinComplete\DecoratinComplete\DecoratinComplete\DAL\obj\Release\DAL.dll
+D:\Ongoing\Decoratin\DecoratinComplete\DecoratinComplete\DecoratinComplete\DAL\obj\Release\DAL.pdb
